@@ -7,6 +7,10 @@
 #include <PubSubClient.h>
 #include <Wire.h>
 
+#define USERMQTT "2sa34dd5" // Put your Username
+#define PASSMQTT "2sa34dd5" // Put your Password
+#define MQTT_CLIENT_NAME "" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
+
 // Replace the next variables with your SSID/Password combination
 const char* ssid = "2.4";
 const char* password = "296JBD82kK";
@@ -19,6 +23,32 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 long lastMsg = 0;
 char msg[50];
+
+//send MQTT function
+void sendMQTT(String MQTTMessage, String MQTTtopic){
+  char MQTTpayload[500];
+  char arraytopic[300];
+
+  //Making the syntax for json as per Ameen's equest:
+  // MQTTMessage= String("{\"") + String(ID) + String("\":[{\"values\":{\"") +String(MQTTMessage) +String("\": ") + String(state) + String("}}]}");
+  /*no need as will do this befoe hand*/
+
+  // converting Strings to char array
+      // sprintf(MQTTpayload, "%s", MQTTMessage); // This doesnt work as we have String class
+      // sprintf(arraytopic, "%s", MQTTtopic);
+    MQTTMessage.toCharArray(MQTTpayload, 500);
+    MQTTtopic.toCharArray(arraytopic, 300);
+
+  if(client.publish(arraytopic, MQTTpayload)){
+    Serial.print("\nSENDMQTT: MQTT Topic: ");
+    Serial.println(arraytopic);
+    Serial.print("          MQTT Message: ");
+    Serial.println(MQTTpayload);
+  }
+  else{
+    Serial.println("INFO: MQTT failed to send");
+  }
+}
 
 void setup_wifi() {
   delay(10);
@@ -72,21 +102,24 @@ void callback(char* topic, byte* message, unsigned int length) {
 void reconnect() {
   // Loop until we're reconnected
   while (!client.connected()) {
-    Serial.print("Attempting MQTT connection...");
-    // Attempt to connect
-    if (client.connect("ESP8266Client")) {
-      Serial.println("connected");
-      // Subscribe
-      client.subscribe("esp32/output");
+    Serial.println("Attempting MQTT connection...");
+    // sendMQTT(String("Attempting MQTT connection..."),debugTopic);
+    
+    // Attemp to connect
+    if (client.connect(MQTT_CLIENT_NAME, USERMQTT, PASSMQTT)) {
+      Serial.println("Connected");
+      // sendMQTT(String("Connected"),debugTopic);
+      // client.subscribe(ID_topic);
     } else {
-      Serial.print("failed, rc=");
+      Serial.print("Failed, rc=");
       Serial.print(client.state());
-      Serial.println(" try again in 5 seconds");
-      // Wait 5 seconds before retrying
-      delay(5000);
+      Serial.println(" try again in 0.5 seconds");
+      // Wait 2 seconds before retrying
+      delay(500);
     }
   }
 }
+
 
 void setup() {
   Serial.begin(115200);
@@ -102,15 +135,17 @@ int count=0;
 
 void loop() {
   char tempString[]= "testing Temp";
-  if (!client.connected()) {
-    reconnect();
-    client.publish("esp32/temp", tempString);
-  }
+//   if (!client.connected()) {
+//     reconnect();
+//     client.publish("esp32/temp", tempString);
+//   }
   client.loop();
 
   long now = millis();
   if (now - lastMsg > 10000) {
     lastMsg = now;
+    
+//Temperature measurement
     // Convert the value to a char array
     // const char tempString[]= "testing Temp";
     Serial.print("Temperature: ");
@@ -121,9 +156,10 @@ void loop() {
     while(!client.connected()){
         reconnect();
     } 
-    client.publish("esp32/temp", tempString);
-    
-    // Convert the value to a char array
+    // client.publish("esp32/temp", tempString);
+    // sendMQTT(tempString, "esp32/temp");
+
+//Humidity measurement
     char humString[]= "Humidity Testing";
     Serial.print("Humidity: ");
     sprintf(humString, "%d", count);
@@ -132,7 +168,9 @@ void loop() {
     while (!client.connected()) {
     reconnect();
     }
-    client.publish("esp32/humid", humString);
+    // client.publish("esp32/humid", humString);
+    sendMQTT(humString, "esp32/humid");
+
     count++;
   }
 }
