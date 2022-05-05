@@ -109,7 +109,7 @@ void loop() {
   client.loop();
 
   long now = millis();
-  if (now - lastMsg > 5000) {
+  if (now - lastMsg > 10000) {
     lastMsg = now;
     // Convert the value to a char array
     // const char tempString[]= "testing Temp";
@@ -117,9 +117,10 @@ void loop() {
     sprintf(tempString, "%d", count);
     Serial.println(tempString);
 
-   if (!client.connected()){
+
+    while(!client.connected()){
         reconnect();
-   } 
+    } 
     client.publish("esp32/temp", tempString);
     
     // Convert the value to a char array
@@ -128,7 +129,7 @@ void loop() {
     sprintf(humString, "%d", count);
     Serial.println(humString);
 
-  if (!client.connected()) {
+    while (!client.connected()) {
     reconnect();
     }
     client.publish("esp32/humid", humString);
