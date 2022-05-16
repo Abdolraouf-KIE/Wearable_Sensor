@@ -250,6 +250,13 @@ void loop()
             HRAr[10]={};
             SPO2Ar[10]={};
             CountAr[10]={};
+
+            if (!pox.begin()) {
+                Serial.println("FAILED");
+                for(;;);
+            } else {
+                Serial.println("SUCCESS");
+            }
         }
         
         count++;
