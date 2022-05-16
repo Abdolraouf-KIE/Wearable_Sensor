@@ -1,30 +1,15 @@
-// MAX30100_MINIMAL example
-
-
-/*
-Arduino-MAX30100 oximetry / heart rate integrated sensor library
-Copyright (C) 2016  OXullo Intersecans <x@brainrapers.org>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
-
 #include <WiFi.h>                       // either this or the pubsub one has the serial monitor libary
 #include <PubSubClient.h>
 #include <Wire.h>                       //somehow doesnt have the serial monitor library
 #include "MAX30100_PulseOximeter.h"     //doesnt have the serial monitor library
 
-#define REPORTING_PERIOD_MS     1000
+#define REPORTING_PERIOD_MS     10000
+
+
+#define USERMQTT "2sa34dd5" // Put your Username
+#define PASSMQTT "2sa34dd5" // Put your Password
+#define MQTT_CLIENT_NAME "" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
+
 
 // PulseOximeter is the higher level interface to the sensor
 // it offers:
@@ -33,7 +18,115 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //  * SpO2 (oxidation level) calculation
 PulseOximeter pox;
 
-uint32_t tsLastReport = 0;
+// Replace the next variables with your SSID/Password combination
+const char* ssid = "2.4";
+const char* password = "296JBD82kK";
+
+// Add your MQTT Broker IP address, example:
+//const char* mqtt_server = "192.168.1.144";
+const char* mqtt_server = "test.mosquitto.org";
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+long lastMsg = 0;
+char msg[50];
+int count=0;
+
+//send MQTT function
+void sendMQTT(String MQTTMessage, String MQTTtopic){
+  char MQTTpayload[500];
+  char arraytopic[300];
+
+  //Making the syntax for json as per Ameen's equest:
+  // MQTTMessage= String("{\"") + String(ID) + String("\":[{\"values\":{\"") +String(MQTTMessage) +String("\": ") + String(state) + String("}}]}");
+  /*no need as will do this befoe hand*/
+
+  // converting Strings to char array
+      // sprintf(MQTTpayload, "%s", MQTTMessage); // This doesnt work as we have String class
+      // sprintf(arraytopic, "%s", MQTTtopic);
+    MQTTMessage.toCharArray(MQTTpayload, 500);
+    MQTTtopic.toCharArray(arraytopic, 300);
+
+  if(client.publish(arraytopic, MQTTpayload)){
+    Serial.print("\nSENDMQTT: MQTT Topic: ");
+    Serial.println(arraytopic);
+    Serial.print("          MQTT Message: ");
+    Serial.println(MQTTpayload);
+  }
+  else{
+    Serial.println("INFO: MQTT failed to send");
+  }
+}
+
+void setup_wifi() {
+  delay(10);
+  // We start by connecting to a WiFi network
+  Serial.println();
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println("");
+  Serial.println("WiFi connected");
+  Serial.println("IP address: ");
+  Serial.println(WiFi.localIP());
+}
+
+void callback(char* topic, byte* message, unsigned int length) {
+  Serial.print("Message arrived on topic: ");
+  Serial.print(topic);
+  Serial.print(". Message: ");
+  String messageTemp;
+  
+  for (int i = 0; i < length; i++) {
+    Serial.print((char)message[i]);
+    messageTemp += (char)message[i];
+  }
+  Serial.println();
+
+  // Feel free to add more if statements to control more GPIOs with MQTT
+
+  // If a message is received on the topic esp32/output, you check if the message is either "on" or "off". 
+  // Changes the output state according to the message
+  if (String(topic) == "esp32/output") {
+    Serial.print("Changing output to ");
+    if(messageTemp == "on"){
+      Serial.println("on");
+      digitalWrite(LED_BUILTIN, HIGH);
+    }
+    else if(messageTemp == "off"){
+      Serial.println("off");
+      digitalWrite(LED_BUILTIN, LOW);
+    }
+  }
+}
+
+void reconnect() {
+  // Loop until we're reconnected
+  while (!client.connected()) {
+    Serial.println("Attempting MQTT connection...");
+    // sendMQTT(String("Attempting MQTT connection..."),debugTopic);
+    
+    // Attemp to connect
+    if (client.connect(MQTT_CLIENT_NAME, USERMQTT, PASSMQTT)) {
+      Serial.println("Connected");
+      // sendMQTT(String("Connected"),debugTopic);
+      // client.subscribe(ID_topic);
+    } else {
+      Serial.print("Failed, rc=");
+      Serial.print(client.state());
+      Serial.println(" try again in 0.5 seconds");
+      // Wait 2 seconds before retrying
+      delay(500);
+    }
+  }
+}
 
 // Callback (registered below) fired when a pulse is detected
 void onBeatDetected()
@@ -45,6 +138,14 @@ void setup()
 {
     Serial.begin(115200);
 
+    //MQTT section
+    setup_wifi();
+    client.setServer(mqtt_server, 1883);
+    client.setCallback(callback);
+
+    pinMode(LED_BUILTIN, OUTPUT);
+
+    //MAX30100 section
     Serial.print("Initializing pulse oximeter..");
 
     // Initialize the PulseOximeter instance
@@ -75,15 +176,50 @@ void loop()
     // Make sure to call update as fast as possible
     pox.update();
 
+      char tempString[]= "testing Temp";
+    //   if (!client.connected()) {
+    //     reconnect();
+    //     client.publish("esp32/temp", tempString);
+    //   }
+    client.loop();
+
+    long now = millis();
     // Asynchronously dump heart rate and oxidation levels to the serial
     // For both, a value of 0 means "invalid"
-    if (millis() - tsLastReport > REPORTING_PERIOD_MS) {
+    
+    if (now - lastMsg > REPORTING_PERIOD_MS) {
+        lastMsg = now;
         Serial.print("Heart rate:");
         Serial.print(pox.getHeartRate());
         Serial.print("bpm / SpO2:");
         Serial.print(pox.getSpO2());
         Serial.println("%");
 
-        tsLastReport = millis();
+        //MQTT
+        sprintf(tempString, "%d", count);
+        Serial.println(tempString);
+
+
+        while(!client.connected()){
+            reconnect();
+        } 
+        // client.publish("esp32/temp", tempString);
+        // sendMQTT(tempString, "esp32/temp");
+
+    //Humidity measurement
+        char humString[]= "Humidity Testing";
+        Serial.print("Humidity: ");
+        sprintf(humString, "%d", count);
+        Serial.println(humString);
+
+        while (!client.connected()) {
+        reconnect();
+        }
+        // client.publish("esp32/humid", humString);
+        sendMQTT(humString, "esp32/humid");
+
+        count++;
+
     }
+
 }
