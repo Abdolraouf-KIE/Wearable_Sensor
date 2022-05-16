@@ -19,8 +19,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <Wire.h>
-#include "MAX30100_PulseOximeter.h"
+#include <WiFi.h>                       // either this or the pubsub one has the serial monitor libary
+#include <PubSubClient.h>
+#include <Wire.h>                       //somehow doesnt have the serial monitor library
+#include "MAX30100_PulseOximeter.h"     //doesnt have the serial monitor library
 
 #define REPORTING_PERIOD_MS     1000
 
@@ -62,6 +64,10 @@ void setup()
 
     // Register a callback for the beat detection
     pox.setOnBeatDetectedCallback(onBeatDetected);
+
+    // The default current for the IR LED is 50mA and it could be changed by uncommenting the following line.
+    // pox.setIRLedCurrent(MAX30100_LED_CURR_7_6MA);
+
 }
 
 void loop()
