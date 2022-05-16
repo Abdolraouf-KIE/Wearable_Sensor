@@ -29,6 +29,7 @@ const char* mqtt_server = "test.mosquitto.org";
 WiFiClient espClient;
 PubSubClient client(espClient);
 long lastMsg = 0;
+long lastMsg2 =0;
 char msg[50];
 int count=0;
 
@@ -172,6 +173,13 @@ void setup()
 }
 
 char JSONString[200]= "testing Temp";
+int temp   =0;
+// int indexCount=0;
+// int indexSPO2 =0;
+
+float HRAr[10]={};
+int SPO2Ar[10]={};
+int CountAr[10]={};
 
 void loop()
 {
@@ -199,6 +207,7 @@ void loop()
     client.loop();
 
     long now = millis();
+
     // Asynchronously dump heart rate and oxidation levels to the serial
     // For both, a value of 0 means "invalid"
     
@@ -207,25 +216,40 @@ void loop()
         Serial.print("Heart rate:");
         Serial.print(HR);
 
+
         Serial.print("bpm / SpO2:");
         Serial.print(SPO2);
         Serial.println("%");
+
+        // add to HR array
+        HRAr[temp]=HR;
+
+        // add to SPO2 array
+        SPO2Ar[temp]=SPO2;
+
+        // add to count array
+        CountAr[temp]=count;
+        temp++;
+
+        // send MQTT after temp reacehes 10 units (synonymous to after 10seconds)
+        if(temp==9){
+            // Prepare JSON
+            sprintf(JSONString, "{\"count\":[%d,%d,%d,%d,%d,%d,%d,%d,%d,%d], \"SPO2\":[%d,%d,%d,%d,%d,%d,%d,%d,%d,%d], \"HeartRate\":[%f,%f,%f,%f,%f,%f,%f,%f,%f,%f]}", CountAr[0],CountAr[1],CountAr[2],CountAr[3],CountAr[4],CountAr[5],CountAr[6],CountAr[7],CountAr[8],CountAr[9],SPO2Ar[0],SPO2Ar[1],SPO2Ar[2], SPO2Ar[3],SPO2Ar[4],SPO2Ar[5],SPO2Ar[6],SPO2Ar[7],SPO2Ar[8],SPO2Ar[9], HRAr[0],HRAr[1],HRAr[2],HRAr[3],HRAr[4],HRAr[5],HRAr[6],HRAr[7],HRAr[8],HRAr[9]);
+            Serial.println(JSONString);
+
+
+            // while(!client.connected()){
+            //     reconnect();
+            // } 
+
+            //sending measurement via MQTT
+            // sendMQTT(JSONString, "esp32/humid");
+            temp=0;
+        }
         
-
-        //MQTT
-        sprintf(JSONString, "{\"count\":%d, \"SPO2\":%d, \"HeartRate\":%f}", count, SPO2, HR);
-        Serial.println(JSONString);
-
-
-        // while(!client.connected()){
-        //     reconnect();
-        // } 
-
-    //sending measurement via MQTT
-        // sendMQTT(JSONString, "esp32/humid");
-
         count++;
 
     }
+
 
 }
