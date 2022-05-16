@@ -3,7 +3,7 @@
 #include <Wire.h>                       //somehow doesnt have the serial monitor library
 #include "MAX30100_PulseOximeter.h"     //doesnt have the serial monitor library
 
-#define REPORTING_PERIOD_MS     10000
+#define REPORTING_PERIOD_MS     1000
 
 
 #define USERMQTT "2sa34dd5" // Put your Username
@@ -167,19 +167,34 @@ void setup()
     pox.setOnBeatDetectedCallback(onBeatDetected);
 
     // The default current for the IR LED is 50mA and it could be changed by uncommenting the following line.
-    // pox.setIRLedCurrent(MAX30100_LED_CURR_7_6MA);
+    pox.setIRLedCurrent(MAX30100_LED_CURR_7_6MA);
 
 }
+
+char JSONString[200]= "testing Temp";
 
 void loop()
 {
     // Make sure to call update as fast as possible
     pox.update();
+    
+    // long now2 = millis();
+    float HR= pox.getHeartRate();
+    int SPO2= pox.getSpO2();
 
-      char tempString[]= "testing Temp";
+    // if (now2 - lastMsg > 1000) {
+    // Serial.print("######Heart rate:");
+    // Serial.print(HR);
+
+    // Serial.print("#######bpm / SpO2:");
+    // Serial.print(SPO2);
+    // Serial.println("%");
+    // } 
+
+
     //   if (!client.connected()) {
     //     reconnect();
-    //     client.publish("esp32/temp", tempString);
+    //     client.publish("esp32/temp", JSONString);
     //   }
     client.loop();
 
@@ -190,33 +205,24 @@ void loop()
     if (now - lastMsg > REPORTING_PERIOD_MS) {
         lastMsg = now;
         Serial.print("Heart rate:");
-        Serial.print(pox.getHeartRate());
+        Serial.print(HR);
+
         Serial.print("bpm / SpO2:");
-        Serial.print(pox.getSpO2());
+        Serial.print(SPO2);
         Serial.println("%");
+        
 
         //MQTT
-        sprintf(tempString, "%d", count);
-        Serial.println(tempString);
+        sprintf(JSONString, "{\"count\":%d, \"SPO2\":%d, \"HeartRate\":%f}", count, SPO2, HR);
+        Serial.println(JSONString);
 
 
-        while(!client.connected()){
-            reconnect();
-        } 
-        // client.publish("esp32/temp", tempString);
-        // sendMQTT(tempString, "esp32/temp");
+        // while(!client.connected()){
+        //     reconnect();
+        // } 
 
-    //Humidity measurement
-        char humString[]= "Humidity Testing";
-        Serial.print("Humidity: ");
-        sprintf(humString, "%d", count);
-        Serial.println(humString);
-
-        while (!client.connected()) {
-        reconnect();
-        }
-        // client.publish("esp32/humid", humString);
-        sendMQTT(humString, "esp32/humid");
+    //sending measurement via MQTT
+        // sendMQTT(JSONString, "esp32/humid");
 
         count++;
 
