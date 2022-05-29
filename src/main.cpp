@@ -37,5 +37,5 @@ void loop() {
   Serial.println("ºC");
   Serial.print(temperatureF);
   Serial.println("ºF");
-  delay(5000);
+  delay(1000);
 }
