@@ -1,0 +1,1333 @@
+[
+    {
+        "id": "bf3a44cd81656c07",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2fbff0e93b45aae2",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f347325d5ccdd7ee",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6e78deade417d313",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "262381c96fa04623",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "53930c4cb7a8759c",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "6e78deade417d313",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "61285987.c20328",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "e7c46d5e.a1283",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard"
+    },
+    {
+        "id": "200bdd40ad09fe58",
+        "type": "mqtt-broker",
+        "name": "TestMosqBroker",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "475cae28aac321b6",
+        "type": "mqtt-broker",
+        "name": "MosquitoTest",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dce9e7a2.d20c78",
+        "type": "ui_group",
+        "name": "Object detection",
+        "tab": "5132060d.4cde48",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "5132060d.4cde48",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "17ae27d3ce9ac8e1",
+        "type": "mqtt out",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "topic": "esp32/output",
+        "qos": "",
+        "retain": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 430,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "e70be5fc112f6927",
+        "type": "mqtt in",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "topic": "esp32/temperature",
+        "qos": "2",
+        "broker": "10e78a89.5b4fd5",
+        "inputs": 0,
+        "x": 284,
+        "y": 1027,
+        "wires": [
+            [
+                "dedda1446d816ab4",
+                "45ef365d8da80501"
+            ]
+        ]
+    },
+    {
+        "id": "a03809bb0a1343fa",
+        "type": "ui_switch",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "label": "Output",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 270,
+        "y": 1160,
+        "wires": [
+            [
+                "17ae27d3ce9ac8e1"
+            ]
+        ]
+    },
+    {
+        "id": "dedda1446d816ab4",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 481,
+        "y": 994,
+        "wires": []
+    },
+    {
+        "id": "30e6d8f8e69915bf",
+        "type": "mqtt in",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "topic": "esp32/humid",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "475cae28aac321b6",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "f4575f4ff788d7b5",
+                "242f78259ef62f45",
+                "5dbfb7601d2a4f3d",
+                "d47022059b862804",
+                "4103aba0c1def6ee"
+            ]
+        ]
+    },
+    {
+        "id": "19892da94d1aae29",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "CountArrayAll",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "45ef365d8da80501",
+        "type": "ui_chart",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "test",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 461,
+        "y": 1054,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "131f346269e4835d",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "1stDummyMQTT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "esp32/humid",
+        "payload": "[{\"count\":0,\"SPO2\":40,\"HeartRate\":80},{\"count\":1,\"SPO2\":41,\"HeartRate\":81},{\"count\":2,\"SPO2\":42,\"HeartRate\":82},{\"count\":3,\"SPO2\":43,\"HeartRate\":83},{\"count\":4,\"SPO2\":44,\"HeartRate\":84},{\"count\":5,\"SPO2\":45,\"HeartRate\":85},{\"count\":6,\"SPO2\":46,\"HeartRate\":86},{\"count\":7,\"SPO2\":47,\"HeartRate\":87},{\"count\":8,\"SPO2\":48,\"HeartRate\":88},{\"count\":9,\"SPO2\":49,\"HeartRate\":89}]",
+        "payloadType": "json",
+        "x": 120,
+        "y": 420,
+        "wires": [
+            [
+                "f4575f4ff788d7b5",
+                "5dbfb7601d2a4f3d",
+                "c470ff6db0650d0c",
+                "56124e5d80e44c36"
+            ]
+        ]
+    },
+    {
+        "id": "242f78259ef62f45",
+        "type": "function",
+        "z": "2fbff0e93b45aae2",
+        "name": "getCount",
+        "func": "// p=JSON.parse(msg.payload);\n// node.log(typeof p);\nmsg.payload=msg.payload.count;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "19892da94d1aae29",
+                "2f6b631eebe95a67"
+            ]
+        ]
+    },
+    {
+        "id": "2f6b631eebe95a67",
+        "type": "ui_text_input",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "label": "Count",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 810,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4575f4ff788d7b5",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "MQTTOut",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 110,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5dbfb7601d2a4f3d",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "no?",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload.no",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 110,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f611031f3ef7bae6",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "esp32/humid",
+        "payload": "{\"SPO2\":90,\"count\":1,\"HeartRate\":100}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 1100,
+        "wires": [
+            [
+                "45ef365d8da80501",
+                "d66ecf75fa3312e6"
+            ]
+        ]
+    },
+    {
+        "id": "d66ecf75fa3312e6",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "d47022059b862804",
+        "type": "function",
+        "z": "2fbff0e93b45aae2",
+        "name": "getSPO2",
+        "func": "msg.payload=msg.payload.SPO2;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "61a4575be9c33361"
+            ]
+        ]
+    },
+    {
+        "id": "4103aba0c1def6ee",
+        "type": "function",
+        "z": "2fbff0e93b45aae2",
+        "name": "getHeartRate",
+        "func": "msg.payload=msg.payload.HeartRate;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 60,
+        "wires": [
+            [
+                "b6030c84112dc33d"
+            ]
+        ]
+    },
+    {
+        "id": "b6030c84112dc33d",
+        "type": "ui_chart",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "HeartRate",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 850,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61a4575be9c33361",
+        "type": "ui_chart",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "SPO2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 850,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c470ff6db0650d0c",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "ALLLL",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 110,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "09b193785aa72f3e",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 20,
+        "wires": [
+            [
+                "b6030c84112dc33d"
+            ]
+        ]
+    },
+    {
+        "id": "8d7a76531760f1c2",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "graphArray",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[{\"x\":1,\"y\":4},{\"x\":0,\"y\":5},{\"x\":2,\"y\":2}]],\"labels\":[\"X value\"]}]",
+        "payloadType": "json",
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "61a4575be9c33361",
+                "2d96b66616ec9130"
+            ]
+        ]
+    },
+    {
+        "id": "c381d8344a66dbed",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[{\"x\":1,\"y\":8},{\"x\":0,\"y\":10},{\"x\":2,\"y\":4}]],\"labels\":[\"X value\"]}]",
+        "payloadType": "json",
+        "x": 670,
+        "y": 160,
+        "wires": [
+            [
+                "61a4575be9c33361"
+            ]
+        ]
+    },
+    {
+        "id": "2d96b66616ec9130",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "GetCountAll",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "37d159b0ff3c7cce",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 730,
+        "y": 380,
+        "wires": [
+            [
+                "61a4575be9c33361",
+                "8981150e9b0df2d3"
+            ]
+        ]
+    },
+    {
+        "id": "56124e5d80e44c36",
+        "type": "function",
+        "z": "2fbff0e93b45aae2",
+        "name": "DB Data to Chart data (clears Graph)",
+        "func": "/* DB Data\n[\n    {\n        \"Timestamp\": \"2020-11-18 18:25:48.906\",\n        \"Temp\": 21.3,\n        \"Light\": 15,\n        \"Pressure\": 18100.2,\n        \"Humidity\": 31.2\n    },\n]\n*/\n/* Desired format\n[{\n\"series\": [\"temp\", \"humidity\"],\n\"data\": [\n    [{ \"x\": 1504029632890, \"y\": 5 }, //series 1 data\n     { \"x\": 1504029636001, \"y\": 4 },\n    ],\n    [{ \"x\": 1504029633514, \"y\": 6 }, //series 2 data\n     { \"x\": 1504029636622, \"y\": 7 },\n    ],\n],\n\"labels\": [\"\"]\n}]\n*/\n\nvar series = [];\nvar data = msg.payload;\nif (!data || !Array.isArray(data) || !data.length) {\n    node.warn(\"expected an array of data with at least 1 element\");\n    return null;\n    //alternatively return the msg with a null payload to clear graph\n}\n\nconst tsField = \"count\";\nvar _f = Object.keys(data[0]);\nvar fields = [];\nvar fi = 0;\n_f.forEach(function(elem) {\n    if (elem != tsField) {\n        fields.push(elem);\n        series[fi++] = [];\n    }\n});\n\n//loop each row and build an array in the required format\nfor (let index = 0; index < msg.payload.length; index++) {\n    const row = msg.payload[index];\n    var t = new Date(row[tsField]).valueOf()\n    var i = 0;\n    for (let f = 0; f < fields.length; f++ ) {\n        let field = fields[f];\n        series[f].push({ \"x\": t, \"y\": row[field] })\n    }\n}\n\n\nmsg.payload = [\n    {\n        \"series\": fields,\n        \"data\": series,\n        \"labels\": [\"\"]\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 380,
+        "wires": [
+            [
+                "61a4575be9c33361",
+                "2d96b66616ec9130"
+            ]
+        ]
+    },
+    {
+        "id": "24d28b525b4dda8f",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "2ndDummyMQTT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "esp32/humid",
+        "payload": "[{\"count\":10,\"SPO2\":40,\"HeartRate\":80},{\"count\":11,\"SPO2\":41,\"HeartRate\":81},{\"count\":12,\"SPO2\":42,\"HeartRate\":82},{\"count\":13,\"SPO2\":43,\"HeartRate\":83},{\"count\":14,\"SPO2\":44,\"HeartRate\":84},{\"count\":15,\"SPO2\":45,\"HeartRate\":85},{\"count\":16,\"SPO2\":46,\"HeartRate\":86},{\"count\":17,\"SPO2\":47,\"HeartRate\":87},{\"count\":18,\"SPO2\":48,\"HeartRate\":88},{\"count\":19,\"SPO2\":49,\"HeartRate\":89}]",
+        "payloadType": "json",
+        "x": 130,
+        "y": 480,
+        "wires": [
+            [
+                "56124e5d80e44c36"
+            ]
+        ]
+    },
+    {
+        "id": "f3524a1813552fbd",
+        "type": "function",
+        "z": "2fbff0e93b45aae2",
+        "name": "2ndDB Data to Chart data (dont clear graph)",
+        "func": "var msg0={};\nvar msg1={};\nvar msg2={};\nvar msg3={};\nvar msg4={};\nvar msg5={};\nvar msg6={};\nvar msg7={};\nvar msg8={};\nvar msg9={};\n\nmsg0.payload=msg.payload.count[0];\nmsg1.payload=msg.payload.count[1];\nmsg2.payload=msg.payload.count[2];\nmsg3.payload=msg.payload.count[3];\nmsg4.payload=msg.payload.count[4];\nmsg5.payload=msg.payload.count[5];\nmsg6.payload=msg.payload.count[6];\nmsg7.payload=msg.payload.count[7];\nmsg8.payload=msg.payload.count[8];\nmsg9.payload=msg.payload.count[9];\n\nreturn [msg0,msg1,msg2,msg3,msg4,msg5,msg6,msg7,msg8,msg9];",
+        "outputs": 10,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 540,
+        "wires": [
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ],
+            [
+                "6edcd81acd6dd4b5",
+                "8981150e9b0df2d3"
+            ]
+        ]
+    },
+    {
+        "id": "6c5a700ca51db4ca",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "x and y array",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "new",
+        "payload": "{ \"x\": 1504029632890, \"y\": 5 }",
+        "payloadType": "json",
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "61a4575be9c33361",
+                "2d96b66616ec9130"
+            ]
+        ]
+    },
+    {
+        "id": "1ec5abd518de2e85",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "DummyMQTTSimple",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"count\":[1,2,3,4,5,6,7,8,9,10],\"SPO2\":[11,12,13,14,15,16,17,18,19,20],\"HeartRate\":[21,22,23,24,25,26,27,28,29,30]}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "3ff4b7cad0673854"
+            ]
+        ]
+    },
+    {
+        "id": "5457b97f15023e44",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "DummyMQTTSimple",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "2fed558c845362ac",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "array",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"count\":1,\"Rate\":5}",
+        "payloadType": "json",
+        "x": 90,
+        "y": 600,
+        "wires": [
+            [
+                "5457b97f15023e44",
+                "8981150e9b0df2d3"
+            ]
+        ]
+    },
+    {
+        "id": "8981150e9b0df2d3",
+        "type": "ui_chart",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "SPO2 (TEST)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1040,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22560ae843357f61",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "graphArray",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[{\"x\":1,\"y\":4},{\"x\":0,\"y\":5},{\"x\":2,\"y\":2}]],\"labels\":[\"X value\"]}]",
+        "payloadType": "json",
+        "x": 100,
+        "y": 640,
+        "wires": [
+            [
+                "5457b97f15023e44",
+                "8981150e9b0df2d3"
+            ]
+        ]
+    },
+    {
+        "id": "cc681c8cfc8f3f70",
+        "type": "inject",
+        "z": "2fbff0e93b45aae2",
+        "name": "graphArray2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[{\"x\":3,\"y\":4},{\"x\":4,\"y\":5},{\"x\":5,\"y\":2}]],\"labels\":[\"X value\"]}]",
+        "payloadType": "json",
+        "x": 110,
+        "y": 680,
+        "wires": [
+            [
+                "8981150e9b0df2d3"
+            ]
+        ]
+    },
+    {
+        "id": "6edcd81acd6dd4b5",
+        "type": "debug",
+        "z": "2fbff0e93b45aae2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "3ff4b7cad0673854",
+        "type": "function",
+        "z": "2fbff0e93b45aae2",
+        "name": "2ndDB Data to Chart data (dont clear graph)",
+        "func": "var msg0={};\nvar msg1={};\nvar msg2={};\nvar msg3={};\nvar msg4={};\nvar msg5={};\nvar msg6={};\nvar msg7={};\nvar msg8={};\nvar msg9={};\n\nmsg0.payload=msg.payload.count[0];\n// node.send(msg0);\nsetTimeout(node.send, 100, msg0);\n\nmsg1.payload=msg.payload.count[1];\n// node.send(msg1);\nsetTimeout(node.send, 200, msg1);\n\n\nmsg2.payload=msg.payload.count[2];\n// node.send(msg2);\nsetTimeout(node.send, 300, msg2);\n\n\nmsg3.payload=msg.payload.count[3];\n// node.send(msg3);\nsetTimeout(node.send, 400, msg3);\n\n\nmsg4.payload=msg.payload.count[4];\n// node.send(msg4);\nsetTimeout(node.send, 500, msg4);\n\n\nmsg5.payload=msg.payload.count[5];\n// node.send(msg5);\nsetTimeout(node.send, 600, msg5);\n\n\nmsg6.payload=msg.payload.count[6];\n// node.send(msg6);\nsetTimeout(node.send, 700, msg6);\n\n\nmsg7.payload=msg.payload.count[7];\n// node.send(msg7);\nsetTimeout(node.send, 800, msg7);\n\n\nmsg8.payload=msg.payload.count[8];\n// node.send(msg8);\nsetTimeout(node.send, 900, msg8);\n\n\nmsg9.payload=msg.payload.count[9];\n// node.send(msg9);\nsetTimeout(node.send, 1000, msg9);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 740,
+        "wires": [
+            [
+                "8981150e9b0df2d3",
+                "5457b97f15023e44"
+            ]
+        ]
+    },
+    {
+        "id": "227e8b13.87c804",
+        "type": "inject",
+        "z": "f347325d5ccdd7ee",
+        "name": "Fake DB data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"Timestamp\":\"2020-11-18 18:25:48.906\",\"Temp\":21.3,\"Light\":15,\"Humidity\":31.2},{\"Timestamp\":\"2020-11-18 18:16:23.957\",\"Temp\":21.6,\"Light\":16,\"Humidity\":32.2},{\"Timestamp\":\"2020-11-18 18:14:06.429\",\"Temp\":21.7,\"Light\":17,\"Humidity\":37.2},{\"Timestamp\":\"2020-11-18 18:13:50.943\",\"Temp\":21.6,\"Light\":16,\"Humidity\":44.2}]",
+        "payloadType": "json",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "485c8d35.d133b4"
+            ]
+        ]
+    },
+    {
+        "id": "485c8d35.d133b4",
+        "type": "function",
+        "z": "f347325d5ccdd7ee",
+        "name": "DB Data to Chart data",
+        "func": "/* DB Data\n[\n    {\n        \"Timestamp\": \"2020-11-18 18:25:48.906\",\n        \"Temp\": 21.3,\n        \"Light\": 15,\n        \"Pressure\": 18100.2,\n        \"Humidity\": 31.2\n    },\n]\n*/\n/* Desired format\n[{\n\"series\": [\"temp\", \"humidity\"],\n\"data\": [\n    [{ \"x\": 1504029632890, \"y\": 5 }, //series 1 data\n     { \"x\": 1504029636001, \"y\": 4 },\n    ],\n    [{ \"x\": 1504029633514, \"y\": 6 }, //series 2 data\n     { \"x\": 1504029636622, \"y\": 7 },\n    ],\n],\n\"labels\": [\"\"]\n}]\n*/\n\nvar series = [];\nvar data = msg.payload;\nif (!data || !Array.isArray(data) || !data.length) {\n    node.warn(\"expected an array of data with at least 1 element\");\n    return null;\n    //alternatively return the msg with a null payload to clear graph\n}\n\nconst tsField = \"Timestamp\";\nvar _f = Object.keys(data[0]);\nvar fields = [];\nvar fi = 0;\n_f.forEach(function(elem) {\n    if (elem != tsField) {\n        fields.push(elem);\n        series[fi++] = [];\n    }\n});\n\n//loop each row and build an array in the required format\nfor (let index = 0; index < msg.payload.length; index++) {\n    const row = msg.payload[index];\n    var t = new Date(row[tsField]).valueOf()\n    var i = 0;\n    for (let f = 0; f < fields.length; f++ ) {\n        let field = fields[f];\n        series[f].push({ \"x\": t, \"y\": row[field] })\n    }\n}\n\n\nmsg.payload = [\n    {\n        \"series\": fields,\n        \"data\": series,\n        \"labels\": [\"\"]\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "9c0c0c8.bc26ff",
+                "e109c141.4a4f3"
+            ]
+        ]
+    },
+    {
+        "id": "9c0c0c8.bc26ff",
+        "type": "debug",
+        "z": "f347325d5ccdd7ee",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e109c141.4a4f3",
+        "type": "ui_chart",
+        "z": "f347325d5ccdd7ee",
+        "name": "",
+        "group": "dce9e7a2.d20c78",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "mySQL data",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 690,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6152635.e57148",
+        "type": "inject",
+        "z": "f347325d5ccdd7ee",
+        "name": "Fake DB data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"Timestamp\":\"2020-11-18 18:25:48.906\",\"Temp\":26.3,\"Light\":20,\"Humidity\":35.2,\"Pressure\":18001.2},{\"Timestamp\":\"2020-11-18 18:16:23.957\",\"Temp\":25.6,\"Light\":19,\"Humidity\":32.2,\"Pressure\":18032.2},{\"Timestamp\":\"2020-11-18 18:14:06.429\",\"Temp\":27.7,\"Light\":18,\"Humidity\":32.2,\"Pressure\":18137.2},{\"Timestamp\":\"2020-11-18 18:13:50.943\",\"Temp\":23.6,\"Light\":19,\"Humidity\":40.2,\"Pressure\":17944.2}]",
+        "payloadType": "json",
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "485c8d35.d133b4"
+            ]
+        ]
+    }
+]

@@ -9,7 +9,9 @@
 #define USERMQTT "2sa34dd5" // Put your Username
 #define PASSMQTT "2sa34dd5" // Put your Password
 #define MQTT_CLIENT_NAME "" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
-
+#define ArrayMQTT
+// #define NormMQTT
+// #define TenMsg
 
 // PulseOximeter is the higher level interface to the sensor
 // it offers:
@@ -171,8 +173,8 @@ void setup()
     pox.setIRLedCurrent(MAX30100_LED_CURR_7_6MA);
 
 }
-
-char JSONString[200]= "testing Temp";
+// kmkmkknknknkknkn
+char JSONString[450]= "testing Temp";
 int temp   =0;
 // int indexCount=0;
 // int indexSPO2 =0;
@@ -230,11 +232,85 @@ void loop()
         // add to count array
         CountAr[temp]=count;
         temp++;
-
+        
+        int ind=4;
         // send MQTT after temp reacehes 10 units (synonymous to after 10seconds)
-        if(temp==10){
+        #ifdef TenMsg
+        ind=10;
+        #endif
+        if(temp==ind){
+
             // Prepare JSON
-            sprintf(JSONString, "{\"count\":[%d,%d,%d,%d,%d,%d,%d,%d,%d,%d], \"SPO2\":[%d,%d,%d,%d,%d,%d,%d,%d,%d,%d], \"HeartRate\":[%f,%f,%f,%f,%f,%f,%f,%f,%f,%f]}", CountAr[0],CountAr[1],CountAr[2],CountAr[3],CountAr[4],CountAr[5],CountAr[6],CountAr[7],CountAr[8],CountAr[9],SPO2Ar[0],SPO2Ar[1],SPO2Ar[2], SPO2Ar[3],SPO2Ar[4],SPO2Ar[5],SPO2Ar[6],SPO2Ar[7],SPO2Ar[8],SPO2Ar[9], HRAr[0],HRAr[1],HRAr[2],HRAr[3],HRAr[4],HRAr[5],HRAr[6],HRAr[7],HRAr[8],HRAr[9]);
+            #ifdef ArrayMQTT
+            sprintf(JSONString, 
+"["
+    #ifdef TenMsg
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    #endif
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "},"
+    "{"
+        "\"count\": %d,"
+        "\"SPO2\": %d,"
+        "\"HeartRate\": %.2f"
+    "}"
+"]",CountAr[0],SPO2Ar[0],HRAr[0],CountAr[1],SPO2Ar[1],HRAr[1],
+CountAr[2],SPO2Ar[2],HRAr[2],CountAr[3],SPO2Ar[3],HRAr[3]
+#ifdef TenMsg
+,CountAr[4],SPO2Ar[4],HRAr[4],CountAr[5],SPO2Ar[5],HRAr[5],
+CountAr[6],SPO2Ar[6],HRAr[6],CountAr[7],SPO2Ar[7],HRAr[7],
+CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
+#endif
+);
+            #endif
+
+            #ifdef NormMQTT
+            sprintf(JSONString,"{\"count\":[%d,%d,%d,%d,%d,%d,%d,%d,%d,%d], \"SPO2\":[%d,%d,%d,%d,%d,%d,%d,%d,%d,%d], \"HeartRate\":[%f,%f,%f,%f,%f,%f,%f,%f,%f,%f]}", CountAr[0],CountAr[1],CountAr[2],CountAr[3],CountAr[4],CountAr[5],CountAr[6],CountAr[7],CountAr[8],CountAr[9],SPO2Ar[0],SPO2Ar[1],SPO2Ar[2], SPO2Ar[3],SPO2Ar[4],SPO2Ar[5],SPO2Ar[6],SPO2Ar[7],SPO2Ar[8],SPO2Ar[9], HRAr[0],HRAr[1],HRAr[2],HRAr[3],HRAr[4],HRAr[5],HRAr[6],HRAr[7],HRAr[8],HRAr[9]);
+            #endif
+            
+
             Serial.println(JSONString);
 
 
@@ -252,10 +328,10 @@ void loop()
             CountAr[10]={};
 
             if (!pox.begin()) {
-                Serial.println("FAILED");
+                Serial.println("FAILED OX");
                 for(;;);
             } else {
-                Serial.println("SUCCESS");
+                Serial.println("SUCCESS OX");
             }
         }
         
@@ -265,3 +341,5 @@ void loop()
 
 
 }
+
+
