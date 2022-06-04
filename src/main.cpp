@@ -193,7 +193,9 @@ void setup()
 }
 // kmkmkknknknkknkn
 char JSONString[450]= "testing Temp";
+char JSONString1[450]= "testing Temp";
 int temp   =0;
+int inc=0;
 // int indexCount=0;
 // int indexSPO2 =0;
 
@@ -262,13 +264,15 @@ void loop()
         // add to count array
         CountAr[temp]=count;
         temp++;
-        
-        int ind=4;
+
+        // send MQTT after temp reacehes 8 units (synonymous to after 8seconds)
+        int ind=8;
+
         // send MQTT after temp reacehes 10 units (synonymous to after 10seconds)
         #ifdef TenMsg
         ind=10;
         #endif
-        if(temp==ind){
+        if(temp==4){
 
             // Prepare JSON
             #ifdef ArrayMQTT
@@ -278,56 +282,66 @@ void loop()
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     #endif
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "},"
     "{"
         "\"count\": %d,"
         "\"SPO2\": %d,"
-        "\"HeartRate\": %.2f"
+        "\"HeartRate\": %.2f,"
+        "\"Temp\": %.2f"
     "}"
-"]",CountAr[0],SPO2Ar[0],HRAr[0],CountAr[1],SPO2Ar[1],HRAr[1],
-CountAr[2],SPO2Ar[2],HRAr[2],CountAr[3],SPO2Ar[3],HRAr[3]
+"]",CountAr[0],SPO2Ar[0],HRAr[0],TempC[0],CountAr[1],SPO2Ar[1],HRAr[1],TempC[1],
+CountAr[2],SPO2Ar[2],HRAr[2],TempC[2], CountAr[3],SPO2Ar[3],HRAr[3], TempC[3]
 #ifdef TenMsg
 ,CountAr[4],SPO2Ar[4],HRAr[4],CountAr[5],SPO2Ar[5],HRAr[5],
 CountAr[6],SPO2Ar[6],HRAr[6],CountAr[7],SPO2Ar[7],HRAr[7],
@@ -341,28 +355,51 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
             #endif
             
 
-            Serial.println(JSONString);
 
-
-            while(!client.connected()){
-                reconnect();
-            } 
-
-            //sending measurement via MQTT
-            sendMQTT(JSONString, "esp32/humid");
-            
-            //clear the variabels
-            temp=0;
-            HRAr[10]={};
-            SPO2Ar[10]={};
-            CountAr[10]={};
-
-            if (!pox.begin()) {
-                Serial.println("FAILED OX");
-                for(;;);
-            } else {
-                Serial.println("SUCCESS OX");
+            if(temp==4 && inc==0){
+                if(inc==0){
+                    strncpy(JSONString1, JSONString, 450);
+                }
+                Serial.println("############### Temp=4");
+                Serial.println(JSONString1);
+                temp=0;
             }
+
+            // send MQTT only if ind is 8
+            if (inc==1){
+                Serial.println("############### Temp=8");
+                Serial.print("JSONString1");
+                Serial.println(JSONString1);
+
+                Serial.print("JSONString2");
+                Serial.println(JSONString);
+
+                while(!client.connected()){
+                    reconnect();
+                } 
+
+                //sending measurement 1 via MQTT
+                // sendMQTT(JSONString1, "esp32/humid");
+                
+                //sending measurement 1 via MQTT
+                // sendMQTT(JSONString, "esp32/humid");
+
+                //clear the variabels
+                temp=0;
+                inc=-1;
+                HRAr[10]={};
+                SPO2Ar[10]={};
+                CountAr[10]={};
+                TempC[10]={};
+
+                if (!pox.begin()) {
+                    Serial.println("FAILED OX");
+                    for(;;);
+                } else {
+                    Serial.println("SUCCESS OX");
+                }
+            }
+            inc++;
         }
         
         count++;
