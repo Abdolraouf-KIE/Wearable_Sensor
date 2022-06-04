@@ -358,29 +358,33 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
 
             if(temp==4 && inc==1){
                 strncpy(JSONString1, JSONString, 450);
-                Serial.println("############### Temp=4");
-                Serial.println(JSONString1);
+                // Serial.println("############### Temp=4");
+                // Serial.println(JSONString1);
                 temp=0;
             }
 
             // send MQTT only if ind is 8
             if (temp==4 && inc==2){
-                Serial.println("############### Temp=8");
-                Serial.print("JSONString1");
-                Serial.println(JSONString1);
+                // Serial.println("############### Temp=8");
+                // Serial.print("JSONString1");
+                // Serial.println(JSONString1);
 
-                Serial.print("JSONString2");
-                Serial.println(JSONString);
+                // Serial.print("JSONString2");
+                // Serial.println(JSONString);
 
                 while(!client.connected()){
                     reconnect();
                 } 
 
                 //sending measurement 1 via MQTT
-                // sendMQTT(JSONString1, "esp32/humid");
+                sendMQTT(JSONString1, "esp32/humid");
+                
+                while(!client.connected()){
+                    reconnect();
+                } 
                 
                 //sending measurement 1 via MQTT
-                // sendMQTT(JSONString, "esp32/humid");
+                sendMQTT(JSONString, "esp32/humid");
 
                 //clear the variabels
                 temp=0;
@@ -390,6 +394,7 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
                 CountAr[10]={};
                 TempC[10]={};
 
+                delay(200);
                 if (!pox.begin()) {
                     Serial.println("FAILED OX");
                     for(;;);
@@ -398,7 +403,7 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
                 }
             }
             inc=inc+1;
-            Serial.println(inc);
+            // Serial.println(inc);
         }
         
         count++;
