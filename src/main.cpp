@@ -194,6 +194,8 @@ void setup()
 // kmkmkknknknkknkn
 char JSONString[450]= "testing Temp";
 char JSONString1[450]= "testing Temp";
+char JSONString2[450]= "testing Temp";
+
 int temp   =0;
 int inc=1;
 // int indexCount=0;
@@ -362,29 +364,43 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
                 // Serial.println(JSONString1);
                 temp=0;
             }
+            if (inc==2)
+            {
+                Serial.println("############### Temp=8");
+                strncpy(JSONString2, JSONString, 450);
+                // Serial.println(JSONString2);
+                temp=0;
+            }
+            
 
             // send MQTT only if ind is 8
-            if (temp==4 && inc==2){
-                // Serial.println("############### Temp=8");
+            if (temp==4 && inc==3){
+                // Serial.println("############### Temp=12");
+
                 // Serial.print("JSONString1");
                 // Serial.println(JSONString1);
 
                 // Serial.print("JSONString2");
+                // Serial.println(JSONString2);
+
+                // Serial.print("JSONString3");
                 // Serial.println(JSONString);
 
-                while(!client.connected()){
-                    reconnect();
-                } 
+
+
+                // while(!client.connected()){
+                //     reconnect();
+                // } 
 
                 //sending measurement 1 via MQTT
-                sendMQTT(JSONString1, "esp32/humid");
+                // sendMQTT(JSONString1, "esp32/humid");
                 
-                while(!client.connected()){
-                    reconnect();
-                } 
+                // while(!client.connected()){
+                //     reconnect();
+                // } 
                 
                 //sending measurement 1 via MQTT
-                sendMQTT(JSONString, "esp32/humid");
+                // sendMQTT(JSONString, "esp32/humid");
 
                 //clear the variabels
                 temp=0;
