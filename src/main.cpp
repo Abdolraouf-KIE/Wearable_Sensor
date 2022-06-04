@@ -3,6 +3,21 @@
 #include <Wire.h>                       //somehow doesnt have the serial monitor library
 #include "MAX30100_PulseOximeter.h"     //doesnt have the serial monitor library
 
+// Temp stuff
+#include <OneWire.h>
+#include <DallasTemperature.h>
+
+// GPIO where the DS18B20 is connected to
+const int oneWireBus = 4;     
+
+// Setup a oneWire instance to communicate with any OneWire devices
+OneWire oneWire(oneWireBus);
+
+// Pass our oneWire reference to Dallas Temperature sensor 
+DallasTemperature sensors(&oneWire);
+
+// end of temp stuff
+
 #define REPORTING_PERIOD_MS     1000
 
 
@@ -140,6 +155,9 @@ void onBeatDetected()
 void setup()
 {
     Serial.begin(115200);
+    
+    // Start the DS18B20 sensor
+    sensors.begin();
 
     //MQTT section
     setup_wifi();
@@ -180,6 +198,7 @@ int temp   =0;
 // int indexSPO2 =0;
 
 float HRAr[10]={};
+float TempC[10]={};
 int SPO2Ar[10]={};
 int CountAr[10]={};
 
@@ -215,6 +234,14 @@ void loop()
     
     if (now - lastMsg > REPORTING_PERIOD_MS) {
         lastMsg = now;
+        // Do temperature stuff
+        sensors.requestTemperatures(); 
+        float temperatureC = sensors.getTempCByIndex(0);
+        Serial.print("temperatureC:");
+        Serial.print(temperatureC);
+        Serial.println("ºC");
+
+
         Serial.print("Heart rate:");
         Serial.print(HR);
 
@@ -223,6 +250,9 @@ void loop()
         Serial.print(SPO2);
         Serial.println("%");
 
+        //add to temp array
+        TempC[temp]=temperatureC;
+        
         // add to HR array
         HRAr[temp]=HR;
 

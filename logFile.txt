@@ -1,0 +1,5737 @@
+--- Available filters and text transformations: colorize, debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+Temperature = 86.36 °F
+24
+Temperature = 30.40 °C , Temperature = 86.72 °F
+24
+Temperature = 30.50 °C , Temperature = 86.90 °F
+24
+Temperature = 30.90 °C , Temperature = 87.62 °F
+24
+Temperature = 30.40 °C , Temperature = 86.72 °F
+24
+Temperature = 29.00 °C , Temperature = 84.20 °F
+24
+Temperature = 28.00 °C , Temperature = 82.40 °F
+24
+Temperature = 27.70 °C , Temperature = 81.86 °F
+24
+Temperature = 26.70 °C , Temperature = 80.06 °F
+24
+Temperature = 25.00 °C , Temperature = 77.00 °F
+24
+Temperature = 24.90 °C , Temperature = 76.82 °F
+25
+Temperature = 24.40 °C , Temperature = 75.92 °F
+25
+Temperature = 25.00 °C , Temperature = 77.00 °F
+25
+Temperature = 25.50 °C , Temperature = 77.90 °F
+25
+Temperature = 26.30 °C , Temperature = 79.34 °F
+25
+Temperature = 26.20 °C , Temperature = 79.16 °F
+25
+Temperature = 26.80 °C , Temperature = 80.24 °F
+25
+Temperature = 28.50 °C , Temperature = 83.30 °F
+25
+Temperature = 29.70 °C , Temperature = 85.46 °F
+25
+Temperature = 30.90 °C , Temperature = 87.62 °F
+25
+Temperature = 30.70 °C , Temperature = 87.26 °F
+26
+Temperature = 30.80 °C , Temperature = 87.44 °F
+26
+Temperature = 30.40 °C , Temperature = 86.72 °F
+26
+Temperature = 30.40 °C , Temperature = 86.72 °F
+26
+Temperature = 29.50 °C , Temperature = 85.10 °F
+26
+Temperature = 29.00 °C , Temperature = 84.20 °F
+26
+Temperature = 29.00 °C , Temperature = 84.20 °F
+26
+Temperature = 25.90 °C , Temperature = 78.62 °F
+26
+Temperature = 25.30 °C , Temperature = 77.54 °F
+26
+Temperature = 23.60 °C , Temperature = 74.48 °F
+26
+Temperature = 22.80 °C , Temperature = 73.04 °F
+27
+Temperature = 21.50 °C , Temperature = 70.70 °F
+27
+Temperature = 23.50 °C , Temperature = 74.30 °F
+27
+Temperature = 23.90 °C , Temperature = 75.02 °F
+27
+Temperature = 24.10 °C , Temperature = 75.38 °F
+27
+Temperature = 26.70 °C , Temperature = 80.06 °F
+27
+Temperature = 28.40 °C , Temperature = 83.12 °F
+27
+Temperature = 29.80 °C , Temperature = 85.64 °F
+27
+Temperature = 30.10 °C , Temperature = 86.18 °F
+27
+Temperature = 31.30 °C , Temperature = 88.34 °F
+27
+Temperature = 30.90 °C , Temperature = 87.62 °F
+28
+Temperature = 30.10 °C , Temperature = 86.18 °F
+28
+Temperature = 29.90 °C , Temperature = 85.82 °F
+28
+Temperature = 29.00 °C , Temperature = 84.20 °F
+28
+Temperature = 28.20 °C , Temperature = 82.76 °F
+28
+Temperature = 27.90 °C , Temperature = 82.22 °F
+28
+Temperature = 25.90 °C , Temperature = 78.62 °F
+28
+Temperature = 25.00 °C , Temperature = 77.00 °F
+28
+Temperature = 23.60 °C , Temperature = 74.48 °F
+28
+Temperature = 23.00 °C , Temperature = 73.40 °F
+28
+Temperature = 23.20 °C , Temperature = 73.76 °F
+29
+Temperature = 22.90 °C , Temperature = 73.22 °F
+29
+Temperature = 23.90 °C , Temperature = 75.02 °F
+29
+Temperature = 25.10 °C , Temperature = 77.18 °F
+29
+Temperature = 24.80 °C , Temperature = 76.64 °F
+29
+Temperature = 27.70 °C , Temperature = 81.86 °F
+29
+Temperature = 29.20 °C , Temperature = 84.56 °F
+29
+Temperature = 30.40 °C , Temperature = 86.72 °F
+29
+Temperature = 31.30 °C , Temperature = 88.34 °F
+29
+Temperature = 30.70 °C , Temperature = 87.26 °F
+29
+Temperature = 30.50 °C , Temperature = 86.90 °F
+30
+Temperature = 30.00 °C , Temperature = 86.00 °F
+30
+Temperature = 29.00 °C , Temperature = 84.20 °F
+30
+Temperature = 27.50 °C , Temperature = 81.50 °F
+30
+Temperature = 27.20 °C , Temperature = 80.96 °F
+30
+Temperature = 25.70 °C , Temperature = 78.26 °F
+30
+Temperature = 25.70 °C , Temperature = 78.26 °F
+30
+Temperature = 24.00 °C , Temperature = 75.20 °F
+30
+Temperature = 24.00 °C , Temperature = 75.20 °F
+30
+Temperature = 24.00 °C , Temperature = 75.20 °F
+30
+Temperature = 24.90 °C , Temperature = 76.82 °F
+31
+Temperature = 25.10 °C , Temperature = 77.18 °F
+31
+Temperature = 26.90 °C , Temperature = 80.42 °F
+31
+Temperature = 28.30 °C , Temperature = 82.94 °F
+31
+Temperature = 29.90 °C , Temperature = 85.82 °F
+31
+Temperature = 30.20 °C , Temperature = 86.36 °F
+31
+Temperature = 31.10 °C , Temperature = 87.98 °F
+31
+Temperature = 30.40 °C , Temperature = 86.72 °F
+31
+Temperature = 30.60 °C , Temperature = 87.08 °F
+31
+Temperature = 30.00 °C , Temperature = 86.00 °F
+31
+Temperature = 29.00 °C , Temperature = 84.20 °F
+32
+Temperature = 28.50 °C , Temperature = 83.30 °F
+32
+Temperature = 27.50 °C , Temperature = 81.50 °F
+32
+Temperature = 26.30 °C , Temperature = 79.34 °F
+32
+Temperature = 25.10 °C , Temperature = 77.18 °F
+32
+Temperature = 24.60 °C , Temperature = 76.28 °F
+32
+Temperature = 24.70 °C , Temperature = 76.46 °F
+32
+Temperature = 23.70 °C , Temperature = 74.66 °F
+32
+Temperature = 23.60 °C , Temperature = 74.48 °F
+32
+Temperature = 24.00 °C , Temperature = 75.20 °F
+32
+Temperature = 25.60 °C , Temperature = 78.08 °F
+33
+Temperature = 26.90 °C , Temperature = 80.42 °F
+33
+Temperature = 28.80 °C , Temperature = 83.84 °F
+33
+Temperature = 30.10 °C , Temperature = 86.18 °F
+33
+Temperature = 30.90 °C , Temperature = 87.62 °F
+33
+Temperature = 30.60 °C , Temperature = 87.08 °F
+33
+Temperature = 30.90 °C , Temperature = 87.62 °F
+33
+Temperature = 30.90 °C , Temperature = 87.62 °F
+33
+Temperature = 29.30 °C , Temperature = 84.74 °F
+33
+Temperature = 28.90 °C , Temperature = 84.02 °F
+33
+Temperature = 29.00 °C , Temperature = 84.20 °F
+34
+Temperature = 26.90 °C , Temperature = 80.42 °F
+34
+Temperature = 25.90 °C , Temperature = 78.62 °F
+34
+Temperature = 25.50 °C , Temperature = 77.90 °F
+34
+Temperature = 25.00 °C , Temperature = 77.00 °F
+34
+Temperature = 24.50 °C , Temperature = 76.10 °F
+34
+Temperature = 24.10 °C , Temperature = 75.38 °F
+34
+Temperature = 24.80 °C , Temperature = 76.64 °F
+34
+Temperature = 25.10 °C , Temperature = 77.18 °F
+34
+Temperature = 25.70 °C , Temperature = 78.26 °F
+34
+Temperature = 27.80 °C , Temperature = 82.04 °F
+35
+Temperature = 29.00 °C , Temperature = 84.20 °F
+35
+Temperature = 30.20 °C , Temperature = 86.36 °F
+35
+Temperature = 31.30 °C , Temperature = 88.34 °F
+35
+Temperature = 30.40 °C , Temperature = 86.72 °F
+35
+Temperature = 29.70 °C , Temperature = 85.46 °F
+35
+Temperature = 29.90 °C , Temperature = 85.82 °F
+35
+Temperature = 29.80 °C , Temperature = 85.64 °F
+35
+Temperature = 27.80 °C , Temperature = 82.04 °F
+35
+Temperature = 28.30 °C , Temperature = 82.94 °F
+35
+Temperature = 26.50 °C , Temperature = 79.70 °F
+36
+Temperature = 26.00 °C , Temperature = 78.80 °F
+36
+Temperature = 25.40 °C , Temperature = 77.72 °F
+36
+Temperature = 25.00 °C , Temperature = 77.00 °F
+36
+Temperature = 24.00 °C , Temperature = 75.20 °F
+36
+Temperature = 24.40 °C , Temperature = 75.92 °F
+36
+Temperature = 25.30 °C , Temperature = 77.54 °F
+36
+Temperature = 25.80 °C , Temperature = 78.44 °F
+36
+Temperature = 26.30 °C , Temperature = 79.34 °F
+36
+Temperature = 27.80 °C , Temperature = 82.04 °F
+36
+Temperature = 29.00 °C , Temperature = 84.20 °F
+37
+Temperature = 30.40 °C , Temperature = 86.72 °F
+37
+Temperature = 30.40 °C , Temperature = 86.72 °F
+37
+Temperature = 30.60 °C , Temperature = 87.08 °F
+37
+Temperature = 29.60 °C , Temperature = 85.28 °F
+37
+Temperature = 30.20 °C , Temperature = 86.36 °F
+37
+Temperature = 29.50 °C , Temperature = 85.10 °F
+37
+Temperature = 29.50 °C , Temperature = 85.10 °F
+37
+Temperature = 28.40 °C , Temperature = 83.12 °F
+37
+Temperature = 26.30 °C , Temperature = 79.34 °F
+37
+Temperature = 26.00 °C , Temperature = 78.80 °F
+38
+Temperature = 25.20 °C , Temperature = 77.36 °F
+38
+Temperature = 24.60 °C , Temperature = 76.28 °F
+38
+Temperature = 24.50 °C , Temperature = 76.10 °F
+38
+Temperature = 23.90 °C , Temperature = 75.02 °F
+38
+Temperature = 24.80 °C , Temperature = 76.64 °F
+38
+Temperature = 25.40 °C , Temperature = 77.72 °F
+38
+Temperature = 26.70 °C , Temperature = 80.06 °F
+38
+Temperature = 27.60 °C , Temperature = 81.68 °F
+38
+Temperature = 29.00 °C , Temperature = 84.20 °F
+38
+Temperature = 30.20 °C , Temperature = 86.36 °F
+39
+Temperature = 30.40 °C , Temperature = 86.72 °F
+39
+Temperature = 30.50 °C , Temperature = 86.90 °F
+39
+Temperature = 30.90 °C , Temperature = 87.62 °F
+39
+Temperature = 30.40 °C , Temperature = 86.72 °F
+39
+Temperature = 29.50 °C , Temperature = 85.10 °F
+39
+Temperature = 28.90 °C , Temperature = 84.02 °F
+39
+Temperature = 27.90 °C , Temperature = 82.22 °F
+39
+Temperature = 26.30 °C , Temperature = 79.34 °F
+39
+Temperature = 25.60 °C , Temperature = 78.08 °F
+39
+Temperature = 25.10 °C , Temperature = 77.18 °F
+40
+Temperature = 24.60 °C , Temperature = 76.28 °F
+40
+Temperature = 23.50 °C , Temperature = 74.30 °F
+40
+Temperature = 23.80 °C , Temperature = 74.84 °F
+40
+Temperature = 24.00 °C , Temperature = 75.20 °F
+40
+Temperature = 24.70 °C , Temperature = 76.46 °F
+40
+Temperature = 27.80 °C , Temperature = 82.04 °F
+40
+Temperature = 26.90 °C , Temperature = 80.42 °F
+40
+Temperature = 29.60 °C , Temperature = 85.28 °F
+40
+Temperature = 29.10 °C , Temperature = 84.38 °F
+40
+Temperature = 29.90 °C , Temperature = 85.82 °F
+41
+Temperature = 31.10 °C , Temperature = 87.98 °F
+41
+Temperature = 30.90 °C , Temperature = 87.62 °F
+41
+Temperature = 30.00 °C , Temperature = 86.00 °F
+41
+Temperature = 29.60 °C , Temperature = 85.28 °F
+41
+Temperature = 29.00 °C , Temperature = 84.20 °F
+41
+Temperature = 27.80 °C , Temperature = 82.04 °F
+41
+Temperature = 26.40 °C , Temperature = 79.52 °F
+41
+Temperature = 26.10 °C , Temperature = 78.98 °F
+41
+Temperature = 25.00 °C , Temperature = 77.00 °F
+41
+Temperature = 23.60 °C , Temperature = 74.48 °F
+42
+Temperature = 23.40 °C , Temperature = 74.12 °F
+42
+Temperature = 23.70 °C , Temperature = 74.66 °F
+42
+Temperature = 23.50 °C , Temperature = 74.30 °F
+42
+Temperature = 24.20 °C , Temperature = 75.56 °F
+42
+Temperature = 25.60 °C , Temperature = 78.08 °F
+42
+Temperature = 27.20 °C , Temperature = 80.96 °F
+42
+Temperature = 29.00 °C , Temperature = 84.20 °F
+42
+Temperature = 30.30 °C , Temperature = 86.54 °F
+42
+Temperature = 30.90 °C , Temperature = 87.62 °F
+42
+Temperature = 30.50 °C , Temperature = 86.90 °F
+43
+Temperature = 30.90 °C , Temperature = 87.62 °F
+43
+Temperature = 30.40 °C , Temperature = 86.72 °F
+43
+Temperature = 29.40 °C , Temperature = 84.92 °F
+43
+Temperature = 28.50 °C , Temperature = 83.30 °F
+43
+Temperature = 28.40 °C , Temperature = 83.12 °F
+43
+Temperature = 27.40 °C , Temperature = 81.32 °F
+43
+Temperature = 26.10 °C , Temperature = 78.98 °F
+43
+Temperature = 24.10 °C , Temperature = 75.38 °F
+43
+Temperature = 23.50 °C , Temperature = 74.30 °F
+43
+Temperature = 23.50 °C , Temperature = 74.30 °F
+44
+Temperature = 22.30 °C , Temperature = 72.14 °F
+44
+Temperature = 23.30 °C , Temperature = 73.94 °F
+44
+Temperature = 24.20 °C , Temperature = 75.56 °F
+44
+Temperature = 25.10 °C , Temperature = 77.18 °F
+44
+Temperature = 28.10 °C , Temperature = 82.58 °F
+44
+Temperature = 29.60 °C , Temperature = 85.28 °F
+44
+Temperature = 30.40 °C , Temperature = 86.72 °F
+44
+Temperature = 29.30 °C , Temperature = 84.74 °F
+44
+Temperature = 30.90 °C , Temperature = 87.62 °F
+44
+Temperature = 30.50 °C , Temperature = 86.90 °F
+45
+Temperature = 30.20 °C , Temperature = 86.36 °F
+45
+Temperature = 29.10 °C , Temperature = 84.38 °F
+45
+Temperature = 29.30 °C , Temperature = 84.74 °F
+45
+Temperature = 27.70 °C , Temperature = 81.86 °F
+45
+Temperature = 26.30 °C , Temperature = 79.34 °F
+45
+Temperature = 25.10 °C , Temperature = 77.18 °F
+45
+Temperature = 23.80 °C , Temperature = 74.84 °F
+45
+Temperature = 23.60 °C , Temperature = 74.48 °F
+45
+Temperature = 23.10 °C , Temperature = 73.58 °F
+45
+Temperature = 23.10 °C , Temperature = 73.58 °F
+46
+Temperature = 23.60 °C , Temperature = 74.48 °F
+46
+Temperature = 24.90 °C , Temperature = 76.82 °F
+46
+Temperature = 26.30 °C , Temperature = 79.34 °F
+46
+Temperature = 28.30 °C , Temperature = 82.94 °F
+46
+Temperature = 29.00 °C , Temperature = 84.20 °F
+46
+Temperature = 30.40 °C , Temperature = 86.72 °F
+46
+Temperature = 30.90 °C , Temperature = 87.62 °F
+46
+Temperature = 31.30 °C , Temperature = 88.34 °F
+46
+Temperature = 31.30 °C , Temperature = 88.34 °F
+46
+Temperature = 29.80 °C , Temperature = 85.64 °F
+47
+Temperature = 29.00 °C , Temperature = 84.20 °F
+47
+Temperature = 28.80 °C , Temperature = 83.84 °F
+47
+Temperature = 27.60 °C , Temperature = 81.68 °F
+47
+Temperature = 26.30 °C , Temperature = 79.34 °F
+47
+Temperature = 25.40 °C , Temperature = 77.72 °F
+47
+Temperature = 25.00 °C , Temperature = 77.00 °F
+47
+Temperature = 23.40 °C , Temperature = 74.12 °F
+47
+Temperature = 22.50 °C , Temperature = 72.50 °F
+47
+Temperature = 23.50 °C , Temperature = 74.30 °F
+47
+Temperature = 23.90 °C , Temperature = 75.02 °F
+48
+Temperature = 24.20 °C , Temperature = 75.56 °F
+48
+Temperature = 26.10 °C , Temperature = 78.98 °F
+48
+Temperature = 28.70 °C , Temperature = 83.66 °F
+48
+Temperature = 29.10 °C , Temperature = 84.38 °F
+48
+Temperature = 30.60 °C , Temperature = 87.08 °F
+48
+Temperature = 30.40 °C , Temperature = 86.72 °F
+48
+Temperature = 30.90 °C , Temperature = 87.62 °F
+48
+Temperature = 30.40 °C , Temperature = 86.72 °F
+48
+Temperature = 29.90 °C , Temperature = 85.82 °F
+48
+Temperature = 29.90 °C , Temperature = 85.82 °F
+49
+Temperature = 28.60 °C , Temperature = 83.48 °F
+49
+Temperature = 27.90 °C , Temperature = 82.22 °F
+49
+Temperature = 26.30 °C , Temperature = 79.34 °F
+49
+Temperature = 25.10 °C , Temperature = 77.18 °F
+49
+Temperature = 24.00 °C , Temperature = 75.20 °F
+49
+Temperature = 23.60 °C , Temperature = 74.48 °F
+49
+Temperature = 23.50 °C , Temperature = 74.30 °F
+49
+Temperature = 23.30 °C , Temperature = 73.94 °F
+49
+Temperature = 23.60 °C , Temperature = 74.48 °F
+49
+Temperature = 23.90 °C , Temperature = 75.02 °F
+50
+Temperature = 26.30 °C , Temperature = 79.34 °F
+50
+Temperature = 26.60 °C , Temperature = 79.88 °F
+50
+Temperature = 29.00 °C , Temperature = 84.20 °F
+50
+Temperature = 30.40 °C , Temperature = 86.72 °F
+50
+Temperature = 31.30 °C , Temperature = 88.34 °F
+50
+Temperature = 30.40 °C , Temperature = 86.72 °F
+50
+Temperature = 30.70 °C , Temperature = 87.26 °F
+50
+Temperature = 29.90 °C , Temperature = 85.82 °F
+50
+Temperature = 29.30 °C , Temperature = 84.74 °F
+50
+Temperature = 28.80 °C , Temperature = 83.84 °F
+51
+Temperature = 26.90 °C , Temperature = 80.42 °F
+51
+Temperature = 26.30 °C , Temperature = 79.34 °F
+51
+Temperature = 25.00 °C , Temperature = 77.00 °F
+51
+Temperature = 24.20 °C , Temperature = 75.56 °F
+51
+Temperature = 23.10 °C , Temperature = 73.58 °F
+51
+Temperature = 22.50 °C , Temperature = 72.50 °F
+51
+Temperature = 23.10 °C , Temperature = 73.58 °F
+51
+Temperature = 24.00 °C , Temperature = 75.20 °F
+51
+Temperature = 26.10 °C , Temperature = 78.98 °F
+51
+Temperature = 26.50 °C , Temperature = 79.70 °F
+52
+Temperature = 29.00 °C , Temperature = 84.20 °F
+52
+Temperature = 30.50 °C , Temperature = 86.90 °F
+52
+Temperature = 30.10 °C , Temperature = 86.18 °F
+52
+Temperature = 31.50 °C , Temperature = 88.70 °F
+52
+Temperature = 31.20 °C , Temperature = 88.16 °F
+52
+Temperature = 30.00 °C , Temperature = 86.00 °F
+52
+Temperature = 29.90 °C , Temperature = 85.82 °F
+52
+Temperature = 28.70 °C , Temperature = 83.66 °F
+52
+Temperature = 27.60 °C , Temperature = 81.68 °F
+52
+Temperature = 26.70 °C , Temperature = 80.06 °F
+53
+Temperature = 25.10 °C , Temperature = 77.18 °F
+53
+Temperature = 23.90 °C , Temperature = 75.02 °F
+53
+Temperature = 23.20 °C , Temperature = 73.76 °F
+53
+Temperature = 23.30 °C , Temperature = 73.94 °F
+53
+Temperature = 22.80 °C , Temperature = 73.04 °F
+53
+Temperature = 23.80 °C , Temperature = 74.84 °F
+53
+Temperature = 24.10 °C , Temperature = 75.38 °F
+53
+Temperature = 26.30 °C , Temperature = 79.34 °F
+53
+Temperature = 27.50 °C , Temperature = 81.50 °F
+53
+Temperature = 29.80 °C , Temperature = 85.64 °F
+54
+Temperature = 30.40 °C , Temperature = 86.72 °F
+54
+Temperature = 30.40 °C , Temperature = 86.72 °F
+54
+Temperature = 31.70 °C , Temperature = 89.06 °F
+54
+Temperature = 30.60 °C , Temperature = 87.08 °F
+54
+Temperature = 30.40 °C , Temperature = 86.72 °F
+54
+Temperature = 29.00 °C , Temperature = 84.20 °F
+54
+Temperature = 28.60 °C , Temperature = 83.48 °F
+54
+Temperature = 27.30 °C , Temperature = 81.14 °F
+54
+Temperature = 26.00 °C , Temperature = 78.80 °F
+54
+Temperature = 25.00 °C , Temperature = 77.00 °F
+55
+Temperature = 23.70 °C , Temperature = 74.66 °F
+55
+Temperature = 23.00 °C , Temperature = 73.40 °F
+55
+Temperature = 23.60 °C , Temperature = 74.48 °F
+55
+Temperature = 23.60 °C , Temperature = 74.48 °F
+55
+Temperature = 23.70 °C , Temperature = 74.66 °F
+55
+Temperature = 25.40 °C , Temperature = 77.72 °F
+55
+Temperature = 26.70 °C , Temperature = 80.06 °F
+55
+Temperature = 27.70 °C , Temperature = 81.86 °F
+55
+Temperature = 29.30 °C , Temperature = 84.74 °F
+55
+Temperature = 30.50 °C , Temperature = 86.90 °F
+56
+Temperature = 31.50 °C , Temperature = 88.70 °F
+56
+Temperature = 30.50 °C , Temperature = 86.90 °F
+56
+Temperature = 30.10 °C , Temperature = 86.18 °F
+56
+Temperature = 29.10 °C , Temperature = 84.38 °F
+56
+Temperature = 29.00 °C , Temperature = 84.20 °F
+56
+Temperature = 28.20 °C , Temperature = 82.76 °F
+56
+Temperature = 26.50 °C , Temperature = 79.70 °F
+56
+Temperature = 25.70 °C , Temperature = 78.26 °F
+56
+Temperature = 24.80 °C , Temperature = 76.64 °F
+56
+Temperature = 24.70 °C , Temperature = 76.46 °F
+57
+Temperature = 24.50 °C , Temperature = 76.10 °F
+57
+Temperature = 24.60 °C , Temperature = 76.28 °F
+57
+Temperature = 24.60 °C , Temperature = 76.28 °F
+57
+Temperature = 25.50 °C , Temperature = 77.90 °F
+57
+Temperature = 26.10 °C , Temperature = 78.98 °F
+57
+Temperature = 28.30 °C , Temperature = 82.94 °F
+57
+Temperature = 29.50 °C , Temperature = 85.10 °F
+57
+Temperature = 31.20 °C , Temperature = 88.16 °F
+57
+Temperature = 30.40 °C , Temperature = 86.72 °F
+57
+Temperature = 30.00 °C , Temperature = 86.00 °F
+58
+Temperature = 30.40 °C , Temperature = 86.72 °F
+58
+Temperature = 30.00 °C , Temperature = 86.00 °F
+58
+Temperature = 29.00 °C , Temperature = 84.20 °F
+58
+Temperature = 29.20 °C , Temperature = 84.56 °F
+58
+Temperature = 27.20 °C , Temperature = 80.96 °F
+58
+Temperature = 26.30 °C , Temperature = 79.34 °F
+58
+Temperature = 25.10 °C , Temperature = 77.18 °F
+58
+Temperature = 25.10 °C , Temperature = 77.18 °F
+58
+Temperature = 24.80 °C , Temperature = 76.64 °F
+58
+Temperature = 24.80 °C , Temperature = 76.64 °F
+59
+Temperature = 25.60 °C , Temperature = 78.08 °F
+59
+Temperature = 25.10 °C , Temperature = 77.18 °F
+59
+Temperature = 26.60 °C , Temperature = 79.88 °F
+59
+Temperature = 28.10 °C , Temperature = 82.58 °F
+59
+Temperature = 28.70 °C , Temperature = 83.66 °F
+59
+Temperature = 30.20 °C , Temperature = 86.36 °F
+59
+Temperature = 30.40 °C , Temperature = 86.72 °F
+59
+Temperature = 30.30 °C , Temperature = 86.54 °F
+59
+Temperature = 29.90 °C , Temperature = 85.82 °F
+59
+Temperature = 29.90 °C , Temperature = 85.82 °F
+60
+Temperature = 29.20 °C , Temperature = 84.56 °F
+60
+Temperature = 28.80 °C , Temperature = 83.84 °F
+60
+Temperature = 28.10 °C , Temperature = 82.58 °F
+60
+Temperature = 27.70 °C , Temperature = 81.86 °F
+60
+Temperature = 26.30 °C , Temperature = 79.34 °F
+60
+Temperature = 25.80 °C , Temperature = 78.44 °F
+60
+Temperature = 26.10 °C , Temperature = 78.98 °F
+60
+Temperature = 25.70 °C , Temperature = 78.26 °F
+60
+Temperature = 25.90 °C , Temperature = 78.62 °F
+60
+Temperature = 26.30 °C , Temperature = 79.34 °F
+61
+Temperature = 26.30 °C , Temperature = 79.34 °F
+61
+Temperature = 27.50 °C , Temperature = 81.50 °F
+61
+Temperature = 28.40 °C , Temperature = 83.12 °F
+61
+Temperature = 29.00 °C , Temperature = 84.20 °F
+61
+Temperature = 30.40 °C , Temperature = 86.72 °F
+61
+Temperature = 29.80 °C , Temperature = 85.64 °F
+61
+Temperature = 30.20 °C , Temperature = 86.36 °F
+61
+Temperature = 29.60 °C , Temperature = 85.28 °F
+61
+Temperature = 29.20 °C , Temperature = 84.56 °F
+61
+Temperature = 29.90 °C , Temperature = 85.82 °F
+62
+Temperature = 28.60 °C , Temperature = 83.48 °F
+62
+Temperature = 28.10 °C , Temperature = 82.58 °F
+62
+Temperature = 26.30 °C , Temperature = 79.34 °F
+62
+Temperature = 26.20 °C , Temperature = 79.16 °F
+62
+Temperature = 25.60 °C , Temperature = 78.08 °F
+62
+Temperature = 24.40 °C , Temperature = 75.92 °F
+62
+Temperature = 23.60 °C , Temperature = 74.48 °F
+62
+Temperature = 23.60 °C , Temperature = 74.48 °F
+62
+Temperature = 23.60 °C , Temperature = 74.48 °F
+62
+Temperature = 24.80 °C , Temperature = 76.64 °F
+63
+Temperature = 25.90 °C , Temperature = 78.62 °F
+63
+Temperature = 28.30 °C , Temperature = 82.94 °F
+63
+Temperature = 29.00 °C , Temperature = 84.20 °F
+63
+Temperature = 30.40 °C , Temperature = 86.72 °F
+63
+Temperature = 31.70 °C , Temperature = 89.06 °F
+63
+Temperature = 31.30 °C , Temperature = 88.34 °F
+63
+Temperature = 30.50 °C , Temperature = 86.90 °F
+63
+Temperature = 29.60 °C , Temperature = 85.28 °F
+63
+Temperature = 29.10 °C , Temperature = 84.38 °F
+63
+Temperature = 29.00 °C , Temperature = 84.20 °F
+64
+Temperature = 27.70 °C , Temperature = 81.86 °F
+64
+Temperature = 25.20 °C , Temperature = 77.36 °F
+64
+Temperature = 25.40 °C , Temperature = 77.72 °F
+64
+Temperature = 24.00 °C , Temperature = 75.20 °F
+64
+Temperature = 23.60 °C , Temperature = 74.48 °F
+64
+Temperature = 23.70 °C , Temperature = 74.66 °F
+64
+Temperature = 23.60 °C , Temperature = 74.48 °F
+64
+Temperature = 24.00 °C , Temperature = 75.20 °F
+64
+Temperature = 25.00 °C , Temperature = 77.00 °F
+64
+Temperature = 26.50 °C , Temperature = 79.70 °F
+65
+Temperature = 28.60 °C , Temperature = 83.48 °F
+65
+Temperature = 30.40 °C , Temperature = 86.72 °F
+65
+Temperature = 30.30 °C , Temperature = 86.54 °F
+65
+Temperature = 30.50 °C , Temperature = 86.90 °F
+65
+Temperature = 30.40 °C , Temperature = 86.72 °F
+65
+Temperature = 30.20 °C , Temperature = 86.36 °F
+65
+Temperature = 29.60 °C , Temperature = 85.28 °F
+65
+Temperature = 29.00 °C , Temperature = 84.20 °F
+65
+Temperature = 27.20 °C , Temperature = 80.96 °F
+65
+Temperature = 26.10 °C , Temperature = 78.98 °F
+66
+Temperature = 25.80 °C , Temperature = 78.44 °F
+66
+Temperature = 24.50 °C , Temperature = 76.10 °F
+66
+Temperature = 22.90 °C , Temperature = 73.22 °F
+66
+Temperature = 23.50 °C , Temperature = 74.30 °F
+66
+Temperature = 22.50 °C , Temperature = 72.50 °F
+66
+Temperature = 23.70 °C , Temperature = 74.66 °F
+66
+Temperature = 24.10 °C , Temperature = 75.38 °F
+66
+Temperature = 25.40 °C , Temperature = 77.72 °F
+66
+Temperature = 27.70 °C , Temperature = 81.86 °F
+66
+Temperature = 29.00 °C , Temperature = 84.20 °F
+67
+Temperature = 29.90 °C , Temperature = 85.82 °F
+67
+Temperature = 30.50 °C , Temperature = 86.90 °F
+67
+Temperature = 30.90 °C , Temperature = 87.62 °F
+67
+Temperature = 30.90 °C , Temperature = 87.62 °F
+67
+Temperature = 30.10 °C , Temperature = 86.18 °F
+67
+Temperature = 29.10 °C , Temperature = 84.38 °F
+67
+Temperature = 28.40 °C , Temperature = 83.12 °F
+67
+Temperature = 27.50 °C , Temperature = 81.50 °F
+67
+Temperature = 26.30 °C , Temperature = 79.34 °F
+67
+Temperature = 23.60 °C , Temperature = 74.48 °F
+68
+Temperature = 23.80 °C , Temperature = 74.84 °F
+68
+Temperature = 22.70 °C , Temperature = 72.86 °F
+68
+Temperature = 23.00 °C , Temperature = 73.40 °F
+68
+Temperature = 23.20 °C , Temperature = 73.76 °F
+68
+Temperature = 23.60 °C , Temperature = 74.48 °F
+68
+Temperature = 25.80 °C , Temperature = 78.44 °F
+68
+Temperature = 25.60 °C , Temperature = 78.08 °F
+68
+Temperature = 28.30 °C , Temperature = 82.94 °F
+68
+Temperature = 29.10 °C , Temperature = 84.38 °F
+68
+Temperature = 30.40 °C , Temperature = 86.72 °F
+69
+Temperature = 31.30 °C , Temperature = 88.34 °F
+69
+Temperature = 29.90 °C , Temperature = 85.82 °F
+69
+Temperature = 30.50 °C , Temperature = 86.90 °F
+69
+Temperature = 29.80 °C , Temperature = 85.64 °F
+69
+Temperature = 28.80 °C , Temperature = 83.84 °F
+69
+Temperature = 28.30 °C , Temperature = 82.94 °F
+69
+Temperature = 26.50 °C , Temperature = 79.70 °F
+69
+Temperature = 25.50 °C , Temperature = 77.90 °F
+69
+Temperature = 24.20 °C , Temperature = 75.56 °F
+69
+Temperature = 23.60 °C , Temperature = 74.48 °F
+70
+Temperature = 22.80 °C , Temperature = 73.04 °F
+70
+Temperature = 22.80 °C , Temperature = 73.04 °F
+70
+Temperature = 23.00 °C , Temperature = 73.40 °F
+70
+Temperature = 23.80 °C , Temperature = 74.84 °F
+70
+Temperature = 25.90 °C , Temperature = 78.62 °F
+70
+Temperature = 27.70 °C , Temperature = 81.86 °F
+70
+Temperature = 28.80 °C , Temperature = 83.84 °F
+70
+Temperature = 30.10 °C , Temperature = 86.18 °F
+70
+Temperature = 30.90 °C , Temperature = 87.62 °F
+70
+Temperature = 29.80 °C , Temperature = 85.64 °F
+71
+Temperature = 29.90 °C , Temperature = 85.82 °F
+71
+Temperature = 31.40 °C , Temperature = 88.52 °F
+71
+Temperature = 29.00 °C , Temperature = 84.20 °F
+71
+Temperature = 28.80 °C , Temperature = 83.84 °F
+71
+Temperature = 27.50 °C , Temperature = 81.50 °F
+71
+Temperature = 26.30 °C , Temperature = 79.34 °F
+71
+Temperature = 24.90 °C , Temperature = 76.82 °F
+71
+Temperature = 23.80 °C , Temperature = 74.84 °F
+71
+Temperature = 23.30 °C , Temperature = 73.94 °F
+71
+Temperature = 23.60 °C , Temperature = 74.48 °F
+72
+Temperature = 23.00 °C , Temperature = 73.40 °F
+72
+Temperature = 23.60 °C , Temperature = 74.48 °F
+72
+Temperature = 25.10 °C , Temperature = 77.18 °F
+72
+Temperature = 25.80 °C , Temperature = 78.44 °F
+72
+Temperature = 27.70 °C , Temperature = 81.86 °F
+72
+Temperature = 29.00 °C , Temperature = 84.20 °F
+72
+Temperature = 29.90 °C , Temperature = 85.82 °F
+72
+Temperature = 30.90 °C , Temperature = 87.62 °F
+72
+Temperature = 31.70 °C , Temperature = 89.06 °F
+72
+Temperature = 30.70 °C , Temperature = 87.26 °F
+73
+Temperature = 29.90 °C , Temperature = 85.82 °F
+73
+Temperature = 28.30 °C , Temperature = 82.94 °F
+73
+Temperature = 28.40 °C , Temperature = 83.12 °F
+73
+Temperature = 27.40 °C , Temperature = 81.32 °F
+73
+Temperature = 26.10 °C , Temperature = 78.98 °F
+73
+Temperature = 24.70 °C , Temperature = 76.46 °F
+73
+Temperature = 24.20 °C , Temperature = 75.56 °F
+73
+Temperature = 23.40 °C , Temperature = 74.12 °F
+73
+Temperature = 23.60 °C , Temperature = 74.48 °F
+73
+Temperature = 25.00 °C , Temperature = 77.00 °F
+74
+Temperature = 23.80 °C , Temperature = 74.84 °F
+74
+Temperature = 26.00 °C , Temperature = 78.80 °F
+74
+Temperature = 26.30 °C , Temperature = 79.34 °F
+74
+Temperature = 28.60 °C , Temperature = 83.48 °F
+74
+Temperature = 30.20 °C , Temperature = 86.36 °F
+74
+Temperature = 29.40 °C , Temperature = 84.92 °F
+74
+Temperature = 31.20 °C , Temperature = 88.16 °F
+74
+Temperature = 30.40 °C , Temperature = 86.72 °F
+74
+Temperature = 29.40 °C , Temperature = 84.92 °F
+74
+Temperature = 29.50 °C , Temperature = 85.10 °F
+75
+Temperature = 28.80 °C , Temperature = 83.84 °F
+75
+Temperature = 27.50 °C , Temperature = 81.50 °F
+75
+Temperature = 26.30 °C , Temperature = 79.34 °F
+75
+Temperature = 26.30 °C , Temperature = 79.34 °F
+75
+Temperature = 25.00 °C , Temperature = 77.00 °F
+75
+Temperature = 23.60 °C , Temperature = 74.48 °F
+75
+Temperature = 22.80 °C , Temperature = 73.04 °F
+75
+Temperature = 23.20 °C , Temperature = 73.76 °F
+75
+Temperature = 22.80 °C , Temperature = 73.04 °F
+75
+Temperature = 23.60 °C , Temperature = 74.48 °F
+76
+Temperature = 25.10 °C , Temperature = 77.18 °F
+76
+Temperature = 26.30 °C , Temperature = 79.34 °F
+76
+Temperature = 28.30 °C , Temperature = 82.94 °F
+76
+Temperature = 30.20 °C , Temperature = 86.36 °F
+76
+Temperature = 30.60 °C , Temperature = 87.08 °F
+76
+Temperature = 30.90 °C , Temperature = 87.62 °F
+76
+Temperature = 30.20 °C , Temperature = 86.36 °F
+76
+Temperature = 30.40 °C , Temperature = 86.72 °F
+76
+Temperature = 29.00 °C , Temperature = 84.20 °F
+76
+Temperature = 28.90 °C , Temperature = 84.02 °F
+77
+Temperature = 28.50 °C , Temperature = 83.30 °F
+77
+Temperature = 26.70 °C , Temperature = 80.06 °F
+77
+Temperature = 25.10 °C , Temperature = 77.18 °F
+77
+Temperature = 25.90 °C , Temperature = 78.62 °F
+77
+Temperature = 23.70 °C , Temperature = 74.66 °F
+77
+Temperature = 22.50 °C , Temperature = 72.50 °F
+77
+Temperature = 21.90 °C , Temperature = 71.42 °F
+77
+Temperature = 23.60 °C , Temperature = 74.48 °F
+77
+Temperature = 23.60 °C , Temperature = 74.48 °F
+77
+Temperature = 25.00 °C , Temperature = 77.00 °F
+78
+Temperature = 26.60 °C , Temperature = 79.88 °F
+78
+Temperature = 28.60 °C , Temperature = 83.48 °F
+78
+Temperature = 29.90 °C , Temperature = 85.82 °F
+78
+Temperature = 30.10 °C , Temperature = 86.18 °F
+78
+Temperature = 31.30 °C , Temperature = 88.34 °F
+78
+Temperature = 30.30 °C , Temperature = 86.54 °F
+78
+Temperature = 30.60 °C , Temperature = 87.08 °F
+78
+Temperature = 30.20 °C , Temperature = 86.36 °F
+78
+Temperature = 29.10 °C , Temperature = 84.38 °F
+78
+Temperature = 28.10 °C , Temperature = 82.58 °F
+79
+Temperature = 26.60 °C , Temperature = 79.88 °F
+79
+Temperature = 26.10 °C , Temperature = 78.98 °F
+79
+Temperature = 24.70 °C , Temperature = 76.46 °F
+79
+Temperature = 24.10 °C , Temperature = 75.38 °F
+79
+Temperature = 23.40 °C , Temperature = 74.12 °F
+79
+Temperature = 23.60 °C , Temperature = 74.48 °F
+79
+Temperature = 23.20 °C , Temperature = 73.76 °F
+79
+Temperature = 23.60 °C , Temperature = 74.48 °F
+79
+Temperature = 25.70 °C , Temperature = 78.26 °F
+79
+Temperature = 27.20 °C , Temperature = 80.96 °F
+80
+Temperature = 28.60 °C , Temperature = 83.48 °F
+80
+Temperature = 29.20 °C , Temperature = 84.56 °F
+80
+Temperature = 30.90 °C , Temperature = 87.62 °F
+80
+Temperature = 30.40 °C , Temperature = 86.72 °F
+80
+Temperature = 31.10 °C , Temperature = 87.98 °F
+80
+Temperature = 29.20 °C , Temperature = 84.56 °F
+80
+Temperature = 29.10 °C , Temperature = 84.38 °F
+80
+Temperature = 28.00 °C , Temperature = 82.40 °F
+80
+Temperature = 28.40 °C , Temperature = 83.12 °F
+80
+Temperature = 26.80 °C , Temperature = 80.24 °F
+81
+Temperature = 26.10 °C , Temperature = 78.98 °F
+81
+Temperature = 24.00 °C , Temperature = 75.20 °F
+81
+Temperature = 23.60 °C , Temperature = 74.48 °F
+81
+Temperature = 23.20 °C , Temperature = 73.76 °F
+81
+Temperature = 23.20 °C , Temperature = 73.76 °F
+81
+Temperature = 23.50 °C , Temperature = 74.30 °F
+81
+Temperature = 25.40 °C , Temperature = 77.72 °F
+81
+Temperature = 26.20 °C , Temperature = 79.16 °F
+81
+Temperature = 27.70 °C , Temperature = 81.86 °F
+81
+Temperature = 28.80 °C , Temperature = 83.84 °F
+82
+Temperature = 29.50 °C , Temperature = 85.10 °F
+82
+Temperature = 30.40 °C , Temperature = 86.72 °F
+82
+Temperature = 31.10 °C , Temperature = 87.98 °F
+82
+Temperature = 30.40 °C , Temperature = 86.72 °F
+82
+Temperature = 30.40 °C , Temperature = 86.72 °F
+82
+Temperature = 29.20 °C , Temperature = 84.56 °F
+82
+Temperature = 28.80 °C , Temperature = 83.84 °F
+82
+Temperature = 27.70 °C , Temperature = 81.86 °F
+82
+Temperature = 26.60 °C , Temperature = 79.88 °F
+82
+Temperature = 25.80 °C , Temperature = 78.44 °F
+83
+Temperature = 24.50 °C , Temperature = 76.10 °F
+83
+Temperature = 23.20 °C , Temperature = 73.76 °F
+83
+Temperature = 23.60 °C , Temperature = 74.48 °F
+83
+Temperature = 22.10 °C , Temperature = 71.78 °F
+83
+Temperature = 23.60 °C , Temperature = 74.48 °F
+83
+Temperature = 24.50 °C , Temperature = 76.10 °F
+83
+Temperature = 26.00 °C , Temperature = 78.80 °F
+83
+Temperature = 28.00 °C , Temperature = 82.40 °F
+83
+Temperature = 28.90 °C , Temperature = 84.02 °F
+83
+Temperature = 29.90 °C , Temperature = 85.82 °F
+84
+Temperature = 30.90 °C , Temperature = 87.62 °F
+84
+Temperature = 30.40 °C , Temperature = 86.72 °F
+84
+Temperature = 30.00 °C , Temperature = 86.00 °F
+84
+Temperature = 28.80 °C , Temperature = 83.84 °F
+84
+Temperature = 29.00 °C , Temperature = 84.20 °F
+84
+Temperature = 28.50 °C , Temperature = 83.30 °F
+84
+Temperature = 28.20 °C , Temperature = 82.76 °F
+84
+Temperature = 26.40 °C , Temperature = 79.52 °F
+84
+Temperature = 25.80 °C , Temperature = 78.44 °F
+84
+Temperature = 24.10 °C , Temperature = 75.38 °F
+85
+Temperature = 22.40 °C , Temperature = 72.32 °F
+85
+Temperature = 23.00 °C , Temperature = 73.40 °F
+85
+Temperature = 23.50 °C , Temperature = 74.30 °F
+85
+Temperature = 24.70 °C , Temperature = 76.46 °F
+85
+Temperature = 25.60 °C , Temperature = 78.08 °F
+85
+Temperature = 26.80 °C , Temperature = 80.24 °F
+85
+Temperature = 28.50 °C , Temperature = 83.30 °F
+85
+Temperature = 29.20 °C , Temperature = 84.56 °F
+85
+Temperature = 30.50 °C , Temperature = 86.90 °F
+85
+Temperature = 30.90 °C , Temperature = 87.62 °F
+86
+Temperature = 30.40 °C , Temperature = 86.72 °F
+86
+Temperature = 30.10 °C , Temperature = 86.18 °F
+86
+Temperature = 30.10 °C , Temperature = 86.18 °F
+86
+Temperature = 29.00 °C , Temperature = 84.20 °F
+86
+Temperature = 27.70 °C , Temperature = 81.86 °F
+86
+Temperature = 27.10 °C , Temperature = 80.78 °F
+86
+Temperature = 25.10 °C , Temperature = 77.18 °F
+86
+Temperature = 24.60 °C , Temperature = 76.28 °F
+86
+Temperature = 23.50 °C , Temperature = 74.30 °F
+86
+Temperature = 23.10 °C , Temperature = 73.58 °F
+87
+Temperature = 23.50 °C , Temperature = 74.30 °F
+87
+Temperature = 23.60 °C , Temperature = 74.48 °F
+87
+Temperature = 24.60 °C , Temperature = 76.28 °F
+87
+Temperature = 25.00 °C , Temperature = 77.00 °F
+87
+Temperature = 26.60 °C , Temperature = 79.88 °F
+87
+Temperature = 28.20 °C , Temperature = 82.76 °F
+87
+Temperature = 29.90 °C , Temperature = 85.82 °F
+87
+Temperature = 30.40 °C , Temperature = 86.72 °F
+87
+Temperature = 30.90 °C , Temperature = 87.62 °F
+87
+Temperature = 30.40 °C , Temperature = 86.72 °F
+88
+Temperature = 30.00 °C , Temperature = 86.00 °F
+88
+Temperature = 29.50 °C , Temperature = 85.10 °F
+88
+Temperature = 28.70 °C , Temperature = 83.66 °F
+88
+Temperature = 27.00 °C , Temperature = 80.60 °F
+88
+Temperature = 26.50 °C , Temperature = 79.70 °F
+88
+Temperature = 26.20 °C , Temperature = 79.16 °F
+88
+Temperature = 24.40 °C , Temperature = 75.92 °F
+88
+Temperature = 24.00 °C , Temperature = 75.20 °F
+88
+Temperature = 23.20 °C , Temperature = 73.76 °F
+88
+Temperature = 23.60 °C , Temperature = 74.48 °F
+89
+Temperature = 24.00 °C , Temperature = 75.20 °F
+89
+Temperature = 23.90 °C , Temperature = 75.02 °F
+89
+Temperature = 26.30 °C , Temperature = 79.34 °F
+89
+Temperature = 26.70 °C , Temperature = 80.06 °F
+89
+Temperature = 29.10 °C , Temperature = 84.38 °F
+89
+Temperature = 29.00 °C , Temperature = 84.20 °F
+89
+Temperature = 30.10 °C , Temperature = 86.18 °F
+89
+Temperature = 30.20 °C , Temperature = 86.36 °F
+89
+Temperature = 30.40 °C , Temperature = 86.72 °F
+89
+Temperature = 30.20 °C , Temperature = 86.36 °F
+90
+Temperature = 29.00 °C , Temperature = 84.20 °F
+90
+Temperature = 29.00 °C , Temperature = 84.20 °F
+90
+Temperature = 27.70 °C , Temperature = 81.86 °F
+90
+Temperature = 26.30 °C , Temperature = 79.34 °F
+90
+Temperature = 25.70 °C , Temperature = 78.26 °F
+90
+Temperature = 24.40 °C , Temperature = 75.92 °F
+90
+Temperature = 23.90 °C , Temperature = 75.02 °F
+90
+Temperature = 23.70 °C , Temperature = 74.66 °F
+90
+Temperature = 23.50 °C , Temperature = 74.30 °F
+90
+Temperature = 23.60 °C , Temperature = 74.48 °F
+91
+Temperature = 25.40 °C , Temperature = 77.72 °F
+91
+Temperature = 25.90 °C , Temperature = 78.62 °F
+91
+Temperature = 27.90 °C , Temperature = 82.22 °F
+91
+Temperature = 29.40 °C , Temperature = 84.92 °F
+91
+Temperature = 30.40 °C , Temperature = 86.72 °F
+91
+Temperature = 31.50 °C , Temperature = 88.70 °F
+91
+Temperature = 30.40 °C , Temperature = 86.72 °F
+91
+Temperature = 30.10 °C , Temperature = 86.18 °F
+91
+Temperature = 30.40 °C , Temperature = 86.72 °F
+91
+Temperature = 28.80 °C , Temperature = 83.84 °F
+92
+Temperature = 28.20 °C , Temperature = 82.76 °F
+92
+Temperature = 27.70 °C , Temperature = 81.86 °F
+92
+Temperature = 26.40 °C , Temperature = 79.52 °F
+92
+Temperature = 25.60 °C , Temperature = 78.08 °F
+92
+Temperature = 24.50 °C , Temperature = 76.10 °F
+92
+Temperature = 22.40 °C , Temperature = 72.32 °F
+92
+Temperature = 23.20 °C , Temperature = 73.76 °F
+92
+Temperature = 22.80 °C , Temperature = 73.04 °F
+92
+Temperature = 23.60 °C , Temperature = 74.48 °F
+92
+Temperature = 24.60 °C , Temperature = 76.28 °F
+93
+Temperature = 26.40 °C , Temperature = 79.52 °F
+93
+Temperature = 28.30 °C , Temperature = 82.94 °F
+93
+Temperature = 29.20 °C , Temperature = 84.56 °F
+93
+Temperature = 30.40 °C , Temperature = 86.72 °F
+93
+Temperature = 30.20 °C , Temperature = 86.36 °F
+93
+Temperature = 30.40 °C , Temperature = 86.72 °F
+93
+Temperature = 30.30 °C , Temperature = 86.54 °F
+93
+Temperature = 29.90 °C , Temperature = 85.82 °F
+93
+Temperature = 29.00 °C , Temperature = 84.20 °F
+93
+Temperature = 28.50 °C , Temperature = 83.30 °F
+94
+Temperature = 27.10 °C , Temperature = 80.78 °F
+94
+Temperature = 26.10 °C , Temperature = 78.98 °F
+94
+Temperature = 25.10 °C , Temperature = 77.18 °F
+94
+Temperature = 24.40 °C , Temperature = 75.92 °F
+94
+Temperature = 23.50 °C , Temperature = 74.30 °F
+94
+Temperature = 23.50 °C , Temperature = 74.30 °F
+94
+Temperature = 23.70 °C , Temperature = 74.66 °F
+94
+Temperature = 24.20 °C , Temperature = 75.56 °F
+94
+Temperature = 25.50 °C , Temperature = 77.90 °F
+94
+Temperature = 27.70 °C , Temperature = 81.86 °F
+95
+Temperature = 28.60 °C , Temperature = 83.48 °F
+95
+Temperature = 29.20 °C , Temperature = 84.56 °F
+95
+Temperature = 30.60 °C , Temperature = 87.08 °F
+95
+Temperature = 29.90 °C , Temperature = 85.82 °F
+95
+Temperature = 30.80 °C , Temperature = 87.44 °F
+95
+Temperature = 30.40 °C , Temperature = 86.72 °F
+95
+Temperature = 29.20 °C , Temperature = 84.56 °F
+95
+Temperature = 28.80 °C , Temperature = 83.84 °F
+95
+Temperature = 28.20 °C , Temperature = 82.76 °F
+95
+Temperature = 27.30 °C , Temperature = 81.14 °F
+96
+Temperature = 24.60 °C , Temperature = 76.28 °F
+96
+Temperature = 23.70 °C , Temperature = 74.66 °F
+96
+Temperature = 23.60 °C , Temperature = 74.48 °F
+96
+Temperature = 23.00 °C , Temperature = 73.40 °F
+96
+Temperature = 23.60 °C , Temperature = 74.48 °F
+96
+Temperature = 23.60 °C , Temperature = 74.48 °F
+96
+Temperature = 25.10 °C , Temperature = 77.18 °F
+96
+Temperature = 25.60 °C , Temperature = 78.08 °F
+96
+Temperature = 27.30 °C , Temperature = 81.14 °F
+96
+Temperature = 27.90 °C , Temperature = 82.22 °F
+97
+Temperature = 29.90 °C , Temperature = 85.82 °F
+97
+Temperature = 30.30 °C , Temperature = 86.54 °F
+97
+Temperature = 30.30 °C , Temperature = 86.54 °F
+97
+Temperature = 30.50 °C , Temperature = 86.90 °F
+97
+Temperature = 29.60 °C , Temperature = 85.28 °F
+97
+Temperature = 29.60 °C , Temperature = 85.28 °F
+97
+Temperature = 28.90 °C , Temperature = 84.02 °F
+97
+Temperature = 27.50 °C , Temperature = 81.50 °F
+97
+Temperature = 26.30 °C , Temperature = 79.34 °F
+97
+Temperature = 24.60 °C , Temperature = 76.28 °F
+98
+Temperature = 25.00 °C , Temperature = 77.00 °F
+98
+Temperature = 23.60 °C , Temperature = 74.48 °F
+98
+Temperature = 22.80 °C , Temperature = 73.04 °F
+98
+Temperature = 22.90 °C , Temperature = 73.22 °F
+98
+Temperature = 24.00 °C , Temperature = 75.20 °F
+98
+Temperature = 24.50 °C , Temperature = 76.10 °F
+98
+Temperature = 25.00 °C , Temperature = 77.00 °F
+98
+Temperature = 27.80 °C , Temperature = 82.04 °F
+98
+Temperature = 30.90 °C , Temperature = 87.62 °F
+98
+Temperature = 29.50 °C , Temperature = 85.10 °F
+99
+Temperature = 30.40 °C , Temperature = 86.72 °F
+99
+Temperature = 30.60 °C , Temperature = 87.08 °F
+99
+Temperature = 30.30 °C , Temperature = 86.54 °F
+99
+Temperature = 30.30 °C , Temperature = 86.54 °F
+99
+Temperature = 28.80 °C , Temperature = 83.84 °F
+99
+Temperature = 28.80 °C , Temperature = 83.84 °F
+99
+Temperature = 26.90 °C , Temperature = 80.42 °F
+99
+Temperature = 26.60 °C , Temperature = 79.88 °F
+99
+Temperature = 25.10 °C , Temperature = 77.18 °F
+99
+Temperature = 23.90 °C , Temperature = 75.02 °F
+100
+Temperature = 23.80 °C , Temperature = 74.84 °F
+100
+Temperature = 23.40 °C , Temperature = 74.12 °F
+100
+Temperature = 23.60 °C , Temperature = 74.48 °F
+100
+Temperature = 24.50 °C , Temperature = 76.10 °F
+100
+Temperature = 25.20 °C , Temperature = 77.36 °F
+100
+Temperature = 26.30 °C , Temperature = 79.34 °F
+100
+Temperature = 27.20 °C , Temperature = 80.96 °F
+100
+Temperature = 29.40 °C , Temperature = 84.92 °F
+100
+Temperature = 30.30 °C , Temperature = 86.54 °F
+100
+Temperature = 30.80 °C , Temperature = 87.44 °F
+101
+Temperature = 30.80 °C , Temperature = 87.44 °F
+101
+Temperature = 30.50 °C , Temperature = 86.90 °F
+101
+Temperature = 29.10 °C , Temperature = 84.38 °F
+101
+Temperature = 29.20 °C , Temperature = 84.56 °F
+101
+Temperature = 27.80 °C , Temperature = 82.04 °F
+101
+Temperature = 26.90 °C , Temperature = 80.42 °F
+101
+Temperature = 26.40 °C , Temperature = 79.52 °F
+101
+Temperature = 23.90 °C , Temperature = 75.02 °F
+101
+Temperature = 23.50 °C , Temperature = 74.30 °F
+101
+Temperature = 21.50 °C , Temperature = 70.70 °F
+102
+Temperature = 22.30 °C , Temperature = 72.14 °F
+102
+Temperature = 22.10 °C , Temperature = 71.78 °F
+102
+Temperature = 22.40 °C , Temperature = 72.32 °F
+102
+Temperature = 24.00 °C , Temperature = 75.20 °F
+102
+Temperature = 25.70 °C , Temperature = 78.26 °F
+102
+Temperature = 27.10 °C , Temperature = 80.78 °F
+102
+Temperature = 29.20 °C , Temperature = 84.56 °F
+102
+Temperature = 30.20 °C , Temperature = 86.36 °F
+102
+Temperature = 30.80 °C , Temperature = 87.44 °F
+102
+Temperature = 30.60 °C , Temperature = 87.08 °F
+103
+Temperature = 30.40 °C , Temperature = 86.72 °F
+103
+Temperature = 30.10 °C , Temperature = 86.18 °F
+103
+Temperature = 29.40 °C , Temperature = 84.92 °F
+103
+Temperature = 29.10 °C , Temperature = 84.38 °F
+103
+Temperature = 27.20 °C , Temperature = 80.96 °F
+103
+Temperature = 25.70 °C , Temperature = 78.26 °F
+103
+Temperature = 24.10 °C , Temperature = 75.38 °F
+103
+Temperature = 23.50 °C , Temperature = 74.30 °F
+103
+Temperature = 22.60 °C , Temperature = 72.68 °F
+103
+Temperature = 22.40 °C , Temperature = 72.32 °F
+104
+Temperature = 22.10 °C , Temperature = 71.78 °F
+104
+Temperature = 23.60 °C , Temperature = 74.48 °F
+104
+Temperature = 23.80 °C , Temperature = 74.84 °F
+104
+Temperature = 25.60 °C , Temperature = 78.08 °F
+104
+Temperature = 27.60 °C , Temperature = 81.68 °F
+104
+Temperature = 29.10 °C , Temperature = 84.38 °F
+104
+Temperature = 29.20 °C , Temperature = 84.56 °F
+104
+Temperature = 30.40 °C , Temperature = 86.72 °F
+104
+Temperature = 29.50 °C , Temperature = 85.10 °F
+104
+Temperature = 30.10 °C , Temperature = 86.18 °F
+105
+Temperature = 29.10 °C , Temperature = 84.38 °F
+105
+Temperature = 28.30 °C , Temperature = 82.94 °F
+105
+Temperature = 28.60 °C , Temperature = 83.48 °F
+105
+Temperature = 27.40 °C , Temperature = 81.32 °F
+105
+Temperature = 25.60 °C , Temperature = 78.08 °F
+105
+Temperature = 23.50 °C , Temperature = 74.30 °F
+105
+Temperature = 22.90 °C , Temperature = 73.22 °F
+105
+Temperature = 22.40 °C , Temperature = 72.32 °F
+105
+Temperature = 22.30 °C , Temperature = 72.14 °F
+105
+Temperature = 22.60 °C , Temperature = 72.68 °F
+106
+Temperature = 22.90 °C , Temperature = 73.22 °F
+106
+Temperature = 24.40 °C , Temperature = 75.92 °F
+106
+Temperature = 26.30 °C , Temperature = 79.34 °F
+106
+Temperature = 27.40 °C , Temperature = 81.32 °F
+106
+Temperature = 29.20 °C , Temperature = 84.56 °F
+106
+Temperature = 30.40 °C , Temperature = 86.72 °F
+106
+Temperature = 30.90 °C , Temperature = 87.62 °F
+106
+Temperature = 30.80 °C , Temperature = 87.44 °F
+106
+Temperature = 30.40 °C , Temperature = 86.72 °F
+106
+Temperature = 30.40 °C , Temperature = 86.72 °F
+107
+Temperature = 28.80 °C , Temperature = 83.84 °F
+107
+Temperature = 28.50 °C , Temperature = 83.30 °F
+107
+Temperature = 26.80 °C , Temperature = 80.24 °F
+107
+Temperature = 25.60 °C , Temperature = 78.08 °F
+107
+Temperature = 23.80 °C , Temperature = 74.84 °F
+107
+Temperature = 22.80 °C , Temperature = 73.04 °F
+107
+Temperature = 22.40 °C , Temperature = 72.32 °F
+107
+Temperature = 21.70 °C , Temperature = 71.06 °F
+107
+Temperature = 22.80 °C , Temperature = 73.04 °F
+107
+Temperature = 23.20 °C , Temperature = 73.76 °F
+108
+Temperature = 24.10 °C , Temperature = 75.38 °F
+108
+Temperature = 24.70 °C , Temperature = 76.46 °F
+108
+Temperature = 28.20 °C , Temperature = 82.76 °F
+108
+Temperature = 29.40 °C , Temperature = 84.92 °F
+108
+Temperature = 30.10 °C , Temperature = 86.18 °F
+108
+Temperature = 30.40 °C , Temperature = 86.72 °F
+108
+Temperature = 30.10 °C , Temperature = 86.18 °F
+108
+Temperature = 30.20 °C , Temperature = 86.36 °F
+108
+Temperature = 29.20 °C , Temperature = 84.56 °F
+108
+Temperature = 28.80 °C , Temperature = 83.84 °F
+109
+Temperature = 27.70 °C , Temperature = 81.86 °F
+109
+Temperature = 26.70 °C , Temperature = 80.06 °F
+109
+Temperature = 25.90 °C , Temperature = 78.62 °F
+109
+Temperature = 24.60 °C , Temperature = 76.28 °F
+109
+Temperature = 23.60 °C , Temperature = 74.48 °F
+109
+Temperature = 22.10 °C , Temperature = 71.78 °F
+109
+Temperature = 22.10 °C , Temperature = 71.78 °F
+109
+Temperature = 22.80 °C , Temperature = 73.04 °F
+109
+Temperature = 23.60 °C , Temperature = 74.48 °F
+109
+Temperature = 25.00 °C , Temperature = 77.00 °F
+110
+Temperature = 26.40 °C , Temperature = 79.52 °F
+110
+Temperature = 28.50 °C , Temperature = 83.30 °F
+110
+Temperature = 29.40 °C , Temperature = 84.92 °F
+110
+Temperature = 31.20 °C , Temperature = 88.16 °F
+110
+Temperature = 31.30 °C , Temperature = 88.34 °F
+110
+Temperature = 30.40 °C , Temperature = 86.72 °F
+110
+Temperature = 30.80 °C , Temperature = 87.44 °F
+110
+Temperature = 29.30 °C , Temperature = 84.74 °F
+110
+Temperature = 28.20 °C , Temperature = 82.76 °F
+110
+Temperature = 27.90 °C , Temperature = 82.22 °F
+111
+Temperature = 26.10 °C , Temperature = 78.98 °F
+111
+Temperature = 25.00 °C , Temperature = 77.00 °F
+111
+Temperature = 23.60 °C , Temperature = 74.48 °F
+111
+Temperature = 22.70 °C , Temperature = 72.86 °F
+111
+Temperature = 21.40 °C , Temperature = 70.52 °F
+111
+Temperature = 21.50 °C , Temperature = 70.70 °F
+111
+Temperature = 22.10 °C , Temperature = 71.78 °F
+111
+Temperature = 23.60 °C , Temperature = 74.48 °F
+111
+Temperature = 24.70 °C , Temperature = 76.46 °F
+111
+Temperature = 26.80 °C , Temperature = 80.24 °F
+112
+Temperature = 28.00 °C , Temperature = 82.40 °F
+112
+Temperature = 29.40 °C , Temperature = 84.92 °F
+112
+Temperature = 30.10 °C , Temperature = 86.18 °F
+112
+Temperature = 30.40 °C , Temperature = 86.72 °F
+112
+Temperature = 30.40 °C , Temperature = 86.72 °F
+112
+Temperature = 29.90 °C , Temperature = 85.82 °F
+112
+Temperature = 29.40 °C , Temperature = 84.92 °F
+112
+Temperature = 28.50 °C , Temperature = 83.30 °F
+112
+Temperature = 27.20 °C , Temperature = 80.96 °F
+112
+Temperature = 26.10 °C , Temperature = 78.98 °F
+113
+Temperature = 24.50 °C , Temperature = 76.10 °F
+113
+Temperature = 23.20 °C , Temperature = 73.76 °F
+113
+Temperature = 22.70 °C , Temperature = 72.86 °F
+113
+Temperature = 22.10 °C , Temperature = 71.78 °F
+113
+Temperature = 22.20 °C , Temperature = 71.96 °F
+113
+Temperature = 23.50 °C , Temperature = 74.30 °F
+113
+Temperature = 24.00 °C , Temperature = 75.20 °F
+113
+Temperature = 25.60 °C , Temperature = 78.08 °F
+113
+Temperature = 27.20 °C , Temperature = 80.96 °F
+113
+Temperature = 28.70 °C , Temperature = 83.66 °F
+114
+Temperature = 30.40 °C , Temperature = 86.72 °F
+114
+Temperature = 30.30 °C , Temperature = 86.54 °F
+114
+Temperature = 30.70 °C , Temperature = 87.26 °F
+114
+Temperature = 30.40 °C , Temperature = 86.72 °F
+114
+Temperature = 29.30 °C , Temperature = 84.74 °F
+114
+Temperature = 29.30 °C , Temperature = 84.74 °F
+114
+Temperature = 28.90 °C , Temperature = 84.02 °F
+114
+Temperature = 28.70 °C , Temperature = 83.66 °F
+114
+Temperature = 26.30 °C , Temperature = 79.34 °F
+114
+Temperature = 24.60 °C , Temperature = 76.28 °F
+115
+Temperature = 24.40 °C , Temperature = 75.92 °F
+115
+Temperature = 23.50 °C , Temperature = 74.30 °F
+115
+Temperature = 22.00 °C , Temperature = 71.60 °F
+115
+Temperature = 22.70 °C , Temperature = 72.86 °F
+115
+Temperature = 23.40 °C , Temperature = 74.12 °F
+115
+Temperature = 24.60 °C , Temperature = 76.28 °F
+115
+Temperature = 25.90 °C , Temperature = 78.62 °F
+115
+Temperature = 27.70 °C , Temperature = 81.86 °F
+115
+Temperature = 29.00 °C , Temperature = 84.20 °F
+115
+Temperature = 29.90 °C , Temperature = 85.82 °F
+116
+Temperature = 30.60 °C , Temperature = 87.08 °F
+116
+Temperature = 31.00 °C , Temperature = 87.80 °F
+116
+Temperature = 30.40 °C , Temperature = 86.72 °F
+116
+Temperature = 30.20 °C , Temperature = 86.36 °F
+116
+Temperature = 28.90 °C , Temperature = 84.02 °F
+116
+Temperature = 28.80 °C , Temperature = 83.84 °F
+116
+Temperature = 27.40 °C , Temperature = 81.32 °F
+116
+Temperature = 25.60 °C , Temperature = 78.08 °F
+116
+Temperature = 24.70 °C , Temperature = 76.46 °F
+116
+Temperature = 22.70 °C , Temperature = 72.86 °F
+117
+Temperature = 21.90 °C , Temperature = 71.42 °F
+117
+Temperature = 21.40 °C , Temperature = 70.52 °F
+117
+Temperature = 22.50 °C , Temperature = 72.50 °F
+117
+Temperature = 22.50 °C , Temperature = 72.50 °F
+117
+Temperature = 23.50 °C , Temperature = 74.30 °F
+117
+Temperature = 23.50 °C , Temperature = 74.30 °F
+117
+Temperature = 26.30 °C , Temperature = 79.34 °F
+117
+Temperature = 28.80 °C , Temperature = 83.84 °F
+117
+Temperature = 30.40 °C , Temperature = 86.72 °F
+117
+Temperature = 30.90 °C , Temperature = 87.62 °F
+118
+Temperature = 30.70 °C , Temperature = 87.26 °F
+118
+Temperature = 31.00 °C , Temperature = 87.80 °F
+118
+Temperature = 30.40 °C , Temperature = 86.72 °F
+118
+Temperature = 29.00 °C , Temperature = 84.20 °F
+118
+Temperature = 28.50 °C , Temperature = 83.30 °F
+118
+Temperature = 26.30 °C , Temperature = 79.34 °F
+118
+Temperature = 24.70 °C , Temperature = 76.46 °F
+118
+Temperature = 24.50 °C , Temperature = 76.10 °F
+118
+Temperature = 22.40 °C , Temperature = 72.32 °F
+118
+Temperature = 21.10 °C , Temperature = 69.98 °F
+119
+Temperature = 20.60 °C , Temperature = 69.08 °F
+119
+Temperature = 20.50 °C , Temperature = 68.90 °F
+119
+Temperature = 20.90 °C , Temperature = 69.62 °F
+119
+Temperature = 21.90 °C , Temperature = 71.42 °F
+119
+Temperature = 24.10 °C , Temperature = 75.38 °F
+119
+Temperature = 26.30 °C , Temperature = 79.34 °F
+119
+Temperature = 28.70 °C , Temperature = 83.66 °F
+119
+Temperature = 30.80 °C , Temperature = 87.44 °F
+119
+Temperature = 30.80 °C , Temperature = 87.44 °F
+119
+Temperature = 30.90 °C , Temperature = 87.62 °F
+120
+Temperature = 30.50 °C , Temperature = 86.90 °F
+120
+Temperature = 29.90 °C , Temperature = 85.82 °F
+120
+Temperature = 29.30 °C , Temperature = 84.74 °F
+120
+Temperature = 28.80 °C , Temperature = 83.84 °F
+120
+Temperature = 26.30 °C , Temperature = 79.34 °F
+120
+Temperature = 24.90 °C , Temperature = 76.82 °F
+120
+Temperature = 23.60 °C , Temperature = 74.48 °F
+120
+Temperature = 22.20 °C , Temperature = 71.96 °F
+120
+Temperature = 20.50 °C , Temperature = 68.90 °F
+120
+Temperature = 19.90 °C , Temperature = 67.82 °F
+121
+Temperature = 19.80 °C , Temperature = 67.64 °F
+121
+Temperature = 20.90 °C , Temperature = 69.62 °F
+121
+Temperature = 23.00 °C , Temperature = 73.40 °F
+121
+Temperature = 25.00 °C , Temperature = 77.00 °F
+121
+Temperature = 27.70 °C , Temperature = 81.86 °F
+121
+Temperature = 29.00 °C , Temperature = 84.20 °F
+121
+Temperature = 30.80 °C , Temperature = 87.44 °F
+121
+Temperature = 29.80 °C , Temperature = 85.64 °F
+121
+Temperature = 31.70 °C , Temperature = 89.06 °F
+121
+Temperature = 30.60 °C , Temperature = 87.08 °F
+122
+Temperature = 29.90 °C , Temperature = 85.82 °F
+122
+Temperature = 27.50 °C , Temperature = 81.50 °F
+122
+Temperature = 27.60 °C , Temperature = 81.68 °F
+122
+Temperature = 25.10 °C , Temperature = 77.18 °F
+122
+Temperature = 24.30 °C , Temperature = 75.74 °F
+122
+Temperature = 22.70 °C , Temperature = 72.86 °F
+122
+Temperature = 22.30 °C , Temperature = 72.14 °F
+122
+Temperature = 20.10 °C , Temperature = 68.18 °F
+122
+Temperature = 20.80 °C , Temperature = 69.44 °F
+122
+Temperature = 20.70 °C , Temperature = 69.26 °F
+123
+Temperature = 21.90 °C , Temperature = 71.42 °F
+123
+Temperature = 23.50 °C , Temperature = 74.30 °F
+123
+Temperature = 25.90 °C , Temperature = 78.62 °F
+123
+Temperature = 28.80 °C , Temperature = 83.84 °F
+123
+Temperature = 29.90 °C , Temperature = 85.82 °F
+123
+Temperature = 30.80 °C , Temperature = 87.44 °F
+123
+Temperature = 31.10 °C , Temperature = 87.98 °F
+123
+Temperature = 31.50 °C , Temperature = 88.70 °F
+123
+Temperature = 30.00 °C , Temperature = 86.00 °F
+123
+Temperature = 29.40 °C , Temperature = 84.92 °F
+124
+Temperature = 28.00 °C , Temperature = 82.40 °F
+124
+Temperature = 26.90 °C , Temperature = 80.42 °F
+124
+Temperature = 25.40 °C , Temperature = 77.72 °F
+124
+Temperature = 22.80 °C , Temperature = 73.04 °F
+124
+Temperature = 22.60 °C , Temperature = 72.68 °F
+124
+Temperature = 20.90 °C , Temperature = 69.62 °F
+124
+Temperature = 19.90 °C , Temperature = 67.82 °F
+124
+Temperature = 20.60 °C , Temperature = 69.08 °F
+124
+Temperature = 21.00 °C , Temperature = 69.80 °F
+124
+Temperature = 22.30 °C , Temperature = 72.14 °F
+125
+Temperature = 24.10 °C , Temperature = 75.38 °F
+125
+Temperature = 26.60 °C , Temperature = 79.88 °F
+125
+Temperature = 29.00 °C , Temperature = 84.20 °F
+125
+Temperature = 30.30 °C , Temperature = 86.54 °F
+125
+Temperature = 30.90 °C , Temperature = 87.62 °F
+125
+Temperature = 30.40 °C , Temperature = 86.72 °F
+125
+Temperature = 30.60 °C , Temperature = 87.08 °F
+125
+Temperature = 29.90 °C , Temperature = 85.82 °F
+125
+Temperature = 28.80 °C , Temperature = 83.84 °F
+125
+Temperature = 27.60 °C , Temperature = 81.68 °F
+126
+Temperature = 26.30 °C , Temperature = 79.34 °F
+126
+Temperature = 24.00 °C , Temperature = 75.20 °F
+126
+Temperature = 23.50 °C , Temperature = 74.30 °F
+126
+Temperature = 21.90 °C , Temperature = 71.42 °F
+126
+Temperature = 20.40 °C , Temperature = 68.72 °F
+126
+Temperature = 19.80 °C , Temperature = 67.64 °F
+126
+Temperature = 20.90 °C , Temperature = 69.62 °F
+126
+Temperature = 21.20 °C , Temperature = 70.16 °F
+126
+Temperature = 22.90 °C , Temperature = 73.22 °F
+126
+Temperature = 24.60 °C , Temperature = 76.28 °F
+127
+Temperature = 27.20 °C , Temperature = 80.96 °F
+127
+Temperature = 29.00 °C , Temperature = 84.20 °F
+127
+Temperature = 30.20 °C , Temperature = 86.36 °F
+127
+Temperature = 31.60 °C , Temperature = 88.88 °F
+127
+Temperature = 30.90 °C , Temperature = 87.62 °F
+127
+Temperature = 30.70 °C , Temperature = 87.26 °F
+127
+Temperature = 29.00 °C , Temperature = 84.20 °F
+127
+Temperature = 28.40 °C , Temperature = 83.12 °F
+127
+Temperature = 26.60 °C , Temperature = 79.88 °F
+127
+Temperature = 26.10 °C , Temperature = 78.98 °F
+128
+Temperature = 24.00 °C , Temperature = 75.20 °F
+128
+Temperature = 23.10 °C , Temperature = 73.58 °F
+128
+Temperature = 21.40 °C , Temperature = 70.52 °F
+128
+Temperature = 20.30 °C , Temperature = 68.54 °F
+128
+Temperature = 20.40 °C , Temperature = 68.72 °F
+128
+Temperature = 21.20 °C , Temperature = 70.16 °F
+128
+Temperature = 22.10 °C , Temperature = 71.78 °F
+128
+Temperature = 23.20 °C , Temperature = 73.76 °F
+128
+Temperature = 26.10 °C , Temperature = 78.98 °F
+128
+Temperature = 28.80 °C , Temperature = 83.84 °F
+129
+Temperature = 30.30 °C , Temperature = 86.54 °F
+129
+Temperature = 31.10 °C , Temperature = 87.98 °F
+129
+Temperature = 31.30 °C , Temperature = 88.34 °F
+129
+Temperature = 30.80 °C , Temperature = 87.44 °F
+129
+Temperature = 29.60 °C , Temperature = 85.28 °F
+129
+Temperature = 29.00 °C , Temperature = 84.20 °F
+129
+Temperature = 27.70 °C , Temperature = 81.86 °F
+129
+Temperature = 26.60 °C , Temperature = 79.88 °F
+129
+Temperature = 25.50 °C , Temperature = 77.90 °F
+129
+Temperature = 23.70 °C , Temperature = 74.66 °F
+130
+Temperature = 22.60 °C , Temperature = 72.68 °F
+130
+Temperature = 21.20 °C , Temperature = 70.16 °F
+130
+Temperature = 21.90 °C , Temperature = 71.42 °F
+130
+Temperature = 21.00 °C , Temperature = 69.80 °F
+130
+Temperature = 20.50 °C , Temperature = 68.90 °F
+130
+Temperature = 22.40 °C , Temperature = 72.32 °F
+130
+Temperature = 24.10 °C , Temperature = 75.38 °F
+130
+Temperature = 25.40 °C , Temperature = 77.72 °F
+130
+Temperature = 28.80 °C , Temperature = 83.84 °F
+130
+Temperature = 30.40 °C , Temperature = 86.72 °F
+131
+Temperature = 30.90 °C , Temperature = 87.62 °F
+131
+Temperature = 31.20 °C , Temperature = 88.16 °F
+131
+Temperature = 29.00 °C , Temperature = 84.20 °F
+131
+Temperature = 29.90 °C , Temperature = 85.82 °F
+131
+Temperature = 28.40 °C , Temperature = 83.12 °F
+131
+Temperature = 28.80 °C , Temperature = 83.84 °F
+131
+Temperature = 26.80 °C , Temperature = 80.24 °F
+131
+Temperature = 26.20 °C , Temperature = 79.16 °F
+131
+Temperature = 23.60 °C , Temperature = 74.48 °F
+131
+Temperature = 23.50 °C , Temperature = 74.30 °F
+132
+Temperature = 22.70 °C , Temperature = 72.86 °F
+132
+Temperature = 22.10 °C , Temperature = 71.78 °F
+132
+Temperature = 21.20 °C , Temperature = 70.16 °F
+132
+Temperature = 22.70 °C , Temperature = 72.86 °F
+132
+Temperature = 24.10 °C , Temperature = 75.38 °F
+132
+Temperature = 25.60 °C , Temperature = 78.08 °F
+132
+Temperature = 27.40 °C , Temperature = 81.32 °F
+132
+Temperature = 29.20 °C , Temperature = 84.56 °F
+132
+Temperature = 30.20 °C , Temperature = 86.36 °F
+132
+Temperature = 30.30 °C , Temperature = 86.54 °F
+133
+Temperature = 30.60 °C , Temperature = 87.08 °F
+133
+Temperature = 30.40 °C , Temperature = 86.72 °F
+133
+Temperature = 30.40 °C , Temperature = 86.72 °F
+133
+Temperature = 29.00 °C , Temperature = 84.20 °F
+133
+Temperature = 27.70 °C , Temperature = 81.86 °F
+133
+Temperature = 26.20 °C , Temperature = 79.16 °F
+133
+Temperature = 25.00 °C , Temperature = 77.00 °F
+133
+Temperature = 24.10 °C , Temperature = 75.38 °F
+133
+Temperature = 22.50 °C , Temperature = 72.50 °F
+133
+Temperature = 22.10 °C , Temperature = 71.78 °F
+134
+Temperature = 21.40 °C , Temperature = 70.52 °F
+134
+Temperature = 22.20 °C , Temperature = 71.96 °F
+134
+Temperature = 23.60 °C , Temperature = 74.48 °F
+134
+Temperature = 24.20 °C , Temperature = 75.56 °F
+134
+Temperature = 24.90 °C , Temperature = 76.82 °F
+134
+Temperature = 27.60 °C , Temperature = 81.68 °F
+134
+Temperature = 29.50 °C , Temperature = 85.10 °F
+134
+Temperature = 29.60 °C , Temperature = 85.28 °F
+134
+Temperature = 30.70 °C , Temperature = 87.26 °F
+134
+Temperature = 30.90 °C , Temperature = 87.62 °F
+135
+Temperature = 29.30 °C , Temperature = 84.74 °F
+135
+Temperature = 29.30 °C , Temperature = 84.74 °F
+135
+Temperature = 29.00 °C , Temperature = 84.20 °F
+135
+Temperature = 27.40 °C , Temperature = 81.32 °F
+135
+Temperature = 25.00 °C , Temperature = 77.00 °F
+135
+Temperature = 23.90 °C , Temperature = 75.02 °F
+135
+Temperature = 23.10 °C , Temperature = 73.58 °F
+135
+Temperature = 21.20 °C , Temperature = 70.16 °F
+135
+Temperature = 21.70 °C , Temperature = 71.06 °F
+135
+Temperature = 22.40 °C , Temperature = 72.32 °F
+136
+Temperature = 22.90 °C , Temperature = 73.22 °F
+136
+Temperature = 24.10 °C , Temperature = 75.38 °F
+136
+Temperature = 25.10 °C , Temperature = 77.18 °F
+136
+Temperature = 27.80 °C , Temperature = 82.04 °F
+136
+Temperature = 29.00 °C , Temperature = 84.20 °F
+136
+Temperature = 30.30 °C , Temperature = 86.54 °F
+136
+Temperature = 31.50 °C , Temperature = 88.70 °F
+136
+Temperature = 30.40 °C , Temperature = 86.72 °F
+136
+Temperature = 30.40 °C , Temperature = 86.72 °F
+136
+Temperature = 29.40 °C , Temperature = 84.92 °F
+137
+Temperature = 29.00 °C , Temperature = 84.20 °F
+137
+Temperature = 27.90 °C , Temperature = 82.22 °F
+137
+Temperature = 27.00 °C , Temperature = 80.60 °F
+137
+Temperature = 25.30 °C , Temperature = 77.54 °F
+137
+Temperature = 24.50 °C , Temperature = 76.10 °F
+137
+Temperature = 22.90 °C , Temperature = 73.22 °F
+137
+Temperature = 22.40 °C , Temperature = 72.32 °F
+137
+Temperature = 21.10 °C , Temperature = 69.98 °F
+137
+Temperature = 23.60 °C , Temperature = 74.48 °F
+137
+Temperature = 22.00 °C , Temperature = 71.60 °F
+138
+Temperature = 24.20 °C , Temperature = 75.56 °F
+138
+Temperature = 25.80 °C , Temperature = 78.44 °F
+138
+Temperature = 27.70 °C , Temperature = 81.86 °F
+138
+Temperature = 29.80 °C , Temperature = 85.64 °F
+138
+Temperature = 30.30 °C , Temperature = 86.54 °F
+138
+Temperature = 30.90 °C , Temperature = 87.62 °F
+138
+Temperature = 30.60 °C , Temperature = 87.08 °F
+138
+Temperature = 30.40 °C , Temperature = 86.72 °F
+138
+Temperature = 29.30 °C , Temperature = 84.74 °F
+138
+Temperature = 29.00 °C , Temperature = 84.20 °F
+139
+Temperature = 27.20 °C , Temperature = 80.96 °F
+139
+Temperature = 26.10 °C , Temperature = 78.98 °F
+139
+Temperature = 24.50 °C , Temperature = 76.10 °F
+139
+Temperature = 23.30 °C , Temperature = 73.94 °F
+139
+Temperature = 22.60 °C , Temperature = 72.68 °F
+139
+Temperature = 21.40 °C , Temperature = 70.52 °F
+139
+Temperature = 21.40 °C , Temperature = 70.52 °F
+139
+Temperature = 22.20 °C , Temperature = 71.96 °F
+139
+Temperature = 23.90 °C , Temperature = 75.02 °F
+139
+Temperature = 25.50 °C , Temperature = 77.90 °F
+140
+Temperature = 27.10 °C , Temperature = 80.78 °F
+140
+Temperature = 28.80 °C , Temperature = 83.84 °F
+140
+Temperature = 30.40 °C , Temperature = 86.72 °F
+140
+Temperature = 30.40 °C , Temperature = 86.72 °F
+140
+Temperature = 30.40 °C , Temperature = 86.72 °F
+140
+Temperature = 29.80 °C , Temperature = 85.64 °F
+140
+Temperature = 30.40 °C , Temperature = 86.72 °F
+140
+Temperature = 29.30 °C , Temperature = 84.74 °F
+140
+Temperature = 27.70 °C , Temperature = 81.86 °F
+140
+Temperature = 26.60 °C , Temperature = 79.88 °F
+141
+Temperature = 25.00 °C , Temperature = 77.00 °F
+141
+Temperature = 24.40 °C , Temperature = 75.92 °F
+141
+Temperature = 23.00 °C , Temperature = 73.40 °F
+141
+Temperature = 22.00 °C , Temperature = 71.60 °F
+141
+Temperature = 21.70 °C , Temperature = 71.06 °F
+141
+Temperature = 21.90 °C , Temperature = 71.42 °F
+141
+Temperature = 22.10 °C , Temperature = 71.78 °F
+141
+Temperature = 23.50 °C , Temperature = 74.30 °F
+141
+Temperature = 26.10 °C , Temperature = 78.98 °F
+141
+Temperature = 28.00 °C , Temperature = 82.40 °F
+142
+Temperature = 29.60 °C , Temperature = 85.28 °F
+142
+Temperature = 30.40 °C , Temperature = 86.72 °F
+142
+Temperature = 30.80 °C , Temperature = 87.44 °F
+142
+Temperature = 30.80 °C , Temperature = 87.44 °F
+142
+Temperature = 29.30 °C , Temperature = 84.74 °F
+142
+Temperature = 29.00 °C , Temperature = 84.20 °F
+142
+Temperature = 28.20 °C , Temperature = 82.76 °F
+142
+Temperature = 27.20 °C , Temperature = 80.96 °F
+142
+Temperature = 25.50 °C , Temperature = 77.90 °F
+142
+Temperature = 25.10 °C , Temperature = 77.18 °F
+143
+Temperature = 23.00 °C , Temperature = 73.40 °F
+143
+Temperature = 22.00 °C , Temperature = 71.60 °F
+143
+Temperature = 21.50 °C , Temperature = 70.70 °F
+143
+Temperature = 21.50 °C , Temperature = 70.70 °F
+143
+Temperature = 22.30 °C , Temperature = 72.14 °F
+143
+Temperature = 23.50 °C , Temperature = 74.30 °F
+143
+Temperature = 24.00 °C , Temperature = 75.20 °F
+143
+Temperature = 26.40 °C , Temperature = 79.52 °F
+143
+Temperature = 30.20 °C , Temperature = 86.36 °F
+143
+Temperature = 30.40 °C , Temperature = 86.72 °F
+144
+Temperature = 30.40 °C , Temperature = 86.72 °F
+144
+Temperature = 29.90 °C , Temperature = 85.82 °F
+144
+Temperature = 30.40 °C , Temperature = 86.72 °F
+144
+Temperature = 29.50 °C , Temperature = 85.10 °F
+144
+Temperature = 29.10 °C , Temperature = 84.38 °F
+144
+Temperature = 28.30 °C , Temperature = 82.94 °F
+144
+Temperature = 26.30 °C , Temperature = 79.34 °F
+144
+Temperature = 25.00 °C , Temperature = 77.00 °F
+144
+Temperature = 24.50 °C , Temperature = 76.10 °F
+144
+Temperature = 23.60 °C , Temperature = 74.48 °F
+145
+Temperature = 22.30 °C , Temperature = 72.14 °F
+145
+Temperature = 21.10 °C , Temperature = 69.98 °F
+145
+Temperature = 22.20 °C , Temperature = 71.96 °F
+145
+Temperature = 22.40 °C , Temperature = 72.32 °F
+145
+Temperature = 23.00 °C , Temperature = 73.40 °F
+145
+Temperature = 25.00 °C , Temperature = 77.00 °F
+145
+Temperature = 27.30 °C , Temperature = 81.14 °F
+145
+Temperature = 29.00 °C , Temperature = 84.20 °F
+145
+Temperature = 30.10 °C , Temperature = 86.18 °F
+145
+Temperature = 30.10 °C , Temperature = 86.18 °F
+146
+Temperature = 31.30 °C , Temperature = 88.34 °F
+146
+Temperature = 30.20 °C , Temperature = 86.36 °F
+146
+Temperature = 29.80 °C , Temperature = 85.64 °F
+146
+Temperature = 29.30 °C , Temperature = 84.74 °F
+146
+Temperature = 27.40 °C , Temperature = 81.32 °F
+146
+Temperature = 26.40 °C , Temperature = 79.52 °F
+146
+Temperature = 25.40 °C , Temperature = 77.72 °F
+146
+Temperature = 23.90 °C , Temperature = 75.02 °F
+146
+Temperature = 22.50 °C , Temperature = 72.50 °F
+146
+Temperature = 22.50 °C , Temperature = 72.50 °F
+147
+Temperature = 21.90 °C , Temperature = 71.42 °F
+147
+Temperature = 21.80 °C , Temperature = 71.24 °F
+147
+Temperature = 22.10 °C , Temperature = 71.78 °F
+147
+Temperature = 23.60 °C , Temperature = 74.48 °F
+147
+Temperature = 25.50 °C , Temperature = 77.90 °F
+147
+Temperature = 27.70 °C , Temperature = 81.86 °F
+147
+Temperature = 29.00 °C , Temperature = 84.20 °F
+147
+Temperature = 29.90 °C , Temperature = 85.82 °F
+147
+Temperature = 30.50 °C , Temperature = 86.90 °F
+147
+Temperature = 31.10 °C , Temperature = 87.98 °F
+148
+Temperature = 30.30 °C , Temperature = 86.54 °F
+148
+Temperature = 29.30 °C , Temperature = 84.74 °F
+148
+Temperature = 29.30 °C , Temperature = 84.74 °F
+148
+Temperature = 26.90 °C , Temperature = 80.42 °F
+148
+Temperature = 26.30 °C , Temperature = 79.34 °F
+148
+Temperature = 24.20 °C , Temperature = 75.56 °F
+148
+Temperature = 22.90 °C , Temperature = 73.22 °F
+148
+Temperature = 22.50 °C , Temperature = 72.50 °F
+148
+Temperature = 21.50 °C , Temperature = 70.70 °F
+148
+Temperature = 22.10 °C , Temperature = 71.78 °F
+149
+Temperature = 21.80 °C , Temperature = 71.24 °F
+149
+Temperature = 23.10 °C , Temperature = 73.58 °F
+149
+Temperature = 24.70 °C , Temperature = 76.46 °F
+149
+Temperature = 26.50 °C , Temperature = 79.70 °F
+149
+Temperature = 28.60 °C , Temperature = 83.48 °F
+149
+Temperature = 29.60 °C , Temperature = 85.28 °F
+149
+Temperature = 30.50 °C , Temperature = 86.90 °F
+149
+Temperature = 30.90 °C , Temperature = 87.62 °F
+149
+Temperature = 30.60 °C , Temperature = 87.08 °F
+149
+Temperature = 30.20 °C , Temperature = 86.36 °F
+150
+Temperature = 29.10 °C , Temperature = 84.38 °F
+150
+Temperature = 28.30 °C , Temperature = 82.94 °F
+150
+Temperature = 26.60 °C , Temperature = 79.88 °F
+150
+Temperature = 25.20 °C , Temperature = 77.36 °F
+150
+Temperature = 24.50 °C , Temperature = 76.10 °F
+150
+Temperature = 22.70 °C , Temperature = 72.86 °F
+150
+Temperature = 21.40 °C , Temperature = 70.52 °F
+150
+Temperature = 20.90 °C , Temperature = 69.62 °F
+150
+Temperature = 22.00 °C , Temperature = 71.60 °F
+150
+Temperature = 22.10 °C , Temperature = 71.78 °F
+151
+Temperature = 23.00 °C , Temperature = 73.40 °F
+151
+Temperature = 25.00 °C , Temperature = 77.00 °F
+151
+Temperature = 26.30 °C , Temperature = 79.34 °F
+151
+Temperature = 27.90 °C , Temperature = 82.22 °F
+151
+Temperature = 29.80 °C , Temperature = 85.64 °F
+151
+Temperature = 30.30 °C , Temperature = 86.54 °F
+151
+Temperature = 30.90 °C , Temperature = 87.62 °F
+151
+Temperature = 30.40 °C , Temperature = 86.72 °F
+151
+Temperature = 30.40 °C , Temperature = 86.72 °F
+151
+Temperature = 29.00 °C , Temperature = 84.20 °F
+152
+Temperature = 27.70 °C , Temperature = 81.86 °F
+152
+Temperature = 27.20 °C , Temperature = 80.96 °F
+152
+Temperature = 26.10 °C , Temperature = 78.98 °F
+152
+Temperature = 24.10 °C , Temperature = 75.38 °F
+152
+Temperature = 22.50 °C , Temperature = 72.50 °F
+152
+Temperature = 21.90 °C , Temperature = 71.42 °F
+152
+Temperature = 21.40 °C , Temperature = 70.52 °F
+152
+Temperature = 21.70 °C , Temperature = 71.06 °F
+152
+Temperature = 23.10 °C , Temperature = 73.58 °F
+152
+Temperature = 23.70 °C , Temperature = 74.66 °F
+153
+Temperature = 25.10 °C , Temperature = 77.18 °F
+153
+Temperature = 27.10 °C , Temperature = 80.78 °F
+153
+Temperature = 29.00 °C , Temperature = 84.20 °F
+153
+Temperature = 30.10 °C , Temperature = 86.18 °F
+153
+Temperature = 30.90 °C , Temperature = 87.62 °F
+153
+Temperature = 31.10 °C , Temperature = 87.98 °F
+153
+Temperature = 30.40 °C , Temperature = 86.72 °F
+153
+Temperature = 29.00 °C , Temperature = 84.20 °F
+153
+Temperature = 29.00 °C , Temperature = 84.20 °F
+153
+Temperature = 28.00 °C , Temperature = 82.40 °F
+154
+Temperature = 25.70 °C , Temperature = 78.26 °F
+154
+Temperature = 25.10 °C , Temperature = 77.18 °F
+154
+Temperature = 24.50 °C , Temperature = 76.10 °F
+154
+Temperature = 22.40 °C , Temperature = 72.32 °F
+154
+Temperature = 21.40 °C , Temperature = 70.52 °F
+154
+Temperature = 21.40 °C , Temperature = 70.52 °F
+154
+Temperature = 21.90 °C , Temperature = 71.42 °F
+154
+Temperature = 22.50 °C , Temperature = 72.50 °F
+154
+Temperature = 23.60 °C , Temperature = 74.48 °F
+154
+Temperature = 26.10 °C , Temperature = 78.98 °F
+155
+Temperature = 27.80 °C , Temperature = 82.04 °F
+155
+Temperature = 29.00 °C , Temperature = 84.20 °F
+155
+Temperature = 30.30 °C , Temperature = 86.54 °F
+155
+Temperature = 30.40 °C , Temperature = 86.72 °F
+155
+Temperature = 30.60 °C , Temperature = 87.08 °F
+155
+Temperature = 30.30 °C , Temperature = 86.54 °F
+155
+Temperature = 30.20 °C , Temperature = 86.36 °F
+155
+Temperature = 28.80 °C , Temperature = 83.84 °F
+155
+Temperature = 27.50 °C , Temperature = 81.50 °F
+155
+Temperature = 25.70 °C , Temperature = 78.26 °F
+156
+Temperature = 25.10 °C , Temperature = 77.18 °F
+156
+Temperature = 23.60 °C , Temperature = 74.48 °F
+156
+Temperature = 22.50 °C , Temperature = 72.50 °F
+156
+Temperature = 21.80 °C , Temperature = 71.24 °F
+156
+Temperature = 20.90 °C , Temperature = 69.62 °F
+156
+Temperature = 22.00 °C , Temperature = 71.60 °F
+156
+Temperature = 22.80 °C , Temperature = 73.04 °F
+156
+Temperature = 24.40 °C , Temperature = 75.92 °F
+156
+Temperature = 26.30 °C , Temperature = 79.34 °F
+156
+Temperature = 28.30 °C , Temperature = 82.94 °F
+157
+Temperature = 29.90 °C , Temperature = 85.82 °F
+157
+Temperature = 30.20 °C , Temperature = 86.36 °F
+157
+Temperature = 30.60 °C , Temperature = 87.08 °F
+157
+Temperature = 31.20 °C , Temperature = 88.16 °F
+157
+Temperature = 30.70 °C , Temperature = 87.26 °F
+157
+Temperature = 29.60 °C , Temperature = 85.28 °F
+157
+Temperature = 28.60 °C , Temperature = 83.48 °F
+157
+Temperature = 27.20 °C , Temperature = 80.96 °F
+157
+Temperature = 26.20 °C , Temperature = 79.16 °F
+157
+Temperature = 25.00 °C , Temperature = 77.00 °F
+158
+Temperature = 23.50 °C , Temperature = 74.30 °F
+158
+Temperature = 22.10 °C , Temperature = 71.78 °F
+158
+Temperature = 21.70 °C , Temperature = 71.06 °F
+158
+Temperature = 21.60 °C , Temperature = 70.88 °F
+158
+Temperature = 22.10 °C , Temperature = 71.78 °F
+158
+Temperature = 22.90 °C , Temperature = 73.22 °F
+158
+Temperature = 25.00 °C , Temperature = 77.00 °F
+158
+Temperature = 26.40 °C , Temperature = 79.52 °F
+158
+Temperature = 28.30 °C , Temperature = 82.94 °F
+158
+Temperature = 30.40 °C , Temperature = 86.72 °F
+159
+Temperature = 30.80 °C , Temperature = 87.44 °F
+159
+Temperature = 30.60 °C , Temperature = 87.08 °F
+159
+Temperature = 30.40 °C , Temperature = 86.72 °F
+159
+Temperature = 29.90 °C , Temperature = 85.82 °F
+159
+Temperature = 29.20 °C , Temperature = 84.56 °F
+159
+Temperature = 29.00 °C , Temperature = 84.20 °F
+159
+Temperature = 27.10 °C , Temperature = 80.78 °F
+159
+Temperature = 26.30 °C , Temperature = 79.34 °F
+159
+Temperature = 24.70 °C , Temperature = 76.46 °F
+159
+Temperature = 23.40 °C , Temperature = 74.12 °F
+160
+Temperature = 22.50 °C , Temperature = 72.50 °F
+160
+Temperature = 21.40 °C , Temperature = 70.52 °F
+160
+Temperature = 21.70 °C , Temperature = 71.06 °F
+160
+Temperature = 22.50 °C , Temperature = 72.50 °F
+160
+Temperature = 23.10 °C , Temperature = 73.58 °F
+160
+Temperature = 25.00 °C , Temperature = 77.00 °F
+160
+Temperature = 26.80 °C , Temperature = 80.24 °F
+160
+Temperature = 28.80 °C , Temperature = 83.84 °F
+160
+Temperature = 30.20 °C , Temperature = 86.36 °F
+160
+Temperature = 30.80 °C , Temperature = 87.44 °F
+161
+Temperature = 30.90 °C , Temperature = 87.62 °F
+161
+Temperature = 30.00 °C , Temperature = 86.00 °F
+161
+Temperature = 29.70 °C , Temperature = 85.46 °F
+161
+Temperature = 29.40 °C , Temperature = 84.92 °F
+161
+Temperature = 28.10 °C , Temperature = 82.58 °F
+161
+Temperature = 26.70 °C , Temperature = 80.06 °F
+161
+Temperature = 25.50 °C , Temperature = 77.90 °F
+161
+Temperature = 25.10 °C , Temperature = 77.18 °F
+161
+Temperature = 23.60 °C , Temperature = 74.48 °F
+161
+Temperature = 21.90 °C , Temperature = 71.42 °F
+162
+Temperature = 21.80 °C , Temperature = 71.24 °F
+162
+Temperature = 21.20 °C , Temperature = 70.16 °F
+162
+Temperature = 22.50 °C , Temperature = 72.50 °F
+162
+Temperature = 23.50 °C , Temperature = 74.30 °F
+162
+Temperature = 24.60 °C , Temperature = 76.28 °F
+162
+Temperature = 26.40 °C , Temperature = 79.52 °F
+162
+Temperature = 28.30 °C , Temperature = 82.94 °F
+162
+Temperature = 26.70 °C , Temperature = 80.06 °F
+162
+Temperature = 28.70 °C , Temperature = 83.66 °F
+162
+Temperature = 32.50 °C , Temperature = 90.50 °F
+163
+Temperature = 33.30 °C , Temperature = 91.94 °F
+163
+Temperature = 31.70 °C , Temperature = 89.06 °F
+163
+Temperature = 37.30 °C , Temperature = 99.14 °F
+163
+Temperature = 29.20 °C , Temperature = 84.56 °F
+163
+Temperature = 26.30 °C , Temperature = 79.34 °F
+163
+Temperature = 22.40 °C , Temperature = 72.32 °F
+163
+Temperature = 16.60 °C , Temperature = 61.88 °F
+163
+Temperature = 14.20 °C , Temperature = 57.56 °F
+163
+Temperature = 14.20 °C , Temperature = 57.56 °F
+163
+Temperature = 14.20 °C , Temperature = 57.56 °F
+164
+Temperature = 14.20 °C , Temperature = 57.56 °F
+164
+Temperature = 14.20 °C , Temperature = 57.56 °F
+164
+Temperature = 14.20 °C , Temperature = 57.56 °F
+164
+Temperature = 14.20 °C , Temperature = 57.56 °F
+164
+Temperature = 15.10 °C , Temperature = 59.18 °F
+164
+Temperature = 33.50 °C , Temperature = 92.30 °F
+164
+Temperature = 35.50 °C , Temperature = 95.90 °F
+164
+Temperature = 35.60 °C , Temperature = 96.08 °F
+164
+Temperature = 35.50 °C , Temperature = 95.90 °F
+164
+Temperature = 35.30 °C , Temperature = 95.54 °F
+165
+Temperature = 32.30 °C , Temperature = 90.14 °F
+165
+Temperature = 29.90 °C , Temperature = 85.82 °F
+165
+Temperature = 27.70 °C , Temperature = 81.86 °F
+165
+Temperature = 19.00 °C , Temperature = 66.20 °F
+165
+Temperature = 25.10 °C , Temperature = 77.18 °F
+165
+Temperature = 24.70 °C , Temperature = 76.46 °F
+165
+Temperature = 37.70 °C , Temperature = 99.86 °F
+165
+Temperature = 22.50 °C , Temperature = 72.50 °F
+165
+Temperature = 20.40 °C , Temperature = 68.72 °F
+165
+Temperature = 14.20 °C , Temperature = 57.56 °F
+166
+Temperature = 16.50 °C , Temperature = 61.70 °F
+166
+Temperature = 15.50 °C , Temperature = 59.90 °F
+166
+Temperature = 15.10 °C , Temperature = 59.18 °F
+166
+Temperature = 26.30 °C , Temperature = 79.34 °F
+166
+Temperature = 32.80 °C , Temperature = 91.04 °F
+166
+Temperature = 29.90 °C , Temperature = 85.82 °F
+166
+Temperature = 49.10 °C , Temperature = 120.38 °F
+166
+Temperature = 35.70 °C , Temperature = 96.26 °F
+166
+Temperature = 41.60 °C , Temperature = 106.88 °F
+166
+Temperature = 43.20 °C , Temperature = 109.76 °F
+167
+Temperature = 34.10 °C , Temperature = 93.38 °F
+167
+Temperature = 34.00 °C , Temperature = 93.20 °F
+167
+Temperature = 33.80 °C , Temperature = 92.84 °F
+167
+Temperature = 33.90 °C , Temperature = 93.02 °F
+167
+Temperature = 30.80 °C , Temperature = 87.44 °F
+167
+Temperature = 34.40 °C , Temperature = 93.92 °F
+167
+Temperature = 33.60 °C , Temperature = 92.48 °F
+167
+Temperature = 32.50 °C , Temperature = 90.50 °F
+167
+Temperature = 35.60 °C , Temperature = 96.08 °F
+167
+Temperature = 37.10 °C , Temperature = 98.78 °F
+168
+Temperature = 38.30 °C , Temperature = 100.94 °F
+168
+Temperature = 38.30 °C , Temperature = 100.94 °F
+168
+Temperature = 38.20 °C , Temperature = 100.76 °F
+168
+Temperature = 39.20 °C , Temperature = 102.56 °F
+168
+Temperature = 39.30 °C , Temperature = 102.74 °F
+168
+Temperature = 39.50 °C , Temperature = 103.10 °F
+168
+Temperature = 39.80 °C , Temperature = 103.64 °F
+168
+Temperature = 39.70 °C , Temperature = 103.46 °F
+168
+Temperature = 39.00 °C , Temperature = 102.20 °F
+168
+Temperature = 42.50 °C , Temperature = 108.50 °F
+169
+Temperature = 38.40 °C , Temperature = 101.12 °F
+169
+Temperature = 34.30 °C , Temperature = 93.74 °F
+169
+Temperature = 35.70 °C , Temperature = 96.26 °F
+169
+Temperature = 30.60 °C , Temperature = 87.08 °F
+169
+Temperature = 25.00 °C , Temperature = 77.00 °F
+169
+Temperature = 16.70 °C , Temperature = 62.06 °F
+169
+Temperature = 15.80 °C , Temperature = 60.44 °F
+169
+Temperature = 16.10 °C , Temperature = 60.98 °F
+169
+Temperature = 16.50 °C , Temperature = 61.70 °F
+169
+Temperature = 19.60 °C , Temperature = 67.28 °F
+170
+Temperature = 20.90 °C , Temperature = 69.62 °F
+170
+Temperature = 24.60 °C , Temperature = 76.28 °F
+170
+Temperature = 26.90 °C , Temperature = 80.42 °F
+170
+Temperature = 29.00 °C , Temperature = 84.20 °F
+170
+Temperature = 30.30 °C , Temperature = 86.54 °F
+170
+Temperature = 31.00 °C , Temperature = 87.80 °F
+170
+Temperature = 30.90 °C , Temperature = 87.62 °F
+170
+Temperature = 30.40 °C , Temperature = 86.72 °F
+170
+Temperature = 29.30 °C , Temperature = 84.74 °F
+170
+Temperature = 28.60 °C , Temperature = 83.48 °F
+171
+Temperature = 27.20 °C , Temperature = 80.96 °F
+171
+Temperature = 25.10 °C , Temperature = 77.18 °F
+171
+Temperature = 23.60 °C , Temperature = 74.48 °F
+171
+Temperature = 14.20 °C , Temperature = 57.56 °F
+171
+Temperature = 29.00 °C , Temperature = 84.20 °F
+171
+Temperature = 14.20 °C , Temperature = 57.56 °F
+171
+Temperature = 14.20 °C , Temperature = 57.56 °F
+171
+Temperature = 18.30 °C , Temperature = 64.94 °F
+171
+Temperature = 21.00 °C , Temperature = 69.80 °F
+171
+Temperature = 23.60 °C , Temperature = 74.48 °F
+172
+Temperature = 24.00 °C , Temperature = 75.20 °F
+172
+Temperature = 22.60 °C , Temperature = 72.68 °F
+172
+Temperature = 23.60 °C , Temperature = 74.48 °F
+172
+Temperature = 20.90 °C , Temperature = 69.62 °F
+172
+Temperature = 27.50 °C , Temperature = 81.50 °F
+172
+Temperature = 26.10 °C , Temperature = 78.98 °F
+172
+Temperature = 25.50 °C , Temperature = 77.90 °F
+172
+Temperature = 23.60 °C , Temperature = 74.48 °F
+172
+Temperature = 22.70 °C , Temperature = 72.86 °F
+172
+Temperature = 23.60 °C , Temperature = 74.48 °F
+173
+Temperature = 24.70 °C , Temperature = 76.46 °F
+173
+Temperature = 23.70 °C , Temperature = 74.66 °F
+173
+Temperature = 23.00 °C , Temperature = 73.40 °F
+173
+Temperature = 20.90 °C , Temperature = 69.62 °F
+173
+Temperature = 20.30 °C , Temperature = 68.54 °F
+173
+Temperature = 20.50 °C , Temperature = 68.90 °F
+173
+Temperature = 20.90 °C , Temperature = 69.62 °F
+173
+Temperature = 22.00 °C , Temperature = 71.60 °F
+173
+Temperature = 23.50 °C , Temperature = 74.30 °F
+173
+Temperature = 25.10 °C , Temperature = 77.18 °F
+174
+Temperature = 26.80 °C , Temperature = 80.24 °F
+174
+Temperature = 28.80 °C , Temperature = 83.84 °F
+174
+Temperature = 29.50 °C , Temperature = 85.10 °F
+174
+Temperature = 30.40 °C , Temperature = 86.72 °F
+174
+Temperature = 30.20 °C , Temperature = 86.36 °F
+174
+Temperature = 29.60 °C , Temperature = 85.28 °F
+174
+Temperature = 28.60 °C , Temperature = 83.48 °F
+174
+Temperature = 27.90 °C , Temperature = 82.22 °F
+174
+Temperature = 26.80 °C , Temperature = 80.24 °F
+174
+Temperature = 25.00 °C , Temperature = 77.00 °F
+175
+Temperature = 24.50 °C , Temperature = 76.10 °F
+175
+Temperature = 22.70 °C , Temperature = 72.86 °F
+175
+Temperature = 22.20 °C , Temperature = 71.96 °F
+175
+Temperature = 21.20 °C , Temperature = 70.16 °F
+175
+Temperature = 21.00 °C , Temperature = 69.80 °F
+175
+Temperature = 21.80 °C , Temperature = 71.24 °F
+175
+Temperature = 22.40 °C , Temperature = 72.32 °F
+175
+Temperature = 23.60 °C , Temperature = 74.48 °F
+175
+Temperature = 24.80 °C , Temperature = 76.64 °F
+175
+Temperature = 26.90 °C , Temperature = 80.42 °F
+176
+Temperature = 28.60 °C , Temperature = 83.48 °F
+176
+Temperature = 29.00 °C , Temperature = 84.20 °F
+176
+Temperature = 30.30 °C , Temperature = 86.54 °F
+176
+Temperature = 30.40 °C , Temperature = 86.72 °F
+176
+Temperature = 30.00 °C , Temperature = 86.00 °F
+176
+Temperature = 29.30 °C , Temperature = 84.74 °F
+176
+Temperature = 28.80 °C , Temperature = 83.84 °F
+176
+Temperature = 26.40 °C , Temperature = 79.52 °F
+176
+Temperature = 25.60 °C , Temperature = 78.08 °F
+176
+Temperature = 24.10 °C , Temperature = 75.38 °F
+177
+Temperature = 22.70 °C , Temperature = 72.86 °F
+177
+Temperature = 21.90 °C , Temperature = 71.42 °F
+177
+Temperature = 20.90 °C , Temperature = 69.62 °F
+177
+Temperature = 20.40 °C , Temperature = 68.72 °F
+177
+Temperature = 20.70 °C , Temperature = 69.26 °F
+177
+Temperature = 21.40 °C , Temperature = 70.52 °F
+177
+Temperature = 22.50 °C , Temperature = 72.50 °F
+177
+Temperature = 24.70 °C , Temperature = 76.46 °F
+177
+Temperature = 26.30 °C , Temperature = 79.34 °F
+177
+Temperature = 27.50 °C , Temperature = 81.50 °F
+178
+Temperature = 29.00 °C , Temperature = 84.20 °F
+178
+Temperature = 26.50 °C , Temperature = 79.70 °F
+178
+Temperature = 27.70 °C , Temperature = 81.86 °F
+178
+Temperature = 29.00 °C , Temperature = 84.20 °F
+178
+Temperature = 28.50 °C , Temperature = 83.30 °F
+178
+Temperature = 27.80 °C , Temperature = 82.04 °F
+178
+Temperature = 26.70 °C , Temperature = 80.06 °F
+178
+Temperature = 25.50 °C , Temperature = 77.90 °F
+178
+Temperature = 23.90 °C , Temperature = 75.02 °F
+178
+Temperature = 22.40 °C , Temperature = 72.32 °F
+179
+Temperature = 20.80 °C , Temperature = 69.44 °F
+179
+Temperature = 19.60 °C , Temperature = 67.28 °F
+179
+Temperature = 19.60 °C , Temperature = 67.28 °F
+179
+Temperature = 21.90 °C , Temperature = 71.42 °F
+179
+Temperature = 22.00 °C , Temperature = 71.60 °F
+179
+Temperature = 22.60 °C , Temperature = 72.68 °F
+179
+Temperature = 24.10 °C , Temperature = 75.38 °F
+179
+Temperature = 27.40 °C , Temperature = 81.32 °F
+179
+Temperature = 29.00 °C , Temperature = 84.20 °F
+179
+Temperature = 29.30 °C , Temperature = 84.74 °F
+180
+Temperature = 29.30 °C , Temperature = 84.74 °F
+180
+Temperature = 29.50 °C , Temperature = 85.10 °F
+180
+Temperature = 28.70 °C , Temperature = 83.66 °F
+180
+Temperature = 27.70 °C , Temperature = 81.86 °F
+180
+Temperature = 27.40 °C , Temperature = 81.32 °F
+180
+Temperature = 26.30 °C , Temperature = 79.34 °F
+180
+Temperature = 24.90 °C , Temperature = 76.82 °F
+180
+Temperature = 23.40 °C , Temperature = 74.12 °F
+180
+Temperature = 22.00 °C , Temperature = 71.60 °F
+180
+Temperature = 20.90 °C , Temperature = 69.62 °F
+181
+Temperature = 22.70 °C , Temperature = 72.86 °F
+181
+Temperature = 22.10 °C , Temperature = 71.78 °F
+181
+Temperature = 22.10 °C , Temperature = 71.78 °F
+181
+Temperature = 23.10 °C , Temperature = 73.58 °F
+181
+Temperature = 24.50 °C , Temperature = 76.10 °F
+181
+Temperature = 26.30 °C , Temperature = 79.34 °F
+181
+Temperature = 26.90 °C , Temperature = 80.42 °F
+181
+Temperature = 28.60 °C , Temperature = 83.48 °F
+181
+Temperature = 29.10 °C , Temperature = 84.38 °F
+181
+Temperature = 29.90 °C , Temperature = 85.82 °F
+182
+Temperature = 30.60 °C , Temperature = 87.08 °F
+182
+Temperature = 28.90 °C , Temperature = 84.02 °F
+182
+Temperature = 28.30 °C , Temperature = 82.94 °F
+182
+Temperature = 28.10 °C , Temperature = 82.58 °F
+182
+Temperature = 26.10 °C , Temperature = 78.98 °F
+182
+Temperature = 25.60 °C , Temperature = 78.08 °F
+182
+Temperature = 23.90 °C , Temperature = 75.02 °F
+182
+Temperature = 22.90 °C , Temperature = 73.22 °F
+182
+Temperature = 22.80 °C , Temperature = 73.04 °F
+182
+Temperature = 19.60 °C , Temperature = 67.28 °F
+183
+Temperature = 17.70 °C , Temperature = 63.86 °F
+183
+Temperature = 18.10 °C , Temperature = 64.58 °F
+183
+Temperature = 19.20 °C , Temperature = 66.56 °F
+183
+Temperature = 21.30 °C , Temperature = 70.34 °F
+183
+Temperature = 23.60 °C , Temperature = 74.48 °F
+183
+Temperature = 26.20 °C , Temperature = 79.16 °F
+183
+Temperature = 28.50 °C , Temperature = 83.30 °F
+183
+Temperature = 29.30 °C , Temperature = 84.74 °F
+183
+Temperature = 29.20 °C , Temperature = 84.56 °F
+183
+Temperature = 29.00 °C , Temperature = 84.20 °F
+184
+Temperature = 29.00 °C , Temperature = 84.20 °F
+184
+Temperature = 28.20 °C , Temperature = 82.76 °F
+184
+Temperature = 28.10 °C , Temperature = 82.58 °F
+184
+Temperature = 27.20 °C , Temperature = 80.96 °F
+184
+Temperature = 25.90 °C , Temperature = 78.62 °F
+184
+Temperature = 24.50 °C , Temperature = 76.10 °F
+184
+Temperature = 23.80 °C , Temperature = 74.84 °F
+184
+Temperature = 22.90 °C , Temperature = 73.22 °F
+184
+Temperature = 22.80 °C , Temperature = 73.04 °F
+184
+Temperature = 22.60 °C , Temperature = 72.68 °F
+185
+Temperature = 22.80 °C , Temperature = 73.04 °F
+185
+Temperature = 23.50 °C , Temperature = 74.30 °F
+185
+Temperature = 24.50 °C , Temperature = 76.10 °F
+185
+Temperature = 26.00 °C , Temperature = 78.80 °F
+185
+Temperature = 27.70 °C , Temperature = 81.86 °F
+185
+Temperature = 29.00 °C , Temperature = 84.20 °F
+185
+Temperature = 29.40 °C , Temperature = 84.92 °F
+185
+Temperature = 30.40 °C , Temperature = 86.72 °F
+185
+Temperature = 29.30 °C , Temperature = 84.74 °F
+185
+Temperature = 29.00 °C , Temperature = 84.20 °F
+186
+Temperature = 28.30 °C , Temperature = 82.94 °F
+186
+Temperature = 27.20 °C , Temperature = 80.96 °F
+186
+Temperature = 25.60 °C , Temperature = 78.08 °F
+186
+Temperature = 24.10 °C , Temperature = 75.38 °F
+186
+Temperature = 23.10 °C , Temperature = 73.58 °F
+186
+Temperature = 21.50 °C , Temperature = 70.70 °F
+186
+Temperature = 21.00 °C , Temperature = 69.80 °F
+186
+Temperature = 20.30 °C , Temperature = 68.54 °F
+186
+Temperature = 20.70 °C , Temperature = 69.26 °F
+186
+Temperature = 20.90 °C , Temperature = 69.62 °F
+187
+Temperature = 21.00 °C , Temperature = 69.80 °F
+187
+Temperature = 21.90 °C , Temperature = 71.42 °F
+187
+Temperature = 23.60 °C , Temperature = 74.48 °F
+187
+Temperature = 26.00 °C , Temperature = 78.80 °F
+187
+Temperature = 27.70 °C , Temperature = 81.86 °F
+187
+Temperature = 29.00 °C , Temperature = 84.20 °F
+187
+Temperature = 29.00 °C , Temperature = 84.20 °F
+187
+Temperature = 29.10 °C , Temperature = 84.38 °F
+187
+Temperature = 28.50 °C , Temperature = 83.30 °F
+187
+Temperature = 27.60 °C , Temperature = 81.68 °F
+188
+Temperature = 26.30 °C , Temperature = 79.34 °F
+188
+Temperature = 25.90 °C , Temperature = 78.62 °F
+188
+Temperature = 24.00 °C , Temperature = 75.20 °F
+188
+Temperature = 21.90 °C , Temperature = 71.42 °F
+188
+Temperature = 19.00 °C , Temperature = 66.20 °F
+188
+Temperature = 19.20 °C , Temperature = 66.56 °F
+188
+Temperature = 18.20 °C , Temperature = 64.76 °F
+188
+Temperature = 17.30 °C , Temperature = 63.14 °F
+188
+Temperature = 18.30 °C , Temperature = 64.94 °F
+188
+Temperature = 19.20 °C , Temperature = 66.56 °F
+189
+Temperature = 21.40 °C , Temperature = 70.52 °F
+189
+Temperature = 23.60 °C , Temperature = 74.48 °F
+189
+Temperature = 26.40 °C , Temperature = 79.52 °F
+189
+Temperature = 29.00 °C , Temperature = 84.20 °F
+189
+Temperature = 30.40 °C , Temperature = 86.72 °F
+189
+Temperature = 30.50 °C , Temperature = 86.90 °F
+189
+Temperature = 30.80 °C , Temperature = 87.44 °F
+189
+Temperature = 29.60 °C , Temperature = 85.28 °F
+189
+Temperature = 29.00 °C , Temperature = 84.20 °F
+189
+Temperature = 28.10 °C , Temperature = 82.58 °F
+190
+Temperature = 26.20 °C , Temperature = 79.16 °F
+190
+Temperature = 24.00 °C , Temperature = 75.20 °F
+190
+Temperature = 23.00 °C , Temperature = 73.40 °F
+190
+Temperature = 20.90 °C , Temperature = 69.62 °F
+190
+Temperature = 19.70 °C , Temperature = 67.46 °F
+190
+Temperature = 19.00 °C , Temperature = 66.20 °F
+190
+Temperature = 18.80 °C , Temperature = 65.84 °F
+190
+Temperature = 19.90 °C , Temperature = 67.82 °F
+190
+Temperature = 20.10 °C , Temperature = 68.18 °F
+190
+Temperature = 21.90 °C , Temperature = 71.42 °F
+191
+Temperature = 23.70 °C , Temperature = 74.66 °F
+191
+Temperature = 26.30 °C , Temperature = 79.34 °F
+191
+Temperature = 28.80 °C , Temperature = 83.84 °F
+191
+Temperature = 27.60 °C , Temperature = 81.68 °F
+191
+Temperature = 28.30 °C , Temperature = 82.94 °F
+191
+Temperature = 27.50 °C , Temperature = 81.50 °F
+191
+Temperature = 26.90 °C , Temperature = 80.42 °F
+191
+Temperature = 26.30 °C , Temperature = 79.34 °F
+191
+Temperature = 25.90 °C , Temperature = 78.62 °F
+191
+Temperature = 23.80 °C , Temperature = 74.84 °F
+192
+Temperature = 22.40 °C , Temperature = 72.32 °F
+192
+Temperature = 20.90 °C , Temperature = 69.62 °F
+192
+Temperature = 19.60 °C , Temperature = 67.28 °F
+192
+Temperature = 18.70 °C , Temperature = 65.66 °F
+192
+Temperature = 18.20 °C , Temperature = 64.76 °F
+192
+Temperature = 17.00 °C , Temperature = 62.60 °F
+192
+Temperature = 17.70 °C , Temperature = 63.86 °F
+192
+Temperature = 18.40 °C , Temperature = 65.12 °F
+192
+Temperature = 19.60 °C , Temperature = 67.28 °F
+192
+Temperature = 21.50 °C , Temperature = 70.70 °F
+193
+Temperature = 23.50 °C , Temperature = 74.30 °F
+193
+Temperature = 25.60 °C , Temperature = 78.08 °F
+193
+Temperature = 27.50 °C , Temperature = 81.50 °F
+193
+Temperature = 27.70 °C , Temperature = 81.86 °F
+193
+Temperature = 27.70 °C , Temperature = 81.86 °F
+193
+Temperature = 27.60 °C , Temperature = 81.68 °F
+193
+Temperature = 26.30 °C , Temperature = 79.34 °F
+193
+Temperature = 25.40 °C , Temperature = 77.72 °F
+193
+Temperature = 23.70 °C , Temperature = 74.66 °F
+193
+Temperature = 22.70 °C , Temperature = 72.86 °F
+194
+Temperature = 22.00 °C , Temperature = 71.60 °F
+194
+Temperature = 21.40 °C , Temperature = 70.52 °F
+194
+Temperature = 20.40 °C , Temperature = 68.72 °F
+194
+Temperature = 20.10 °C , Temperature = 68.18 °F
+194
+Temperature = 19.80 °C , Temperature = 67.64 °F
+194
+Temperature = 18.10 °C , Temperature = 64.58 °F
+194
+Temperature = 18.20 °C , Temperature = 64.76 °F
+194
+Temperature = 19.60 °C , Temperature = 67.28 °F
+194
+Temperature = 21.50 °C , Temperature = 70.70 °F
+194
+Temperature = 25.00 °C , Temperature = 77.00 °F
+195
+Temperature = 26.70 °C , Temperature = 80.06 °F
+195
+Temperature = 28.30 °C , Temperature = 82.94 °F
+195
+Temperature = 28.90 °C , Temperature = 84.02 °F
+195
+Temperature = 28.50 °C , Temperature = 83.30 °F
+195
+Temperature = 28.20 °C , Temperature = 82.76 °F
+195
+Temperature = 27.40 °C , Temperature = 81.32 °F
+195
+Temperature = 26.80 °C , Temperature = 80.24 °F
+195
+Temperature = 24.40 °C , Temperature = 75.92 °F
+195
+Temperature = 23.30 °C , Temperature = 73.94 °F
+195
+Temperature = 21.40 °C , Temperature = 70.52 °F
+196
+Temperature = 20.10 °C , Temperature = 68.18 °F
+196
+Temperature = 18.80 °C , Temperature = 65.84 °F
+196
+Temperature = 18.20 °C , Temperature = 64.76 °F
+196
+Temperature = 17.70 °C , Temperature = 63.86 °F
+196
+Temperature = 18.20 °C , Temperature = 64.76 °F
+196
+Temperature = 19.30 °C , Temperature = 66.74 °F
+196
+Temperature = 20.90 °C , Temperature = 69.62 °F
+196
+Temperature = 23.50 °C , Temperature = 74.30 °F
+196
+Temperature = 26.50 °C , Temperature = 79.70 °F
+196
+Temperature = 28.40 °C , Temperature = 83.12 °F
+197
+Temperature = 30.50 °C , Temperature = 86.90 °F
+197
+Temperature = 30.40 °C , Temperature = 86.72 °F
+197
+Temperature = 29.90 °C , Temperature = 85.82 °F
+197
+Temperature = 29.90 °C , Temperature = 85.82 °F
+197
+Temperature = 28.80 °C , Temperature = 83.84 °F
+197
+Temperature = 28.70 °C , Temperature = 83.66 °F
+197
+Temperature = 25.70 °C , Temperature = 78.26 °F
+197
+Temperature = 24.10 °C , Temperature = 75.38 °F
+197
+Temperature = 21.50 °C , Temperature = 70.70 °F
+197
+Temperature = 20.80 °C , Temperature = 69.44 °F
+198
+Temperature = 19.10 °C , Temperature = 66.38 °F
+198
+Temperature = 18.20 °C , Temperature = 64.76 °F
+198
+Temperature = 18.10 °C , Temperature = 64.58 °F
+198
+Temperature = 18.50 °C , Temperature = 65.30 °F
+198
+Temperature = 19.80 °C , Temperature = 67.64 °F
+198
+Temperature = 21.10 °C , Temperature = 69.98 °F
+198
+Temperature = 24.20 °C , Temperature = 75.56 °F
+198
+Temperature = 26.30 °C , Temperature = 79.34 °F
+198
+Temperature = 28.90 °C , Temperature = 84.02 °F
+198
+Temperature = 29.90 °C , Temperature = 85.82 °F
+199
+Temperature = 30.80 °C , Temperature = 87.44 °F
+199
+Temperature = 30.60 °C , Temperature = 87.08 °F
+199
+Temperature = 29.80 °C , Temperature = 85.64 °F
+199
+Temperature = 28.90 °C , Temperature = 84.02 °F
+199
+Temperature = 27.70 °C , Temperature = 81.86 °F
+199
+Temperature = 26.10 °C , Temperature = 78.98 °F
+199
+Temperature = 24.60 °C , Temperature = 76.28 °F
+199
+Temperature = 22.10 °C , Temperature = 71.78 °F
+199
+Temperature = 20.70 °C , Temperature = 69.26 °F
+199
+Temperature = 18.90 °C , Temperature = 66.02 °F
+200
+Temperature = 18.20 °C , Temperature = 64.76 °F
+200
+Temperature = 18.20 °C , Temperature = 64.76 °F
+200
+Temperature = 18.50 °C , Temperature = 65.30 °F
+200
+Temperature = 19.80 °C , Temperature = 67.64 °F
+200
+Temperature = 21.90 °C , Temperature = 71.42 °F
+200
+Temperature = 24.50 °C , Temperature = 76.10 °F
+200
+Temperature = 27.10 °C , Temperature = 80.78 °F
+200
+Temperature = 28.90 °C , Temperature = 84.02 °F
+200
+Temperature = 30.50 °C , Temperature = 86.90 °F
+200
+Temperature = 30.40 °C , Temperature = 86.72 °F
+201
+Temperature = 30.30 °C , Temperature = 86.54 °F
+201
+Temperature = 29.90 °C , Temperature = 85.82 °F
+201
+Temperature = 29.00 °C , Temperature = 84.20 °F
+201
+Temperature = 27.70 °C , Temperature = 81.86 °F
+201
+Temperature = 26.10 °C , Temperature = 78.98 °F
+201
+Temperature = 23.90 °C , Temperature = 75.02 °F
+201
+Temperature = 22.00 °C , Temperature = 71.60 °F
+201
+Temperature = 20.00 °C , Temperature = 68.00 °F
+201
+Temperature = 18.40 °C , Temperature = 65.12 °F
+201
+Temperature = 18.00 °C , Temperature = 64.40 °F
+202
+Temperature = 18.20 °C , Temperature = 64.76 °F
+202
+Temperature = 18.70 °C , Temperature = 65.66 °F
+202
+Temperature = 20.50 °C , Temperature = 68.90 °F
+202
+Temperature = 22.00 °C , Temperature = 71.60 °F
+202
+Temperature = 25.00 °C , Temperature = 77.00 °F
+202
+Temperature = 27.20 °C , Temperature = 80.96 °F
+202
+Temperature = 29.10 °C , Temperature = 84.38 °F
+202
+Temperature = 30.60 °C , Temperature = 87.08 °F
+202
+Temperature = 30.40 °C , Temperature = 86.72 °F
+202
+Temperature = 30.40 °C , Temperature = 86.72 °F
+203
+Temperature = 29.80 °C , Temperature = 85.64 °F
+203
+Temperature = 27.10 °C , Temperature = 80.78 °F
+203
+Temperature = 26.10 °C , Temperature = 78.98 °F
+203
+Temperature = 24.20 °C , Temperature = 75.56 °F
+203
+Temperature = 22.50 °C , Temperature = 72.50 °F
+203
+Temperature = 20.80 °C , Temperature = 69.44 °F
+203
+Temperature = 19.30 °C , Temperature = 66.74 °F
+203
+Temperature = 18.00 °C , Temperature = 64.40 °F
+203
+Temperature = 16.60 °C , Temperature = 61.88 °F
+203
+Temperature = 16.60 °C , Temperature = 61.88 °F
+204
+Temperature = 17.60 °C , Temperature = 63.68 °F
+204
+Temperature = 18.20 °C , Temperature = 64.76 °F
+204
+Temperature = 20.90 °C , Temperature = 69.62 °F
+204
+Temperature = 23.60 °C , Temperature = 74.48 °F
+204
+Temperature = 25.90 °C , Temperature = 78.62 °F
+204
+Temperature = 27.40 °C , Temperature = 81.32 °F
+204
+Temperature = 29.00 °C , Temperature = 84.20 °F
+204
+Temperature = 28.40 °C , Temperature = 83.12 °F
+204
+Temperature = 28.70 °C , Temperature = 83.66 °F
+204
+Temperature = 27.70 °C , Temperature = 81.86 °F
+205
+Temperature = 27.20 °C , Temperature = 80.96 °F
+205
+Temperature = 26.20 °C , Temperature = 79.16 °F
+205
+Temperature = 24.60 °C , Temperature = 76.28 °F
+205
+Temperature = 22.40 °C , Temperature = 72.32 °F
+205
+Temperature = 20.80 °C , Temperature = 69.44 °F
+205
+Temperature = 19.10 °C , Temperature = 66.38 °F
+205
+Temperature = 17.60 °C , Temperature = 63.68 °F
+205
+Temperature = 16.70 °C , Temperature = 62.06 °F
+205
+Temperature = 16.70 °C , Temperature = 62.06 °F
+205
+Temperature = 17.70 °C , Temperature = 63.86 °F
+206
+Temperature = 18.70 °C , Temperature = 65.66 °F
+206
+Temperature = 20.30 °C , Temperature = 68.54 °F
+206
+Temperature = 23.20 °C , Temperature = 73.76 °F
+206
+Temperature = 25.50 °C , Temperature = 77.90 °F
+206
+Temperature = 27.50 °C , Temperature = 81.50 °F
+206
+Temperature = 28.70 °C , Temperature = 83.66 °F
+206
+Temperature = 28.90 °C , Temperature = 84.02 °F
+206
+Temperature = 28.40 °C , Temperature = 83.12 °F
+206
+Temperature = 28.60 °C , Temperature = 83.48 °F
+206
+Temperature = 27.10 °C , Temperature = 80.78 °F
+207
+Temperature = 26.30 °C , Temperature = 79.34 °F
+207
+Temperature = 24.80 °C , Temperature = 76.64 °F
+207
+Temperature = 22.80 °C , Temperature = 73.04 °F
+207
+Temperature = 21.10 °C , Temperature = 69.98 °F
+207
+Temperature = 19.50 °C , Temperature = 67.10 °F
+207
+Temperature = 17.80 °C , Temperature = 64.04 °F
+207
+Temperature = 16.80 °C , Temperature = 62.24 °F
+207
+Temperature = 16.80 °C , Temperature = 62.24 °F
+207
+Temperature = 17.80 °C , Temperature = 64.04 °F
+207
+Temperature = 18.90 °C , Temperature = 66.02 °F
+208
+Temperature = 20.50 °C , Temperature = 68.90 °F
+208
+Temperature = 23.50 °C , Temperature = 74.30 °F
+208
+Temperature = 25.30 °C , Temperature = 77.54 °F
+208
+Temperature = 27.00 °C , Temperature = 80.60 °F
+208
+Temperature = 28.80 °C , Temperature = 83.84 °F
+208
+Temperature = 29.30 °C , Temperature = 84.74 °F
+208
+Temperature = 29.20 °C , Temperature = 84.56 °F
+208
+Temperature = 28.80 °C , Temperature = 83.84 °F
+208
+Temperature = 27.50 °C , Temperature = 81.50 °F
+208
+Temperature = 26.30 °C , Temperature = 79.34 °F
+209
+Temperature = 24.40 °C , Temperature = 75.92 °F
+209
+Temperature = 22.70 °C , Temperature = 72.86 °F
+209
+Temperature = 20.90 °C , Temperature = 69.62 °F
+209
+Temperature = 19.60 °C , Temperature = 67.28 °F
+209
+Temperature = 18.20 °C , Temperature = 64.76 °F
+209
+Temperature = 17.10 °C , Temperature = 62.78 °F
+209
+Temperature = 17.20 °C , Temperature = 62.96 °F
+209
+Temperature = 17.70 °C , Temperature = 63.86 °F
+209
+Temperature = 18.50 °C , Temperature = 65.30 °F
+209
+Temperature = 20.80 °C , Temperature = 69.44 °F
+210
+Temperature = 23.20 °C , Temperature = 73.76 °F
+210
+Temperature = 25.90 °C , Temperature = 78.62 °F
+210
+Temperature = 27.30 °C , Temperature = 81.14 °F
+210
+Temperature = 29.10 °C , Temperature = 84.38 °F
+210
+Temperature = 29.90 °C , Temperature = 85.82 °F
+210
+Temperature = 28.90 °C , Temperature = 84.02 °F
+210
+Temperature = 29.00 °C , Temperature = 84.20 °F
+210
+Temperature = 27.70 °C , Temperature = 81.86 °F
+210
+Temperature = 26.80 °C , Temperature = 80.24 °F
+210
+Temperature = 25.70 °C , Temperature = 78.26 °F
+211
+Temperature = 22.90 °C , Temperature = 73.22 °F
+211
+Temperature = 19.50 °C , Temperature = 67.10 °F
+211
+Temperature = 19.60 °C , Temperature = 67.28 °F
+211
+Temperature = 18.20 °C , Temperature = 64.76 °F
+211
+Temperature = 17.70 °C , Temperature = 63.86 °F
+211
+Temperature = 17.70 °C , Temperature = 63.86 °F
+211
+Temperature = 18.20 °C , Temperature = 64.76 °F
+211
+Temperature = 19.20 °C , Temperature = 66.56 °F
+211
+Temperature = 21.40 °C , Temperature = 70.52 °F
+211
+Temperature = 24.40 °C , Temperature = 75.92 °F
+212
+Temperature = 26.60 °C , Temperature = 79.88 °F
+212
+Temperature = 28.80 °C , Temperature = 83.84 °F
+212
+Temperature = 30.10 °C , Temperature = 86.18 °F
+212
+Temperature = 30.40 °C , Temperature = 86.72 °F
+212
+Temperature = 30.40 °C , Temperature = 86.72 °F
+212
+Temperature = 29.30 °C , Temperature = 84.74 °F
+212
+Temperature = 28.60 °C , Temperature = 83.48 °F
+212
+Temperature = 27.70 °C , Temperature = 81.86 °F
+212
+Temperature = 25.80 °C , Temperature = 78.44 °F
+212
+Temperature = 23.80 °C , Temperature = 74.84 °F
+213
+Temperature = 21.90 °C , Temperature = 71.42 °F
+213
+Temperature = 19.60 °C , Temperature = 67.28 °F
+213
+Temperature = 18.50 °C , Temperature = 65.30 °F
+213
+Temperature = 17.70 °C , Temperature = 63.86 °F
+213
+Temperature = 17.10 °C , Temperature = 62.78 °F
+213
+Temperature = 17.70 °C , Temperature = 63.86 °F
+213
+Temperature = 19.50 °C , Temperature = 67.10 °F
+213
+Temperature = 22.30 °C , Temperature = 72.14 °F
+213
+Temperature = 24.70 °C , Temperature = 76.46 °F
+213
+Temperature = 27.30 °C , Temperature = 81.14 °F
+214
+Temperature = 29.40 °C , Temperature = 84.92 °F
+214
+Temperature = 30.40 °C , Temperature = 86.72 °F
+214
+Temperature = 30.50 °C , Temperature = 86.90 °F
+214
+Temperature = 29.40 °C , Temperature = 84.92 °F
+214
+Temperature = 29.00 °C , Temperature = 84.20 °F
+214
+Temperature = 28.10 °C , Temperature = 82.58 °F
+214
+Temperature = 26.80 °C , Temperature = 80.24 °F
+214
+Temperature = 25.00 °C , Temperature = 77.00 °F
+214
+Temperature = 23.50 °C , Temperature = 74.30 °F
+214
+Temperature = 21.10 °C , Temperature = 69.98 °F
+215
+Temperature = 19.50 °C , Temperature = 67.10 °F
+215
+Temperature = 18.20 °C , Temperature = 64.76 °F
+215
+Temperature = 17.60 °C , Temperature = 63.68 °F
+215
+Temperature = 17.80 °C , Temperature = 64.04 °F
+215
+Temperature = 18.40 °C , Temperature = 65.12 °F
+215
+Temperature = 19.90 °C , Temperature = 67.82 °F
+215
+Temperature = 22.90 °C , Temperature = 73.22 °F
+215
+Temperature = 25.70 °C , Temperature = 78.26 °F
+215
+Temperature = 27.60 °C , Temperature = 81.68 °F
+215
+Temperature = 29.60 °C , Temperature = 85.28 °F
+216
+Temperature = 30.60 °C , Temperature = 87.08 °F
+216
+Temperature = 30.40 °C , Temperature = 86.72 °F
+216
+Temperature = 30.30 °C , Temperature = 86.54 °F
+216
+Temperature = 29.00 °C , Temperature = 84.20 °F
+216
+Temperature = 28.10 °C , Temperature = 82.58 °F
+216
+Temperature = 26.30 °C , Temperature = 79.34 °F
+216
+Temperature = 24.60 °C , Temperature = 76.28 °F
+216
+Temperature = 22.90 °C , Temperature = 73.22 °F
+216
+Temperature = 20.80 °C , Temperature = 69.44 °F
+216
+Temperature = 19.20 °C , Temperature = 66.56 °F
+217
+Temperature = 18.40 °C , Temperature = 65.12 °F
+217
+Temperature = 17.40 °C , Temperature = 63.32 °F
+217
+Temperature = 18.20 °C , Temperature = 64.76 °F
+217
+Temperature = 19.20 °C , Temperature = 66.56 °F
+217
+Temperature = 20.30 °C , Temperature = 68.54 °F
+217
+Temperature = 22.10 °C , Temperature = 71.78 °F
+217
+Temperature = 25.70 °C , Temperature = 78.26 °F
+217
+Temperature = 27.80 °C , Temperature = 82.04 °F
+217
+Temperature = 29.80 °C , Temperature = 85.64 °F
+217
+Temperature = 30.50 °C , Temperature = 86.90 °F
+218
+Temperature = 30.10 °C , Temperature = 86.18 °F
+218
+Temperature = 29.60 °C , Temperature = 85.28 °F
+218
+Temperature = 29.00 °C , Temperature = 84.20 °F
+218
+Temperature = 27.70 °C , Temperature = 81.86 °F
+218
+Temperature = 26.30 °C , Temperature = 79.34 °F
+218
+Temperature = 24.00 °C , Temperature = 75.20 °F
+218
+Temperature = 22.30 °C , Temperature = 72.14 °F
+218
+Temperature = 20.40 °C , Temperature = 68.72 °F
+218
+Temperature = 18.30 °C , Temperature = 64.94 °F
+218
+Temperature = 17.90 °C , Temperature = 64.22 °F
+219
+Temperature = 17.30 °C , Temperature = 63.14 °F
+219
+Temperature = 17.80 °C , Temperature = 64.04 °F
+219
+Temperature = 18.80 °C , Temperature = 65.84 °F
+219
+Temperature = 20.40 °C , Temperature = 68.72 °F
+219
+Temperature = 21.90 °C , Temperature = 71.42 °F
+219
+Temperature = 25.10 °C , Temperature = 77.18 °F
+219
+Temperature = 26.90 °C , Temperature = 80.42 °F
+219
+Temperature = 28.60 °C , Temperature = 83.48 °F
+219
+Temperature = 29.00 °C , Temperature = 84.20 °F
+219
+Temperature = 28.30 °C , Temperature = 82.94 °F
+220
+Temperature = 28.20 °C , Temperature = 82.76 °F
+220
+Temperature = 27.60 °C , Temperature = 81.68 °F
+220
+Temperature = 25.60 °C , Temperature = 78.08 °F
+220
+Temperature = 25.10 °C , Temperature = 77.18 °F
+220
+Temperature = 23.10 °C , Temperature = 73.58 °F
+220
+Temperature = 20.90 °C , Temperature = 69.62 °F
+220
+Temperature = 19.60 °C , Temperature = 67.28 °F
+220
+Temperature = 18.20 °C , Temperature = 64.76 °F
+220
+Temperature = 16.90 °C , Temperature = 62.42 °F
+220
+Temperature = 17.30 °C , Temperature = 63.14 °F
+221
+Temperature = 17.40 °C , Temperature = 63.32 °F
+221
+Temperature = 18.30 °C , Temperature = 64.94 °F
+221
+Temperature = 20.10 °C , Temperature = 68.18 °F
+221
+Temperature = 22.50 °C , Temperature = 72.50 °F
+221
+Temperature = 25.20 °C , Temperature = 77.36 °F
+221
+Temperature = 26.80 °C , Temperature = 80.24 °F
+221
+Temperature = 28.40 °C , Temperature = 83.12 °F
+221
+Temperature = 28.80 °C , Temperature = 83.84 °F
+221
+Temperature = 28.70 °C , Temperature = 83.66 °F
+221
+Temperature = 28.00 °C , Temperature = 82.40 °F
+222
+Temperature = 27.30 °C , Temperature = 81.14 °F
+222
+Temperature = 26.10 °C , Temperature = 78.98 °F
+222
+Temperature = 24.20 °C , Temperature = 75.56 °F
+222
+Temperature = 22.40 °C , Temperature = 72.32 °F
+222
+Temperature = 20.80 °C , Temperature = 69.44 °F
+222
+Temperature = 18.50 °C , Temperature = 65.30 °F
+222
+Temperature = 17.80 °C , Temperature = 64.04 °F
+222
+Temperature = 16.40 °C , Temperature = 61.52 °F
+222
+Temperature = 17.10 °C , Temperature = 62.78 °F
+222
+Temperature = 16.40 °C , Temperature = 61.52 °F
+223
+Temperature = 18.70 °C , Temperature = 65.66 °F
+223
+Temperature = 20.20 °C , Temperature = 68.36 °F
+223
+Temperature = 22.90 °C , Temperature = 73.22 °F
+223
+Temperature = 24.50 °C , Temperature = 76.10 °F
+223
+Temperature = 27.60 °C , Temperature = 81.68 °F
+223
+Temperature = 28.40 °C , Temperature = 83.12 °F
+223
+Temperature = 28.80 °C , Temperature = 83.84 °F
+223
+Temperature = 28.30 °C , Temperature = 82.94 °F
+223
+Temperature = 27.90 °C , Temperature = 82.22 °F
+223
+Temperature = 26.70 °C , Temperature = 80.06 °F
+224
+Temperature = 25.90 °C , Temperature = 78.62 °F
+224
+Temperature = 24.10 °C , Temperature = 75.38 °F
+224
+Temperature = 22.70 °C , Temperature = 72.86 °F
+224
+Temperature = 20.90 °C , Temperature = 69.62 °F
+224
+Temperature = 19.10 °C , Temperature = 66.38 °F
+224
+Temperature = 18.10 °C , Temperature = 64.58 °F
+224
+Temperature = 17.10 °C , Temperature = 62.78 °F
+224
+Temperature = 17.00 °C , Temperature = 62.60 °F
+224
+Temperature = 17.10 °C , Temperature = 62.78 °F
+224
+Temperature = 18.70 °C , Temperature = 65.66 °F
+225
+Temperature = 20.70 °C , Temperature = 69.26 °F
+225
+Temperature = 23.30 °C , Temperature = 73.94 °F
+225
+Temperature = 25.30 °C , Temperature = 77.54 °F
+225
+Temperature = 27.40 °C , Temperature = 81.32 °F
+225
+Temperature = 28.20 °C , Temperature = 82.76 °F
+225
+Temperature = 28.80 °C , Temperature = 83.84 °F
+225
+Temperature = 29.00 °C , Temperature = 84.20 °F
+225
+Temperature = 28.20 °C , Temperature = 82.76 °F
+225
+Temperature = 27.40 °C , Temperature = 81.32 °F
+225
+Temperature = 25.80 °C , Temperature = 78.44 °F
+226
+Temperature = 24.20 °C , Temperature = 75.56 °F
+226
+Temperature = 22.40 °C , Temperature = 72.32 °F
+226
+Temperature = 21.00 °C , Temperature = 69.80 °F
+226
+Temperature = 19.60 °C , Temperature = 67.28 °F
+226
+Temperature = 17.40 °C , Temperature = 63.32 °F
+226
+Temperature = 17.50 °C , Temperature = 63.50 °F
+226
+Temperature = 14.20 °C , Temperature = 57.56 °F
+226
+Temperature = 17.40 °C , Temperature = 63.32 °F
+226
+Temperature = 18.20 °C , Temperature = 64.76 °F
+226
+Temperature = 20.30 °C , Temperature = 68.54 °F
+227
+Temperature = 22.30 °C , Temperature = 72.14 °F
+227
+Temperature = 25.00 °C , Temperature = 77.00 °F
+227
+Temperature = 26.80 °C , Temperature = 80.24 °F
+227
+Temperature = 28.30 °C , Temperature = 82.94 °F
+227
+Temperature = 29.10 °C , Temperature = 84.38 °F
+227
+Temperature = 28.80 °C , Temperature = 83.84 °F
+227
+Temperature = 28.60 °C , Temperature = 83.48 °F
+227
+Temperature = 27.30 °C , Temperature = 81.14 °F
+227
+Temperature = 26.10 °C , Temperature = 78.98 °F
+227
+Temperature = 25.00 °C , Temperature = 77.00 °F
+228
+Temperature = 23.40 °C , Temperature = 74.12 °F
+228
+Temperature = 21.30 °C , Temperature = 70.34 °F
+228
+Temperature = 19.60 °C , Temperature = 67.28 °F
+228
+Temperature = 18.20 °C , Temperature = 64.76 °F
+228
+Temperature = 17.10 °C , Temperature = 62.78 °F
+228
+Temperature = 17.10 °C , Temperature = 62.78 °F
+228
+Temperature = 17.20 °C , Temperature = 62.96 °F
+228
+Temperature = 18.70 °C , Temperature = 65.66 °F
+228
+Temperature = 20.00 °C , Temperature = 68.00 °F
+228
+Temperature = 22.80 °C , Temperature = 73.04 °F
+229
+Temperature = 25.10 °C , Temperature = 77.18 °F
+229
+Temperature = 27.20 °C , Temperature = 80.96 °F
+229
+Temperature = 26.30 °C , Temperature = 79.34 °F
+229
+Temperature = 29.80 °C , Temperature = 85.64 °F
+229
+Temperature = 29.00 °C , Temperature = 84.20 °F
+229
+Temperature = 28.90 °C , Temperature = 84.02 °F
+229
+Temperature = 27.30 °C , Temperature = 81.14 °F
+229
+Temperature = 26.20 °C , Temperature = 79.16 °F
+229
+Temperature = 26.00 °C , Temperature = 78.80 °F
+229
+Temperature = 23.60 °C , Temperature = 74.48 °F
+230
+Temperature = 21.70 °C , Temperature = 71.06 °F
+230
+Temperature = 20.10 °C , Temperature = 68.18 °F
+230
+Temperature = 18.20 °C , Temperature = 64.76 °F
+230
+Temperature = 17.10 °C , Temperature = 62.78 °F
+230
+Temperature = 16.90 °C , Temperature = 62.42 °F
+230
+Temperature = 17.70 °C , Temperature = 63.86 °F
+230
+Temperature = 18.40 °C , Temperature = 65.12 °F
+230
+Temperature = 20.40 °C , Temperature = 68.72 °F
+230
+Temperature = 22.80 °C , Temperature = 73.04 °F
+230
+Temperature = 25.10 °C , Temperature = 77.18 °F
+231
+Temperature = 27.60 °C , Temperature = 81.68 °F
+231
+Temperature = 29.60 °C , Temperature = 85.28 °F
+231
+Temperature = 29.90 °C , Temperature = 85.82 °F
+231
+Temperature = 29.30 °C , Temperature = 84.74 °F
+231
+Temperature = 29.00 °C , Temperature = 84.20 °F
+231
+Temperature = 28.20 °C , Temperature = 82.76 °F
+231
+Temperature = 27.40 °C , Temperature = 81.32 °F
+231
+Temperature = 25.60 °C , Temperature = 78.08 °F
+231
+Temperature = 23.70 °C , Temperature = 74.66 °F
+231
+Temperature = 22.20 °C , Temperature = 71.96 °F
+232
+Temperature = 19.80 °C , Temperature = 67.64 °F
+232
+Temperature = 18.30 °C , Temperature = 64.94 °F
+232
+Temperature = 17.30 °C , Temperature = 63.14 °F
+232
+Temperature = 15.80 °C , Temperature = 60.44 °F
+232
+Temperature = 17.70 °C , Temperature = 63.86 °F
+232
+Temperature = 18.70 °C , Temperature = 65.66 °F
+232
+Temperature = 20.30 °C , Temperature = 68.54 °F
+232
+Temperature = 23.60 °C , Temperature = 74.48 °F
+232
+Temperature = 25.40 °C , Temperature = 77.72 °F
+232
+Temperature = 28.30 °C , Temperature = 82.94 °F
+233
+Temperature = 29.80 °C , Temperature = 85.64 °F
+233
+Temperature = 29.90 °C , Temperature = 85.82 °F
+233
+Temperature = 29.90 °C , Temperature = 85.82 °F
+233
+Temperature = 29.50 °C , Temperature = 85.10 °F
+233
+Temperature = 28.70 °C , Temperature = 83.66 °F
+233
+Temperature = 27.40 °C , Temperature = 81.32 °F
+233
+Temperature = 25.60 °C , Temperature = 78.08 °F
+233
+Temperature = 24.00 °C , Temperature = 75.20 °F
+233
+Temperature = 22.10 °C , Temperature = 71.78 °F
+233
+Temperature = 20.20 °C , Temperature = 68.36 °F
+234
+Temperature = 18.20 °C , Temperature = 64.76 °F
+234
+Temperature = 17.90 °C , Temperature = 64.22 °F
+234
+Temperature = 17.70 °C , Temperature = 63.86 °F
+234
+Temperature = 18.20 °C , Temperature = 64.76 °F
+234
+Temperature = 19.30 °C , Temperature = 66.74 °F
+234
+Temperature = 21.00 °C , Temperature = 69.80 °F
+234
+Temperature = 23.60 °C , Temperature = 74.48 °F
+234
+Temperature = 26.20 °C , Temperature = 79.16 °F
+234
+Temperature = 28.50 °C , Temperature = 83.30 °F
+234
+Temperature = 30.00 °C , Temperature = 86.00 °F
+235
+Temperature = 30.20 °C , Temperature = 86.36 °F
+235
+Temperature = 30.00 °C , Temperature = 86.00 °F
+235
+Temperature = 29.30 °C , Temperature = 84.74 °F
+235
+Temperature = 28.40 °C , Temperature = 83.12 °F
+235
+Temperature = 27.60 °C , Temperature = 81.68 °F
+235
+Temperature = 25.70 °C , Temperature = 78.26 °F
+235
+Temperature = 24.00 °C , Temperature = 75.20 °F
+235
+Temperature = 21.80 °C , Temperature = 71.24 °F
+235
+Temperature = 19.70 °C , Temperature = 67.46 °F
+235
+Temperature = 18.20 °C , Temperature = 64.76 °F
+236
+Temperature = 17.30 °C , Temperature = 63.14 °F
+236
+Temperature = 16.90 °C , Temperature = 62.42 °F
+236
+Temperature = 18.20 °C , Temperature = 64.76 °F
+236
+Temperature = 19.00 °C , Temperature = 66.20 °F
+236
+Temperature = 21.10 °C , Temperature = 69.98 °F
+236
+Temperature = 23.30 °C , Temperature = 73.94 °F
+236
+Temperature = 26.30 °C , Temperature = 79.34 °F
+236
+Temperature = 28.80 °C , Temperature = 83.84 °F
+236
+Temperature = 30.00 °C , Temperature = 86.00 °F
+236
+Temperature = 30.40 °C , Temperature = 86.72 °F
+237
+Temperature = 29.80 °C , Temperature = 85.64 °F
+237
+Temperature = 29.60 °C , Temperature = 85.28 °F
+237
+Temperature = 28.80 °C , Temperature = 83.84 °F
+237
+Temperature = 27.40 °C , Temperature = 81.32 °F
+237
+Temperature = 25.60 °C , Temperature = 78.08 °F
+237
+Temperature = 23.50 °C , Temperature = 74.30 °F
+237
+Temperature = 21.60 °C , Temperature = 70.88 °F
+237
+Temperature = 20.00 °C , Temperature = 68.00 °F
+237
+Temperature = 18.70 °C , Temperature = 65.66 °F
+237
+Temperature = 18.20 °C , Temperature = 64.76 °F
+238
+Temperature = 17.80 °C , Temperature = 64.04 °F
+238
+Temperature = 18.40 °C , Temperature = 65.12 °F
+238
+Temperature = 19.60 °C , Temperature = 67.28 °F
+238
+Temperature = 20.90 °C , Temperature = 69.62 °F
+238
+Temperature = 23.50 °C , Temperature = 74.30 °F
+238
+Temperature = 26.50 °C , Temperature = 79.70 °F
+238
+Temperature = 29.00 °C , Temperature = 84.20 °F
+238
+Temperature = 27.60 °C , Temperature = 81.68 °F
+238
+Temperature = 30.40 °C , Temperature = 86.72 °F
+238
+Temperature = 30.40 °C , Temperature = 86.72 °F
+239
+Temperature = 29.30 °C , Temperature = 84.74 °F
+239
+Temperature = 28.50 °C , Temperature = 83.30 °F
+239
+Temperature = 27.20 °C , Temperature = 80.96 °F
+239
+Temperature = 26.00 °C , Temperature = 78.80 °F
+239
+Temperature = 21.80 °C , Temperature = 71.24 °F
+239
+Temperature = 22.20 °C , Temperature = 71.96 °F
+239
+Temperature = 20.80 °C , Temperature = 69.44 °F
+239
+Temperature = 18.70 °C , Temperature = 65.66 °F
+239
+Temperature = 18.20 °C , Temperature = 64.76 °F
+239
+Temperature = 17.40 °C , Temperature = 63.32 °F
+240
+Temperature = 18.20 °C , Temperature = 64.76 °F
+240
+Temperature = 19.40 °C , Temperature = 66.92 °F
+240
+Temperature = 20.90 °C , Temperature = 69.62 °F
+240
+Temperature = 23.10 °C , Temperature = 73.58 °F
+240
+Temperature = 25.90 °C , Temperature = 78.62 °F
+240
+Temperature = 28.10 °C , Temperature = 82.58 °F
+240
+Temperature = 30.00 °C , Temperature = 86.00 °F
+240
+Temperature = 30.80 °C , Temperature = 87.44 °F
+240
+Temperature = 30.40 °C , Temperature = 86.72 °F
+240
+Temperature = 29.90 °C , Temperature = 85.82 °F
+241
+Temperature = 29.00 °C , Temperature = 84.20 °F
+241
+Temperature = 28.00 °C , Temperature = 82.40 °F
+241
+Temperature = 26.60 °C , Temperature = 79.88 °F
+241
+Temperature = 24.80 °C , Temperature = 76.64 °F
+241
+Temperature = 22.70 °C , Temperature = 72.86 °F
+241
+Temperature = 20.90 °C , Temperature = 69.62 °F
+241
+Temperature = 19.60 °C , Temperature = 67.28 °F
+241
+Temperature = 18.20 °C , Temperature = 64.76 °F
+241
+Temperature = 17.80 °C , Temperature = 64.04 °F
+241
+Temperature = 18.00 °C , Temperature = 64.40 °F
+242
+Temperature = 18.40 °C , Temperature = 65.12 °F
+242
+Temperature = 20.40 °C , Temperature = 68.72 °F
+242
+Temperature = 22.40 °C , Temperature = 72.32 °F
+242
+Temperature = 25.60 °C , Temperature = 78.08 °F
+242
+Temperature = 27.90 °C , Temperature = 82.22 °F
+242
+Temperature = 29.00 °C , Temperature = 84.20 °F
+242
+Temperature = 28.30 °C , Temperature = 82.94 °F
+242
+Temperature = 30.60 °C , Temperature = 87.08 °F
+242
+Temperature = 30.60 °C , Temperature = 87.08 °F
+242
+Temperature = 29.00 °C , Temperature = 84.20 °F
+243
+Temperature = 26.30 °C , Temperature = 79.34 °F
+243
+Temperature = 26.80 °C , Temperature = 80.24 °F
+243
+Temperature = 25.10 °C , Temperature = 77.18 °F
+243
+Temperature = 22.50 °C , Temperature = 72.50 °F
+243
+Temperature = 21.50 °C , Temperature = 70.70 °F
+243
+Temperature = 19.90 °C , Temperature = 67.82 °F
+243
+Temperature = 18.60 °C , Temperature = 65.48 °F
+243
+Temperature = 18.20 °C , Temperature = 64.76 °F
+243
+Temperature = 17.50 °C , Temperature = 63.50 °F
+243
+Temperature = 18.60 °C , Temperature = 65.48 °F
+244
+Temperature = 19.80 °C , Temperature = 67.64 °F
+244
+Temperature = 21.90 °C , Temperature = 71.42 °F
+244
+Temperature = 25.00 °C , Temperature = 77.00 °F
+244
+Temperature = 26.70 °C , Temperature = 80.06 °F
+244
+Temperature = 28.80 °C , Temperature = 83.84 °F
+244
+Temperature = 30.00 °C , Temperature = 86.00 °F
+244
+Temperature = 30.40 °C , Temperature = 86.72 °F
+244
+Temperature = 30.40 °C , Temperature = 86.72 °F
+244
+Temperature = 29.80 °C , Temperature = 85.64 °F
+244
+Temperature = 28.40 °C , Temperature = 83.12 °F
+245
+Temperature = 27.70 °C , Temperature = 81.86 °F
+245
+Temperature = 26.00 °C , Temperature = 78.80 °F
+245
+Temperature = 23.70 °C , Temperature = 74.66 °F
+245
+Temperature = 22.50 °C , Temperature = 72.50 °F
+245
+Temperature = 20.50 °C , Temperature = 68.90 °F
+245
+Temperature = 18.70 °C , Temperature = 65.66 °F
+245
+Temperature = 18.10 °C , Temperature = 64.58 °F
+245
+Temperature = 17.70 °C , Temperature = 63.86 °F
+245
+Temperature = 18.20 °C , Temperature = 64.76 °F
+245
+Temperature = 18.80 °C , Temperature = 65.84 °F
+246
+Temperature = 20.90 °C , Temperature = 69.62 °F
+246
+Temperature = 23.60 °C , Temperature = 74.48 °F
+246
+Temperature = 26.10 °C , Temperature = 78.98 °F
+246
+Temperature = 28.20 °C , Temperature = 82.76 °F
+246
+Temperature = 29.90 °C , Temperature = 85.82 °F
+246
+Temperature = 30.50 °C , Temperature = 86.90 °F
+246
+Temperature = 30.40 °C , Temperature = 86.72 °F
+246
+Temperature = 30.20 °C , Temperature = 86.36 °F
+246
+Temperature = 29.00 °C , Temperature = 84.20 °F
+246
+Temperature = 28.50 °C , Temperature = 83.30 °F
+247
+Temperature = 26.30 °C , Temperature = 79.34 °F
+247
+Temperature = 24.90 °C , Temperature = 76.82 °F
+247
+Temperature = 23.50 °C , Temperature = 74.30 °F
+247
+Temperature = 21.00 °C , Temperature = 69.80 °F
+247
+Temperature = 19.00 °C , Temperature = 66.20 °F
+247
+Temperature = 17.80 °C , Temperature = 64.04 °F
+247
+Temperature = 17.80 °C , Temperature = 64.04 °F
+247
+Temperature = 17.50 °C , Temperature = 63.50 °F
+247
+Temperature = 18.20 °C , Temperature = 64.76 °F
+247
+Temperature = 19.60 °C , Temperature = 67.28 °F
+248
+Temperature = 22.10 °C , Temperature = 71.78 °F
+248
+Temperature = 24.60 °C , Temperature = 76.28 °F
+248
+Temperature = 26.50 °C , Temperature = 79.70 °F
+248
+Temperature = 29.00 °C , Temperature = 84.20 °F
+248
+Temperature = 30.30 °C , Temperature = 86.54 °F
+248
+Temperature = 30.10 °C , Temperature = 86.18 °F
+248
+Temperature = 30.40 °C , Temperature = 86.72 °F
+248
+Temperature = 29.40 °C , Temperature = 84.92 °F
+248
+Temperature = 28.80 °C , Temperature = 83.84 °F
+248
+Temperature = 27.70 °C , Temperature = 81.86 °F
+249
+Temperature = 26.30 °C , Temperature = 79.34 °F
+249
+Temperature = 24.10 °C , Temperature = 75.38 °F
+249
+Temperature = 22.10 °C , Temperature = 71.78 °F
+249
+Temperature = 20.70 °C , Temperature = 69.26 °F
+249
+Temperature = 19.10 °C , Temperature = 66.38 °F
+249
+Temperature = 17.60 °C , Temperature = 63.68 °F
+249
+Temperature = 18.20 °C , Temperature = 64.76 °F
+249
+Temperature = 18.10 °C , Temperature = 64.58 °F
+249
+Temperature = 19.60 °C , Temperature = 67.28 °F
+249
+Temperature = 20.90 °C , Temperature = 69.62 °F
+250
+Temperature = 23.20 °C , Temperature = 73.76 °F
+250
+Temperature = 25.60 °C , Temperature = 78.08 °F
+250
+Temperature = 27.70 °C , Temperature = 81.86 °F
+250
+Temperature = 29.30 °C , Temperature = 84.74 °F
+250
+Temperature = 30.70 °C , Temperature = 87.26 °F
+250
+Temperature = 30.50 °C , Temperature = 86.90 °F
+250
+Temperature = 30.20 °C , Temperature = 86.36 °F
+250
+Temperature = 29.00 °C , Temperature = 84.20 °F
+250
+Temperature = 28.30 °C , Temperature = 82.94 °F
+250
+Temperature = 26.50 °C , Temperature = 79.70 °F
+251
+Temperature = 24.80 °C , Temperature = 76.64 °F
+251
+Temperature = 22.90 °C , Temperature = 73.22 °F
+251
+Temperature = 21.20 °C , Temperature = 70.16 °F
+251
+Temperature = 19.20 °C , Temperature = 66.56 °F
+251
+Temperature = 18.20 °C , Temperature = 64.76 °F
+251
+Temperature = 17.50 °C , Temperature = 63.50 °F
+251
+Temperature = 17.80 °C , Temperature = 64.04 °F
+251
+Temperature = 18.50 °C , Temperature = 65.30 °F
+251
+Temperature = 19.80 °C , Temperature = 67.64 °F
+251
+Temperature = 21.40 °C , Temperature = 70.52 °F
+252
+Temperature = 25.00 °C , Temperature = 77.00 °F
+252
+Temperature = 27.10 °C , Temperature = 80.78 °F
+252
+Temperature = 29.00 °C , Temperature = 84.20 °F
+252
+Temperature = 30.00 °C , Temperature = 86.00 °F
+252
+Temperature = 30.60 °C , Temperature = 87.08 °F
+252
+Temperature = 30.10 °C , Temperature = 86.18 °F
+252
+Temperature = 29.30 °C , Temperature = 84.74 °F
+252
+Temperature = 28.60 °C , Temperature = 83.48 °F
+252
+Temperature = 27.50 °C , Temperature = 81.50 °F
+252
+Temperature = 25.40 °C , Temperature = 77.72 °F
+253
+Temperature = 23.30 °C , Temperature = 73.94 °F
+253
+Temperature = 21.50 °C , Temperature = 70.70 °F
+253
+Temperature = 20.00 °C , Temperature = 68.00 °F
+253
+Temperature = 18.40 °C , Temperature = 65.12 °F
+253
+Temperature = 17.50 °C , Temperature = 63.50 °F
+253
+Temperature = 17.30 °C , Temperature = 63.14 °F
+253
+Temperature = 18.00 °C , Temperature = 64.40 °F
+253
+Temperature = 19.40 °C , Temperature = 66.92 °F
+253
+Temperature = 21.40 °C , Temperature = 70.52 °F
+253
+Temperature = 23.60 °C , Temperature = 74.48 °F
+254
+Temperature = 26.60 °C , Temperature = 79.88 °F
+254
+Temperature = 28.40 °C , Temperature = 83.12 °F
+254
+Temperature = 29.10 °C , Temperature = 84.38 °F
+254
+Temperature = 30.20 °C , Temperature = 86.36 °F
+254
+Temperature = 30.30 °C , Temperature = 86.54 °F
+254
+Temperature = 29.30 °C , Temperature = 84.74 °F
+254
+Temperature = 28.80 °C , Temperature = 83.84 °F
+254
+Temperature = 27.70 °C , Temperature = 81.86 °F
+254
+Temperature = 25.70 °C , Temperature = 78.26 °F
+254
+Temperature = 23.60 °C , Temperature = 74.48 °F
+255
+Temperature = 21.90 °C , Temperature = 71.42 °F
+255
+Temperature = 20.50 °C , Temperature = 68.90 °F
+255
+Temperature = 18.80 °C , Temperature = 65.84 °F
+255
+Temperature = 17.70 °C , Temperature = 63.86 °F
+255
+Temperature = 18.10 °C , Temperature = 64.58 °F
+255
+Temperature = 18.30 °C , Temperature = 64.94 °F
+255
+Temperature = 19.80 °C , Temperature = 67.64 °F
+255
+Temperature = 21.90 °C , Temperature = 71.42 °F
+255
+Temperature = 23.70 °C , Temperature = 74.66 °F
+255
+Temperature = 26.30 °C , Temperature = 79.34 °F
+256
+Temperature = 29.00 °C , Temperature = 84.20 °F
+256
+Temperature = 30.10 °C , Temperature = 86.18 °F
+256
+Temperature = 30.90 °C , Temperature = 87.62 °F
+256
+Temperature = 27.70 °C , Temperature = 81.86 °F
+256
+Temperature = 29.00 °C , Temperature = 84.20 °F
+256
+Temperature = 28.40 °C , Temperature = 83.12 °F
+256
+Temperature = 26.80 °C , Temperature = 80.24 °F
+256
+Temperature = 25.60 °C , Temperature = 78.08 °F
+256
+Temperature = 23.50 °C , Temperature = 74.30 °F
+256
+Temperature = 22.00 °C , Temperature = 71.60 °F
+257
+Temperature = 19.90 °C , Temperature = 67.82 °F
+257
+Temperature = 19.20 °C , Temperature = 66.56 °F
+257
+Temperature = 18.30 °C , Temperature = 64.94 °F
+257
+Temperature = 18.20 °C , Temperature = 64.76 °F
+257
+Temperature = 18.70 °C , Temperature = 65.66 °F
+257
+Temperature = 19.70 °C , Temperature = 67.46 °F
+257
+Temperature = 21.90 °C , Temperature = 71.42 °F
+257
+Temperature = 25.60 °C , Temperature = 78.08 °F
+257
+Temperature = 28.30 °C , Temperature = 82.94 °F
+257
+Temperature = 29.00 °C , Temperature = 84.20 °F
+258
+Temperature = 30.10 °C , Temperature = 86.18 °F
+258
+Temperature = 30.40 °C , Temperature = 86.72 °F
+258
+Temperature = 29.90 °C , Temperature = 85.82 °F
+258
+Temperature = 29.30 °C , Temperature = 84.74 °F
+258
+Temperature = 28.60 °C , Temperature = 83.48 °F
+258
+Temperature = 27.50 °C , Temperature = 81.50 °F
+258
+Temperature = 25.60 °C , Temperature = 78.08 °F
+258
+Temperature = 24.00 °C , Temperature = 75.20 °F
+258
+Temperature = 22.40 °C , Temperature = 72.32 °F
+258
+Temperature = 21.20 °C , Temperature = 70.16 °F
+259
+Temperature = 20.80 °C , Temperature = 69.44 °F
+259
+Temperature = 20.80 °C , Temperature = 69.44 °F
+259
+Temperature = 20.80 °C , Temperature = 69.44 °F
+259
+Temperature = 21.50 °C , Temperature = 70.70 °F
+259
+Temperature = 23.20 °C , Temperature = 73.76 °F
+259
+Temperature = 23.60 °C , Temperature = 74.48 °F
+259
+Temperature = 26.30 °C , Temperature = 79.34 °F
+259
+Temperature = 27.70 °C , Temperature = 81.86 °F
+259
+Temperature = 29.60 °C , Temperature = 85.28 °F
+259
+Temperature = 29.50 °C , Temperature = 85.10 °F
+260
+Temperature = 29.60 °C , Temperature = 85.28 °F
+260
+Temperature = 29.00 °C , Temperature = 84.20 °F
+260
+Temperature = 28.80 °C , Temperature = 83.84 °F
+260
+Temperature = 28.20 °C , Temperature = 82.76 °F
+260
+Temperature = 26.90 °C , Temperature = 80.42 °F
+260
+Temperature = 25.60 °C , Temperature = 78.08 °F
+260
+Temperature = 24.80 °C , Temperature = 76.64 °F
+260
+Temperature = 23.60 °C , Temperature = 74.48 °F
+260
+Temperature = 22.40 °C , Temperature = 72.32 °F
+260
+Temperature = 21.70 °C , Temperature = 71.06 °F
+261
+Temperature = 21.50 °C , Temperature = 70.70 °F
+261
+Temperature = 21.40 °C , Temperature = 70.52 °F
+261
+Temperature = 22.40 °C , Temperature = 72.32 °F
+261
+Temperature = 23.50 °C , Temperature = 74.30 °F
+261
+Temperature = 25.10 °C , Temperature = 77.18 °F
+261
+Temperature = 26.30 °C , Temperature = 79.34 °F
+261
+Temperature = 28.40 °C , Temperature = 83.12 °F
+261
+Temperature = 29.30 °C , Temperature = 84.74 °F
+261
+Temperature = 29.90 °C , Temperature = 85.82 °F
+261
+Temperature = 29.60 °C , Temperature = 85.28 °F
+262
+Temperature = 29.10 °C , Temperature = 84.38 °F
+262
+Temperature = 28.50 °C , Temperature = 83.30 °F
+262
+Temperature = 27.90 °C , Temperature = 82.22 °F
+262
+Temperature = 26.90 °C , Temperature = 80.42 °F
+262
+Temperature = 26.20 °C , Temperature = 79.16 °F
+262
+Temperature = 24.60 °C , Temperature = 76.28 °F
+262
+Temperature = 23.70 °C , Temperature = 74.66 °F
+262
+Temperature = 22.90 °C , Temperature = 73.22 °F
+262
+Temperature = 21.70 °C , Temperature = 71.06 °F
+262
+Temperature = 21.00 °C , Temperature = 69.80 °F
+263
+Temperature = 21.40 °C , Temperature = 70.52 °F
+263
+Temperature = 22.80 °C , Temperature = 73.04 °F
+263
+Temperature = 23.90 °C , Temperature = 75.02 °F
+263
+Temperature = 25.10 °C , Temperature = 77.18 °F
+263
+Temperature = 26.40 °C , Temperature = 79.52 °F
+263
+Temperature = 28.20 °C , Temperature = 82.76 °F
+263
+Temperature = 29.10 °C , Temperature = 84.38 °F
+263
+Temperature = 29.90 °C , Temperature = 85.82 °F
+263
+Temperature = 29.60 °C , Temperature = 85.28 °F
+263
+Temperature = 29.20 °C , Temperature = 84.56 °F
+264
+Temperature = 29.00 °C , Temperature = 84.20 °F
+264
+Temperature = 28.30 °C , Temperature = 82.94 °F
+264
+Temperature = 26.80 °C , Temperature = 80.24 °F
+264
+Temperature = 26.00 °C , Temperature = 78.80 °F
+264
+Temperature = 24.80 °C , Temperature = 76.64 °F
+264
+Temperature = 23.60 °C , Temperature = 74.48 °F
+264
+Temperature = 22.80 °C , Temperature = 73.04 °F
+264
+Temperature = 22.30 °C , Temperature = 72.14 °F
+264
+Temperature = 21.40 °C , Temperature = 70.52 °F
+264
+Temperature = 21.90 °C , Temperature = 71.42 °F
+265
+Temperature = 22.40 °C , Temperature = 72.32 °F
+265
+Temperature = 23.60 °C , Temperature = 74.48 °F
+265
+Temperature = 24.60 °C , Temperature = 76.28 °F
+265
+Temperature = 26.30 °C , Temperature = 79.34 °F
+265
+Temperature = 27.60 °C , Temperature = 81.68 °F
+265
+Temperature = 29.00 °C , Temperature = 84.20 °F
+265
+Temperature = 29.80 °C , Temperature = 85.64 °F
+265
+Temperature = 29.50 °C , Temperature = 85.10 °F
+265
+Temperature = 29.50 °C , Temperature = 85.10 °F
+265
+Temperature = 28.80 °C , Temperature = 83.84 °F
+266
+Temperature = 28.60 °C , Temperature = 83.48 °F
+266
+Temperature = 27.60 °C , Temperature = 81.68 °F
+266
+Temperature = 26.50 °C , Temperature = 79.70 °F
+266
+Temperature = 25.10 °C , Temperature = 77.18 °F
+266
+Temperature = 24.60 °C , Temperature = 76.28 °F
+266
+Temperature = 23.20 °C , Temperature = 73.76 °F
+266
+Temperature = 21.90 °C , Temperature = 71.42 °F
+266
+Temperature = 21.50 °C , Temperature = 70.70 °F
+266
+Temperature = 22.40 °C , Temperature = 72.32 °F
+266
+Temperature = 22.50 °C , Temperature = 72.50 °F
+267
+Temperature = 23.50 °C , Temperature = 74.30 °F
+267
+Temperature = 24.60 °C , Temperature = 76.28 °F
+267
+Temperature = 26.30 °C , Temperature = 79.34 °F
+267
+Temperature = 27.70 °C , Temperature = 81.86 °F
+267
+Temperature = 29.00 °C , Temperature = 84.20 °F
+267
+Temperature = 29.20 °C , Temperature = 84.56 °F
+267
+Temperature = 30.00 °C , Temperature = 86.00 °F
+267
+Temperature = 29.30 °C , Temperature = 84.74 °F
+267
+Temperature = 28.90 °C , Temperature = 84.02 °F
+267
+Temperature = 28.80 °C , Temperature = 83.84 °F
+268
+Temperature = 27.60 °C , Temperature = 81.68 °F
+268
+Temperature = 26.30 °C , Temperature = 79.34 °F
+268
+Temperature = 25.30 °C , Temperature = 77.54 °F
+268
+Temperature = 23.60 °C , Temperature = 74.48 °F
+268
+Temperature = 23.30 °C , Temperature = 73.94 °F
+268
+Temperature = 22.40 °C , Temperature = 72.32 °F
+268
+Temperature = 21.70 °C , Temperature = 71.06 °F
+268
+Temperature = 22.20 °C , Temperature = 71.96 °F
+268
+Temperature = 22.50 °C , Temperature = 72.50 °F
+268
+Temperature = 23.50 °C , Temperature = 74.30 °F
+269
+Temperature = 21.90 °C , Temperature = 71.42 °F
+269
+Temperature = 25.60 °C , Temperature = 78.08 °F
+269
+Temperature = 27.40 °C , Temperature = 81.32 °F
+269
+Temperature = 28.10 °C , Temperature = 82.58 °F
+269
+Temperature = 29.20 °C , Temperature = 84.56 °F
+269
+Temperature = 27.20 °C , Temperature = 80.96 °F
+269
+Temperature = 29.30 °C , Temperature = 84.74 °F
+269
+Temperature = 29.00 °C , Temperature = 84.20 °F
+269
+Temperature = 27.90 °C , Temperature = 82.22 °F
+269
+Temperature = 27.80 °C , Temperature = 82.04 °F
+270
+Temperature = 26.40 °C , Temperature = 79.52 °F
+270
+Temperature = 25.60 °C , Temperature = 78.08 °F
+270
+Temperature = 24.10 °C , Temperature = 75.38 °F
+270
+Temperature = 23.10 °C , Temperature = 73.58 °F
+270
+Temperature = 22.20 °C , Temperature = 71.96 °F
+270
+Temperature = 21.50 °C , Temperature = 70.70 °F
+270
+Temperature = 21.80 °C , Temperature = 71.24 °F
+270
+Temperature = 22.30 °C , Temperature = 72.14 °F
+270
+Temperature = 23.30 °C , Temperature = 73.94 °F
+270
+Temperature = 24.40 °C , Temperature = 75.92 °F
+271
+Temperature = 25.70 °C , Temperature = 78.26 °F
+271
+Temperature = 27.50 °C , Temperature = 81.50 °F
+271
+Temperature = 29.00 °C , Temperature = 84.20 °F
+271
+Temperature = 29.00 °C , Temperature = 84.20 °F
+271
+Temperature = 30.00 °C , Temperature = 86.00 °F
+271
+Temperature = 29.30 °C , Temperature = 84.74 °F
+271
+Temperature = 29.00 °C , Temperature = 84.20 °F
+271
+Temperature = 28.80 °C , Temperature = 83.84 °F
+271
+Temperature = 27.70 °C , Temperature = 81.86 °F
+271
+Temperature = 26.10 °C , Temperature = 78.98 °F
+272
+Temperature = 25.40 °C , Temperature = 77.72 °F
+272
+Temperature = 24.20 °C , Temperature = 75.56 °F
+272
+Temperature = 23.40 °C , Temperature = 74.12 °F
+272
+Temperature = 22.40 °C , Temperature = 72.32 °F
+272
+Temperature = 21.40 °C , Temperature = 70.52 °F
+272
+Temperature = 22.10 °C , Temperature = 71.78 °F
+272
+Temperature = 22.50 °C , Temperature = 72.50 °F
+272
+Temperature = 23.50 °C , Temperature = 74.30 °F
+272
+Temperature = 24.80 °C , Temperature = 76.64 °F
+272
+Temperature = 26.30 °C , Temperature = 79.34 °F
+273
+Temperature = 27.60 °C , Temperature = 81.68 °F
+273
+Temperature = 29.00 °C , Temperature = 84.20 °F
+273
+Temperature = 26.20 °C , Temperature = 79.16 °F
+273
+Temperature = 29.20 °C , Temperature = 84.56 °F
+273
+Temperature = 29.30 °C , Temperature = 84.74 °F
+273
+Temperature = 29.00 °C , Temperature = 84.20 °F
+273
+Temperature = 28.00 °C , Temperature = 82.40 °F
+273
+Temperature = 27.20 °C , Temperature = 80.96 °F
+273
+Temperature = 26.30 °C , Temperature = 79.34 °F
+273
+Temperature = 25.40 °C , Temperature = 77.72 °F
+274
+Temperature = 23.70 °C , Temperature = 74.66 °F
+274
+Temperature = 23.10 °C , Temperature = 73.58 °F
+274
+Temperature = 22.30 °C , Temperature = 72.14 °F
+274
+Temperature = 21.80 °C , Temperature = 71.24 °F
+274
+Temperature = 21.70 °C , Temperature = 71.06 °F
+274
+Temperature = 23.00 °C , Temperature = 73.40 °F
+274
+Temperature = 23.70 °C , Temperature = 74.66 °F
+274
+Temperature = 25.00 °C , Temperature = 77.00 °F
+274
+Temperature = 26.40 °C , Temperature = 79.52 °F
+274
+Temperature = 27.80 °C , Temperature = 82.04 °F
+275
+Temperature = 28.30 °C , Temperature = 82.94 °F
+275
+Temperature = 29.40 °C , Temperature = 84.92 °F
+275
+Temperature = 29.90 °C , Temperature = 85.82 °F
+275
+Temperature = 29.60 °C , Temperature = 85.28 °F
+275
+Temperature = 29.00 °C , Temperature = 84.20 °F
+275
+Temperature = 28.50 °C , Temperature = 83.30 °F
+275
+Temperature = 27.70 °C , Temperature = 81.86 °F
+275
+Temperature = 26.30 °C , Temperature = 79.34 °F
+275
+Temperature = 25.00 °C , Temperature = 77.00 °F
+275
+Temperature = 24.20 °C , Temperature = 75.56 °F
+276
+Temperature = 23.40 °C , Temperature = 74.12 °F
+276
+Temperature = 20.10 °C , Temperature = 68.18 °F
+276
+Temperature = 22.70 °C , Temperature = 72.86 °F
+276
+Temperature = 21.90 °C , Temperature = 71.42 °F
+276
+Temperature = 22.80 °C , Temperature = 73.04 °F
+276
+Temperature = 23.60 °C , Temperature = 74.48 °F
+276
+Temperature = 24.00 °C , Temperature = 75.20 °F
+276
+Temperature = 26.50 °C , Temperature = 79.70 °F
+276
+Temperature = 27.70 °C , Temperature = 81.86 °F
+276
+Temperature = 28.80 °C , Temperature = 83.84 °F
+277
+Temperature = 29.50 °C , Temperature = 85.10 °F
+277
+Temperature = 29.30 °C , Temperature = 84.74 °F
+277
+Temperature = 29.40 °C , Temperature = 84.92 °F
+277
+Temperature = 29.00 °C , Temperature = 84.20 °F
+277
+Temperature = 28.50 °C , Temperature = 83.30 °F
+277
+Temperature = 27.30 °C , Temperature = 81.14 °F
+277
+Temperature = 26.30 °C , Temperature = 79.34 °F
+277
+Temperature = 25.30 °C , Temperature = 77.54 °F
+277
+Temperature = 23.60 °C , Temperature = 74.48 °F
+277
+Temperature = 23.40 °C , Temperature = 74.12 °F
+278
+Temperature = 22.50 °C , Temperature = 72.50 °F
+278
+Temperature = 22.10 °C , Temperature = 71.78 °F
+278
+Temperature = 22.30 °C , Temperature = 72.14 °F
+278
+Temperature = 22.40 °C , Temperature = 72.32 °F
+278
+Temperature = 23.60 °C , Temperature = 74.48 °F
+278
+Temperature = 24.80 °C , Temperature = 76.64 °F
+278
+Temperature = 25.90 °C , Temperature = 78.62 °F
+278
+Temperature = 27.60 °C , Temperature = 81.68 °F
+278
+Temperature = 28.10 °C , Temperature = 82.58 °F
+278
+Temperature = 29.00 °C , Temperature = 84.20 °F
+279
+Temperature = 29.50 °C , Temperature = 85.10 °F
+279
+Temperature = 29.40 °C , Temperature = 84.92 °F
+279
+Temperature = 29.00 °C , Temperature = 84.20 °F
+279
+Temperature = 26.20 °C , Temperature = 79.16 °F
+279
+Temperature = 27.30 °C , Temperature = 81.14 °F
+279
+Temperature = 26.60 °C , Temperature = 79.88 °F
+279
+Temperature = 25.10 °C , Temperature = 77.18 °F
+279
+Temperature = 23.60 °C , Temperature = 74.48 °F
+279
+Temperature = 23.40 °C , Temperature = 74.12 °F
+279
+Temperature = 22.70 °C , Temperature = 72.86 °F
+280
+Temperature = 21.90 °C , Temperature = 71.42 °F
+280
+Temperature = 22.00 °C , Temperature = 71.60 °F
+280
+Temperature = 22.40 °C , Temperature = 72.32 °F
+280
+Temperature = 23.10 °C , Temperature = 73.58 °F
+280
+Temperature = 24.60 °C , Temperature = 76.28 °F
+280
+Temperature = 26.20 °C , Temperature = 79.16 °F
+280
+Temperature = 27.50 °C , Temperature = 81.50 °F
+280
+Temperature = 28.80 °C , Temperature = 83.84 °F
+280
+Temperature = 29.30 °C , Temperature = 84.74 °F
+280
+Temperature = 30.20 °C , Temperature = 86.36 °F
+281
+Temperature = 29.90 °C , Temperature = 85.82 °F
+281
+Temperature = 29.00 °C , Temperature = 84.20 °F
+281
+Temperature = 28.20 °C , Temperature = 82.76 °F
+281
+Temperature = 27.70 °C , Temperature = 81.86 °F
+281
+Temperature = 26.70 °C , Temperature = 80.06 °F
+281
+Temperature = 25.80 °C , Temperature = 78.44 °F
+281
+Temperature = 23.80 °C , Temperature = 74.84 °F
+281
+Temperature = 23.20 °C , Temperature = 73.76 °F
+281
+Temperature = 22.40 °C , Temperature = 72.32 °F
+281
+Temperature = 22.40 °C , Temperature = 72.32 °F
+282
+Temperature = 21.60 °C , Temperature = 70.88 °F
+282
+Temperature = 22.50 °C , Temperature = 72.50 °F
+282
+Temperature = 23.00 °C , Temperature = 73.40 °F
+282
+Temperature = 24.50 °C , Temperature = 76.10 °F
+282
+Temperature = 25.80 °C , Temperature = 78.44 °F
+282
+Temperature = 28.10 °C , Temperature = 82.58 °F
+282
+Temperature = 28.90 °C , Temperature = 84.02 °F
+282
+Temperature = 29.40 °C , Temperature = 84.92 °F
+282
+Temperature = 29.90 °C , Temperature = 85.82 °F
+282
+Temperature = 29.30 °C , Temperature = 84.74 °F
+283
+Temperature = 29.10 °C , Temperature = 84.38 °F
+283
+Temperature = 28.40 °C , Temperature = 83.12 °F
+283
+Temperature = 27.70 °C , Temperature = 81.86 °F
+283
+Temperature = 27.20 °C , Temperature = 80.96 °F
+283
+Temperature = 25.60 °C , Temperature = 78.08 °F
+283
+Temperature = 24.40 °C , Temperature = 75.92 °F
+283
+Temperature = 23.10 °C , Temperature = 73.58 °F
+283
+Temperature = 23.00 °C , Temperature = 73.40 °F
+283
+Temperature = 22.00 °C , Temperature = 71.60 °F
+283
+Temperature = 22.40 °C , Temperature = 72.32 °F
+284
+Temperature = 22.40 °C , Temperature = 72.32 °F
+284
+Temperature = 23.60 °C , Temperature = 74.48 °F
+284
+Temperature = 24.60 °C , Temperature = 76.28 °F
+284
+Temperature = 25.60 °C , Temperature = 78.08 °F
+284
+Temperature = 27.40 °C , Temperature = 81.32 °F
+284
+Temperature = 28.60 °C , Temperature = 83.48 °F
+284
+Temperature = 29.30 °C , Temperature = 84.74 °F
+284
+Temperature = 29.90 °C , Temperature = 85.82 °F
+284
+Temperature = 29.60 °C , Temperature = 85.28 °F
+284
+Temperature = 29.60 °C , Temperature = 85.28 °F
+285
+Temperature = 28.40 °C , Temperature = 83.12 °F
+285
+Temperature = 28.30 °C , Temperature = 82.94 °F
+285
+Temperature = 26.60 °C , Temperature = 79.88 °F
+285
+Temperature = 25.80 °C , Temperature = 78.44 °F
+285
+Temperature = 23.60 °C , Temperature = 74.48 °F
+285
+Temperature = 22.10 °C , Temperature = 71.78 °F
+285
+Temperature = 21.90 °C , Temperature = 71.42 °F
+285
+Temperature = 22.00 °C , Temperature = 71.60 °F
+285
+Temperature = 21.90 °C , Temperature = 71.42 °F
+285
+Temperature = 18.20 °C , Temperature = 64.76 °F
+286
+Temperature = 19.60 °C , Temperature = 67.28 °F
+286
+Temperature = 20.90 °C , Temperature = 69.62 °F
+286
+Temperature = 23.60 °C , Temperature = 74.48 °F
+286
+Temperature = 26.20 °C , Temperature = 79.16 °F
+286
+Temperature = 28.30 °C , Temperature = 82.94 °F
+286
+Temperature = 29.90 °C , Temperature = 85.82 °F
+286
+Temperature = 30.40 °C , Temperature = 86.72 °F
+286
+Temperature = 30.30 °C , Temperature = 86.54 °F
+286
+Temperature = 29.70 °C , Temperature = 85.46 °F
+286
+Temperature = 28.60 °C , Temperature = 83.48 °F
+287
+Temperature = 27.40 °C , Temperature = 81.32 °F
+287
+Temperature = 25.60 °C , Temperature = 78.08 °F
+287
+Temperature = 23.80 °C , Temperature = 74.84 °F
+287
+Temperature = 22.00 °C , Temperature = 71.60 °F
+287
+Temperature = 20.70 °C , Temperature = 69.26 °F
+287
+Temperature = 20.90 °C , Temperature = 69.62 °F
+287
+Temperature = 21.00 °C , Temperature = 69.80 °F
+287
+Temperature = 21.50 °C , Temperature = 70.70 °F
+287
+Temperature = 22.40 °C , Temperature = 72.32 °F
+287
+Temperature = 23.60 °C , Temperature = 74.48 °F
+288
+Temperature = 24.70 °C , Temperature = 76.46 °F
+288
+Temperature = 26.10 °C , Temperature = 78.98 °F
+288
+Temperature = 27.50 °C , Temperature = 81.50 °F
+288
+Temperature = 27.70 °C , Temperature = 81.86 °F
+288
+Temperature = 28.90 °C , Temperature = 84.02 °F
+288
+Temperature = 29.80 °C , Temperature = 85.64 °F
+288
+Temperature = 29.00 °C , Temperature = 84.20 °F
+288
+Temperature = 26.90 °C , Temperature = 80.42 °F
+288
+Temperature = 28.80 °C , Temperature = 83.84 °F
+288
+Temperature = 28.20 °C , Temperature = 82.76 °F
+289
+Temperature = 26.40 °C , Temperature = 79.52 °F
+289
+Temperature = 25.60 °C , Temperature = 78.08 °F
+289
+Temperature = 25.00 °C , Temperature = 77.00 °F
+289
+Temperature = 23.60 °C , Temperature = 74.48 °F
+289
+Temperature = 23.00 °C , Temperature = 73.40 °F
+289
+Temperature = 22.40 °C , Temperature = 72.32 °F
+289
+Temperature = 22.40 °C , Temperature = 72.32 °F
+289
+Temperature = 22.40 °C , Temperature = 72.32 °F
+289
+Temperature = 23.50 °C , Temperature = 74.30 °F
+289
+Temperature = 24.20 °C , Temperature = 75.56 °F
+290
+Temperature = 26.20 °C , Temperature = 79.16 °F
+290
+Temperature = 27.10 °C , Temperature = 80.78 °F
+290
+Temperature = 28.50 °C , Temperature = 83.30 °F
+290
+Temperature = 29.10 °C , Temperature = 84.38 °F
+290
+Temperature = 29.60 °C , Temperature = 85.28 °F
+290
+Temperature = 29.40 °C , Temperature = 84.92 °F
+290
+Temperature = 29.00 °C , Temperature = 84.20 °F
+290
+Temperature = 28.80 °C , Temperature = 83.84 °F
+290
+Temperature = 27.70 °C , Temperature = 81.86 °F
+290
+Temperature = 26.40 °C , Temperature = 79.52 °F
+291
+Temperature = 25.80 °C , Temperature = 78.44 °F
+291
+Temperature = 21.50 °C , Temperature = 70.70 °F
+291
+Temperature = 23.50 °C , Temperature = 74.30 °F
+291
+Temperature = 23.60 °C , Temperature = 74.48 °F
+291
+Temperature = 22.40 °C , Temperature = 72.32 °F
+291
+Temperature = 22.40 °C , Temperature = 72.32 °F
+291
+Temperature = 22.40 °C , Temperature = 72.32 °F
+291
+Temperature = 23.60 °C , Temperature = 74.48 °F
+291
+Temperature = 24.10 °C , Temperature = 75.38 °F
+291
+Temperature = 25.70 °C , Temperature = 78.26 °F
+292
+Temperature = 27.70 °C , Temperature = 81.86 °F
+292
+Temperature = 28.50 °C , Temperature = 83.30 °F
+292
+Temperature = 29.00 °C , Temperature = 84.20 °F
+292
+Temperature = 30.10 °C , Temperature = 86.18 °F
+292
+Temperature = 29.60 °C , Temperature = 85.28 °F
+292
+Temperature = 29.30 °C , Temperature = 84.74 °F
+292
+Temperature = 28.80 °C , Temperature = 83.84 °F
+292
+Temperature = 27.80 °C , Temperature = 82.04 °F
+292
+Temperature = 26.70 °C , Temperature = 80.06 °F
+292
+Temperature = 25.70 °C , Temperature = 78.26 °F
+293
+Temperature = 25.00 °C , Temperature = 77.00 °F
+293
+Temperature = 23.80 °C , Temperature = 74.84 °F
+293
+Temperature = 23.00 °C , Temperature = 73.40 °F
+293
+Temperature = 22.90 °C , Temperature = 73.22 °F
+293
+Temperature = 22.60 °C , Temperature = 72.68 °F
+293
+Temperature = 22.80 °C , Temperature = 73.04 °F
+293
+Temperature = 24.00 °C , Temperature = 75.20 °F
+293
+Temperature = 25.00 °C , Temperature = 77.00 °F
+293
+Temperature = 26.20 °C , Temperature = 79.16 °F
+293
+Temperature = 26.90 °C , Temperature = 80.42 °F
+294
+Temperature = 28.60 °C , Temperature = 83.48 °F
+294
+Temperature = 29.20 °C , Temperature = 84.56 °F
+294
+Temperature = 29.10 °C , Temperature = 84.38 °F
+294
+Temperature = 29.40 °C , Temperature = 84.92 °F
+294
+Temperature = 29.00 °C , Temperature = 84.20 °F
+294
+Temperature = 28.60 °C , Temperature = 83.48 °F
+294
+Temperature = 28.10 °C , Temperature = 82.58 °F
+294
+Temperature = 26.50 °C , Temperature = 79.70 °F
+294
+Temperature = 25.80 °C , Temperature = 78.44 °F
+294
+Temperature = 25.00 °C , Temperature = 77.00 °F
+295
+Temperature = 23.90 °C , Temperature = 75.02 °F
+295
+Temperature = 23.00 °C , Temperature = 73.40 °F
+295
+Temperature = 21.90 °C , Temperature = 71.42 °F
+295
+Temperature = 21.70 °C , Temperature = 71.06 °F
+295
+Temperature = 22.70 °C , Temperature = 72.86 °F
+295
+Temperature = 23.00 °C , Temperature = 73.40 °F
+295
+Temperature = 24.80 °C , Temperature = 76.64 °F
+295
+Temperature = 25.90 °C , Temperature = 78.62 °F
+295
+Temperature = 27.60 °C , Temperature = 81.68 °F
+295
+Temperature = 28.60 °C , Temperature = 83.48 °F
+296
+Temperature = 29.30 °C , Temperature = 84.74 °F
+296
+Temperature = 29.30 °C , Temperature = 84.74 °F
+296
+Temperature = 29.60 °C , Temperature = 85.28 °F
+296
+Temperature = 29.00 °C , Temperature = 84.20 °F
+296
+Temperature = 28.40 °C , Temperature = 83.12 °F
+296
+Temperature = 28.30 °C , Temperature = 82.94 °F
+296
+Temperature = 27.20 °C , Temperature = 80.96 °F
+296
+Temperature = 23.50 °C , Temperature = 74.30 °F
+296
+Temperature = 24.80 °C , Temperature = 76.64 °F
+296
+Temperature = 23.60 °C , Temperature = 74.48 °F
+297
+Temperature = 22.50 °C , Temperature = 72.50 °F
+297
+Temperature = 22.50 °C , Temperature = 72.50 °F
+297
+Temperature = 22.60 °C , Temperature = 72.68 °F
+297
+Temperature = 23.10 °C , Temperature = 73.58 °F
+297
+Temperature = 23.40 °C , Temperature = 74.12 °F
+297
+Temperature = 24.20 °C , Temperature = 75.56 °F
+297
+Temperature = 25.90 °C , Temperature = 78.62 °F
+297
+Temperature = 26.80 °C , Temperature = 80.24 °F
+297
+Temperature = 28.50 °C , Temperature = 83.30 °F
+297
+Temperature = 29.00 °C , Temperature = 84.20 °F
+298
+Temperature = 29.00 °C , Temperature = 84.20 °F
+298
+Temperature = 29.80 °C , Temperature = 85.64 °F
+298
+Temperature = 29.00 °C , Temperature = 84.20 °F
+298
+Temperature = 28.10 °C , Temperature = 82.58 °F
+298
+Temperature = 28.00 °C , Temperature = 82.40 °F
+298
+Temperature = 26.90 °C , Temperature = 80.42 °F
+298
+Temperature = 25.80 °C , Temperature = 78.44 °F
+298
+Temperature = 24.70 °C , Temperature = 76.46 °F
+298
+Temperature = 23.90 °C , Temperature = 75.02 °F
+298
+Temperature = 23.00 °C , Temperature = 73.40 °F
+299
+Temperature = 22.80 °C , Temperature = 73.04 °F
+299
+Temperature = 22.30 °C , Temperature = 72.14 °F
+299
+Temperature = 22.50 °C , Temperature = 72.50 °F
+299
+Temperature = 23.20 °C , Temperature = 73.76 °F
+299
+Temperature = 23.80 °C , Temperature = 74.84 °F
+299
+Temperature = 25.60 °C , Temperature = 78.08 °F
+299
+Temperature = 26.30 °C , Temperature = 79.34 °F
+299
+Temperature = 28.10 °C , Temperature = 82.58 °F
+299
+Temperature = 29.00 °C , Temperature = 84.20 °F
+299
+Temperature = 29.20 °C , Temperature = 84.56 °F
+300
+Temperature = 29.70 °C , Temperature = 85.46 °F
+300
+Temperature = 29.20 °C , Temperature = 84.56 °F
+300
+Temperature = 28.80 °C , Temperature = 83.84 °F
+300
+Temperature = 28.20 °C , Temperature = 82.76 °F
+300
+Temperature = 27.80 °C , Temperature = 82.04 °F
+300
+Temperature = 26.20 °C , Temperature = 79.16 °F
+300
+Temperature = 25.10 °C , Temperature = 77.18 °F
+300
+Temperature = 24.60 °C , Temperature = 76.28 °F
+300
+Temperature = 22.80 °C , Temperature = 73.04 °F
+300
+Temperature = 22.50 °C , Temperature = 72.50 °F
+301
+Temperature = 22.40 °C , Temperature = 72.32 °F
+301
+Temperature = 22.50 °C , Temperature = 72.50 °F
+301
+Temperature = 22.70 °C , Temperature = 72.86 °F
+301
+Temperature = 23.80 °C , Temperature = 74.84 °F
+301
+Temperature = 24.40 °C , Temperature = 75.92 °F
+301
+Temperature = 26.10 °C , Temperature = 78.98 °F
+301
+Temperature = 24.00 °C , Temperature = 75.20 °F
+301
+Temperature = 28.90 °C , Temperature = 84.02 °F
+301
+Temperature = 29.10 °C , Temperature = 84.38 °F
+301
+Temperature = 29.80 °C , Temperature = 85.64 °F
+302
+Temperature = 29.50 °C , Temperature = 85.10 °F
+302
+Temperature = 29.10 °C , Temperature = 84.38 °F
+302
+Temperature = 29.00 °C , Temperature = 84.20 °F
+302
+Temperature = 27.90 °C , Temperature = 82.22 °F
+302
+Temperature = 26.80 °C , Temperature = 80.24 °F
+302
+Temperature = 25.50 °C , Temperature = 77.90 °F
+302
+Temperature = 25.00 °C , Temperature = 77.00 °F
+302
+Temperature = 23.70 °C , Temperature = 74.66 °F
+302
+Temperature = 23.50 °C , Temperature = 74.30 °F
+302
+Temperature = 22.70 °C , Temperature = 72.86 °F
+303
+Temperature = 22.60 °C , Temperature = 72.68 °F
+303
+Temperature = 22.70 °C , Temperature = 72.86 °F
+303
+Temperature = 23.00 °C , Temperature = 73.40 °F
+303
+Temperature = 24.30 °C , Temperature = 75.74 °F
+303
+Temperature = 25.90 °C , Temperature = 78.62 °F
+303
+Temperature = 26.70 °C , Temperature = 80.06 °F
+303
+Temperature = 28.60 °C , Temperature = 83.48 °F
+303
+Temperature = 29.30 °C , Temperature = 84.74 °F
+303
+Temperature = 27.90 °C , Temperature = 82.22 °F
+303
+Temperature = 29.50 °C , Temperature = 85.10 °F
+304
+Temperature = 29.10 °C , Temperature = 84.38 °F
+304
+Temperature = 28.90 °C , Temperature = 84.02 °F
+304
+Temperature = 28.50 °C , Temperature = 83.30 °F
+304
+Temperature = 27.20 °C , Temperature = 80.96 °F
+304
+Temperature = 26.10 °C , Temperature = 78.98 °F
+304
+Temperature = 23.20 °C , Temperature = 73.76 °F
+304
+Temperature = 24.20 °C , Temperature = 75.56 °F
+304
+Temperature = 23.60 °C , Temperature = 74.48 °F
+304
+Temperature = 22.90 °C , Temperature = 73.22 °F
+304
+Temperature = 22.40 °C , Temperature = 72.32 °F
+305
+Temperature = 22.70 °C , Temperature = 72.86 °F
+305
+Temperature = 22.00 °C , Temperature = 71.60 °F
+305
+Temperature = 23.60 °C , Temperature = 74.48 °F
+305
+Temperature = 24.80 °C , Temperature = 76.64 °F
+305
+Temperature = 26.30 °C , Temperature = 79.34 °F
+305
+Temperature = 27.40 °C , Temperature = 81.32 °F
+305
+Temperature = 28.50 °C , Temperature = 83.30 °F
+305
+Temperature = 29.00 °C , Temperature = 84.20 °F
+305
+Temperature = 29.30 °C , Temperature = 84.74 °F
+305
+Temperature = 29.30 °C , Temperature = 84.74 °F
+306
+Temperature = 29.30 °C , Temperature = 84.74 °F
+306
+Temperature = 28.60 °C , Temperature = 83.48 °F
+306
+Temperature = 27.70 °C , Temperature = 81.86 °F
+306
+Temperature = 26.80 °C , Temperature = 80.24 °F
+306
+Temperature = 25.20 °C , Temperature = 77.36 °F
+306
+Temperature = 24.70 °C , Temperature = 76.46 °F
+306
+Temperature = 23.80 °C , Temperature = 74.84 °F
+306
+Temperature = 23.20 °C , Temperature = 73.76 °F
+306
+Temperature = 22.50 °C , Temperature = 72.50 °F
+306
+Temperature = 22.60 °C , Temperature = 72.68 °F
+307
+Temperature = 22.50 °C , Temperature = 72.50 °F
+307
+Temperature = 23.60 °C , Temperature = 74.48 °F
+307
+Temperature = 23.80 °C , Temperature = 74.84 °F
+307
+Temperature = 21.50 °C , Temperature = 70.70 °F
+307
+Temperature = 27.20 °C , Temperature = 80.96 °F
+307
+Temperature = 28.50 °C , Temperature = 83.30 °F
+307
+Temperature = 29.30 °C , Temperature = 84.74 °F
+307
+Temperature = 29.30 °C , Temperature = 84.74 °F
+307
+Temperature = 29.30 °C , Temperature = 84.74 °F
+307
+Temperature = 29.10 °C , Temperature = 84.38 °F
+308
+Temperature = 29.00 °C , Temperature = 84.20 °F
+308
+Temperature = 27.70 °C , Temperature = 81.86 °F
+308
+Temperature = 26.70 °C , Temperature = 80.06 °F
+308
+Temperature = 26.30 °C , Temperature = 79.34 °F
+308
+Temperature = 25.10 °C , Temperature = 77.18 °F
+308
+Temperature = 24.10 °C , Temperature = 75.38 °F
+308
+Temperature = 23.20 °C , Temperature = 73.76 °F
+308
+Temperature = 22.90 °C , Temperature = 73.22 °F
+308
+Temperature = 22.40 °C , Temperature = 72.32 °F
+308
+Temperature = 22.50 °C , Temperature = 72.50 °F
+309
+Temperature = 21.90 °C , Temperature = 71.42 °F
+309
+Temperature = 20.10 °C , Temperature = 68.18 °F
+309
+Temperature = 22.50 °C , Temperature = 72.50 °F
+309
+Temperature = 25.00 °C , Temperature = 77.00 °F
+309
+Temperature = 27.40 °C , Temperature = 81.32 °F
+309
+Temperature = 29.40 °C , Temperature = 84.92 °F
+309
+Temperature = 29.60 °C , Temperature = 85.28 °F
+309
+Temperature = 29.50 °C , Temperature = 85.10 °F
+309
+Temperature = 29.30 °C , Temperature = 84.74 °F
+309
+Temperature = 29.00 °C , Temperature = 84.20 °F
+310
+Temperature = 28.60 °C , Temperature = 83.48 °F
+310
+Temperature = 27.50 °C , Temperature = 81.50 °F
+310
+Temperature = 25.20 °C , Temperature = 77.36 °F
+310
+Temperature = 23.60 °C , Temperature = 74.48 °F
+310
+Temperature = 22.70 °C , Temperature = 72.86 °F
+310
+Temperature = 20.70 °C , Temperature = 69.26 °F
+310
+Temperature = 20.00 °C , Temperature = 68.00 °F
