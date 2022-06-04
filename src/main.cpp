@@ -195,7 +195,7 @@ void setup()
 char JSONString[450]= "testing Temp";
 char JSONString1[450]= "testing Temp";
 int temp   =0;
-int inc=0;
+int inc=1;
 // int indexCount=0;
 // int indexSPO2 =0;
 
@@ -356,17 +356,15 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
             
 
 
-            if(temp==4 && inc==0){
-                if(inc==0){
-                    strncpy(JSONString1, JSONString, 450);
-                }
+            if(temp==4 && inc==1){
+                strncpy(JSONString1, JSONString, 450);
                 Serial.println("############### Temp=4");
                 Serial.println(JSONString1);
                 temp=0;
             }
 
             // send MQTT only if ind is 8
-            if (inc==1){
+            if (temp==4 && inc==2){
                 Serial.println("############### Temp=8");
                 Serial.print("JSONString1");
                 Serial.println(JSONString1);
@@ -386,7 +384,7 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
 
                 //clear the variabels
                 temp=0;
-                inc=-1;
+                inc=0;
                 HRAr[10]={};
                 SPO2Ar[10]={};
                 CountAr[10]={};
@@ -399,7 +397,8 @@ CountAr[8],SPO2Ar[8],HRAr[8],CountAr[9],SPO2Ar[9],HRAr[9]
                     Serial.println("SUCCESS OX");
                 }
             }
-            inc++;
+            inc=inc+1;
+            Serial.println(inc);
         }
         
         count++;
