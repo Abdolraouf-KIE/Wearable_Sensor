@@ -155,10 +155,10 @@ void setup()
     // Failures are generally due to an improper I2C wiring, missing power supply
     // or wrong target chip
     if (!pox.begin()) {
-        Serial.println("FAILED");
+        Serial.println("FAILED OX");
         for(;;);
     } else {
-        Serial.println("SUCCESS");
+        Serial.println("SUCCESS OX");
     }
 
     // The default current for the IR LED is 50mA and it could be changed
